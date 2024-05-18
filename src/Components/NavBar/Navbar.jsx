@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Navbar.css";
+import Menu from "./Menu";
 const Navbar = () => {
   let [scroll, setScroll] = useState(false);
 
@@ -14,6 +15,7 @@ const Navbar = () => {
 
   return <div className={scroll ? "navContainer" : "navContainer1"}>
     <h1>logo</h1>
+    <Menu/>
   </div>;
 };
 

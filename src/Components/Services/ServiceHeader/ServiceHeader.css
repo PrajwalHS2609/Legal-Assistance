@@ -1,0 +1,17 @@
+.serviceHeaderContainer {
+  /* border: solid blue; */
+  height: 50vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.serviceHeaderContainer > img {
+  height: 100%;
+  width: 100%;
+}
+.serviceHeaderContainer > h1 {
+  color: white;
+  position: absolute;
+}

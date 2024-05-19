@@ -14,7 +14,7 @@ const HomeSolutionHeader = () => {
       </h5>
       <h1>For Legal Solution</h1>
       <h1>
-        <span>+000 - 123 -456789</span>
+        <span>+000 - 123 - 456789</span>
       </h1>
       <h3>Or</h3>
       <h1>

@@ -5,7 +5,6 @@
   align-items: center;
   flex-direction: column;
   gap: 30px;
-
   margin-top: 50px;
 }
 .homeSolutionHeaderContainer > h5 {
@@ -79,4 +78,354 @@
 .homeSolutionCardHead {
   font-size: 20px;
   font-weight: bold;
+}
+@media screen and (min-width: 320px) {
+  .homeSolutionHeaderContainer {
+    /* border: solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 50px;
+  }
+  .homeSolutionHeaderContainer > h5 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .homeSolutionHeaderContainer > h1 {
+    text-align: center;
+    width: 90%;
+  }
+  .homeSolutionHeaderContainer > h1 > span {
+    color: #c9925d;
+    transition: 500ms ease-in-out;
+    text-align: center;
+  }
+  .homeSolutionHeaderContainer > h1 > span:hover {
+    color: #131d29;
+  }
+
+  .homeSolutionMainContainer {
+    /* border: solid blue; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .homeSolutionCardContainer {
+    /* border: solid red; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 20px;
+  }
+  .homeSolutionCard {
+    border: solid #cb935d;
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .solutionCard {
+    /* border: solid ; */
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cb935d;
+    transition: 200ms ease-in-out;
+  }
+  .homeSolutionCardPara {
+    width: 80%;
+  }
+  .homeSolutionCardPara > p {
+    text-align: center;
+  }
+  .solCal {
+    font-size: 40px;
+    color: white;
+  }
+
+  .homeSolutionCardHead {
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
+@media screen and (min-width: 768px) {
+  .homeSolutionHeaderContainer {
+    /* border: solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 50px;
+  }
+  .homeSolutionHeaderContainer > h5 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .homeSolutionHeaderContainer > h1 {
+    text-align: center;
+    width: 90%;
+  }
+  .homeSolutionHeaderContainer > h1 > span {
+    color: #c9925d;
+    transition: 500ms ease-in-out;
+    text-align: center;
+  }
+  .homeSolutionHeaderContainer > h1 > span:hover {
+    color: #131d29;
+  }
+
+  .homeSolutionMainContainer {
+    /* border: solid blue; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .homeSolutionCardContainer {
+    /* border: solid red; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 20px;
+  }
+  .homeSolutionCard {
+    border: solid #cb935d;
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .solutionCard {
+    /* border: solid ; */
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cb935d;
+    transition: 200ms ease-in-out;
+  }
+  .homeSolutionCardPara {
+    width: 80%;
+  }
+  .homeSolutionCardPara > p {
+    text-align: center;
+  }
+  .solCal {
+    font-size: 40px;
+    color: white;
+  }
+
+  .homeSolutionCardHead {
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
+@media screen and (min-width: 990px) {
+  .homeSolutionHeaderContainer {
+    /* border: solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 50px;
+  }
+  .homeSolutionHeaderContainer > h5 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .homeSolutionHeaderContainer > h1 {
+    text-align: center;
+    width: 90%;
+  }
+  .homeSolutionHeaderContainer > h1 > span {
+    color: #c9925d;
+    transition: 500ms ease-in-out;
+    text-align: center;
+  }
+  .homeSolutionHeaderContainer > h1 > span:hover {
+    color: #131d29;
+  }
+
+  .homeSolutionMainContainer {
+    /* border: solid blue; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .homeSolutionCardContainer {
+    /* border: solid red; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 20px;
+    gap: 20px;
+  }
+  .homeSolutionCard {
+    border: solid #cb935d;
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .solutionCard {
+    /* border: solid ; */
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cb935d;
+    transition: 200ms ease-in-out;
+  }
+  .homeSolutionCardPara {
+    width: 80%;
+  }
+  .homeSolutionCardPara > p {
+    text-align: center;
+  }
+  .solCal {
+    font-size: 40px;
+    color: white;
+  }
+
+  .homeSolutionCardHead {
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .homeSolutionHeaderContainer {
+    /* border: solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 50px;
+  }
+  .homeSolutionHeaderContainer > h5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .homeSolutionHeaderContainer > h1 {
+    text-align: center;
+  }
+  .homeSolutionHeaderContainer > h1 > span {
+    color: #c9925d;
+    transition: 500ms ease-in-out;
+  }
+  .homeSolutionHeaderContainer > h1 > span:hover {
+    color: #131d29;
+  }
+  .homeSolutionCardContainer {
+    /* border: solid green; */
+    height: 100vh;
+  }
+  .homeSolutionMainContainer {
+    /* border: solid blue; */
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .homeSolutionCardContainer {
+    /* border: solid red; */
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 20px;
+  }
+  .homeSolutionCard {
+    border: solid #cb935d;
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .solutionCard {
+    /* border: solid ; */
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cb935d;
+    transition: 200ms ease-in-out;
+  }
+  .homeSolutionCardPara {
+    width: 80%;
+  }
+  .homeSolutionCardPara > p {
+    text-align: center;
+  }
+  .solCal {
+    font-size: 40px;
+    color: white;
+  }
+  .homeSolutionCard:hover .solutionCard {
+    transform: scale(0.9);
+  }
+  .homeSolutionCardHead {
+    font-size: 20px;
+    font-weight: bold;
+  }
 }

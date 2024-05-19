@@ -7,7 +7,7 @@ const HomeHeaderSlider = () => {
   return (
     <div className="HomeSliderContainer">
       <Carousel fade className="carouselContainer">
-        <Carousel.Item className="carouselItem" interval={1000}>
+        <Carousel.Item className="carouselItem" interval={3000}>
           <HomeHeaderTxt
             quote="LEGAL EXPERTS"
             head="Focused On Client Based Law Firm"
@@ -22,7 +22,7 @@ const HomeHeaderSlider = () => {
             alt=""
           />
         </Carousel.Item>
-        <Carousel.Item className="carouselItem" interval={1000}>
+        <Carousel.Item className="carouselItem" interval={3000}>
           <HomeHeaderTxt
             quote="CARE & COMMITTED"
             head="We Work For Client Legal Success"
@@ -37,7 +37,7 @@ const HomeHeaderSlider = () => {
             alt=""
           />
         </Carousel.Item>
-        <Carousel.Item className="carouselItem" interval={1000}>
+        <Carousel.Item className="carouselItem" interval={3000}>
           <HomeHeaderTxt
             quote="EXPERT TEAM"
             head="Expert Legal Support And Justice"

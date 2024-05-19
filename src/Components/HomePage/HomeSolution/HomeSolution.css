@@ -43,7 +43,7 @@
   margin: 20px;
 }
 .homeSolutionCard {
-  border: solid #cb935d;
+  border: solid #1f3044;
   border-radius: 100%;
   width: 150px;
   height: 150px;
@@ -59,7 +59,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #cb935d;
+  background-color: #1f3044;
+  /* background-color: #cb935d; */
   transition: 200ms ease-in-out;
 }
 .homeSolutionCardPara {
@@ -72,8 +73,12 @@
   font-size: 40px;
   color: white;
 }
-.homeSolutionCard:hover .solutionCard {
+.homeSolutionCardContainer:hover .solutionCard {
   transform: scale(0.9);
+  background-color: #cb935d;
+}
+.homeSolutionCardContainer:hover .homeSolutionCard{
+  border: solid #cb935d;
 }
 .homeSolutionCardHead {
   font-size: 20px;
@@ -307,7 +312,7 @@
     gap: 20px;
   }
   .homeSolutionCard {
-    border: solid #cb935d;
+    border: solid #1f3044;
     border-radius: 100%;
     width: 150px;
     height: 150px;
@@ -323,7 +328,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #cb935d;
+    background-color: #1f3044;
     transition: 200ms ease-in-out;
   }
   .homeSolutionCardPara {
@@ -392,7 +397,7 @@
     margin: 20px;
   }
   .homeSolutionCard {
-    border: solid #cb935d;
+    border: solid #1f3044;
     border-radius: 100%;
     width: 150px;
     height: 150px;
@@ -408,7 +413,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #cb935d;
+    background-color: #1f3044;
     transition: 200ms ease-in-out;
   }
   .homeSolutionCardPara {
@@ -423,6 +428,10 @@
   }
   .homeSolutionCard:hover .solutionCard {
     transform: scale(0.9);
+    background-color: #c9925d;
+  }
+  .homeSolutionCard:hover .homeSolutionCard {
+    color: #c9925d;
   }
   .homeSolutionCardHead {
     font-size: 20px;

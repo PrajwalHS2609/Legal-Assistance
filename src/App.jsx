@@ -11,7 +11,6 @@ const App = () => {
       <BrowserRouter>
         <Navbar />
         <ScrollTo />
-
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/service" element={<Services />} />

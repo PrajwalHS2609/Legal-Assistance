@@ -1,40 +1,111 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./HomeSupport.css";
-import HomeSupportDrop from "./HomeSupportDrop";
-import SupportFooter from "./SupportFooter";
+// import Accordion from "react-bootstrap/Accordion";
+import {
+  Accordion,
+  AccordionItem,
+  AccordionItemHeading,
+  AccordionItemButton,
+  AccordionItemPanel,
+} from "react-accessible-accordion";
+import "react-accessible-accordion/dist/fancy-example.css";
+import "aos/dist/aos.css";
+import AOS from "aos";
 const HomeSupportMain = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 600,
+    });
+  }, []);
   return (
     <div className="homeSupportMainContainer">
-      <HomeSupportDrop
-        no="01"
-        head="Commercial Litigation"
-        img="https://bylaw.wpengine.com/wp-content/uploads/2023/10/practices-area-hover-image-7.jpg"
-        dropHead="Strategic Information"
-        dropPara=" Venenatis urna cursus eget nunc. Eu non diam phasellus vestibulum
-            lorem sed risus. Morbi blandit cursus risus at."
-      />
-      <HomeSupportDrop
-        no="02"
-        head="Franchising & Licensing"
-        img="https://bylaw.wpengine.com/wp-content/uploads/2023/10/practices-area-hover-image-5.jpg"
-        dropHead="Business Relationship"
-        dropPara="Montes nascetur ridiculus mus mauris vitae ultricies leo integer malesuada. Suscipit  ultricies integer quis auctor."
-      />
-      <HomeSupportDrop
-        no="03"
-        head="Bankruptcy & Insolvency"
-        img="https://bylaw.wpengine.com/wp-content/uploads/2023/10/practices-area-hover-image-8.jpg"
-        dropHead="Professional Agencies"
-        dropPara="Euismod nisi porta lorem mollis aliquam ut porttitor.  fringilla ut morbi tincidunt. Ac tortor vitae purus faucibus.   "
-      />
-      <HomeSupportDrop
-        no="04"
-        head="Dispute Resolution"
-        img="https://bylaw.wpengine.com/wp-content/uploads/2023/10/practices-area-hover-image-3.jpg"
-        dropHead="Settling Outside"
-        dropPara="Imperdiet proin fermentum leo vel orci porta non pulvinar. Leo duis ut diam quam nulla porttitor. In  duis  tincidunt. "
-      />
-      <SupportFooter/>
+      <Accordion className="accMainContent" allowZeroExpanded>
+        <AccordionItem className="accItem" data-aos="fade-right">
+          <AccordionItemHeading className="accHead">
+            <AccordionItemButton className="accBut">
+              <h3>01 Commercial Litigation</h3>
+            </AccordionItemButton>
+          </AccordionItemHeading>
+
+          <AccordionItemPanel className="accPanel">
+            <img 
+              src="https://bylaw.wpengine.com/wp-content/uploads/2023/10/practices-area-hover-image-2.jpg"
+              alt=""
+            />
+            <p>
+              <h4>Strategic Information</h4>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora
+              eaque nemo sint, velit quasi maiores, excepturi, blanditiis
+              officia eveniet eum ex. Corrupti rem pariatur ducimus id facere
+              dolorum aspernatur obcaecati.
+              <button>Know More</button>
+            </p>
+          </AccordionItemPanel>
+        </AccordionItem>
+        <AccordionItem className="accItem" data-aos="fade-right">
+          <AccordionItemHeading className="accHead">
+            <AccordionItemButton className="accBut">
+              <h3>02 Franchising & Licensing</h3>
+            </AccordionItemButton>
+          </AccordionItemHeading>
+          <AccordionItemPanel className="accPanel">
+            <img
+              src="https://bylaw.wpengine.com/wp-content/uploads/2023/10/practices-area-hover-image-2.jpg"
+              alt=""
+            />
+            <p>
+              <h4>Business Relationship</h4>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+              temporibus facere voluptate ab quis. Maxime aut animi quae
+              accusantium iusto, quo maiores! Necessitatibus a assumenda magnam
+              veniam asperiores nam vitae!
+              <button>Know More</button>
+            </p>
+          </AccordionItemPanel>
+        </AccordionItem>
+        <AccordionItem className="accItem" data-aos="fade-right">
+          <AccordionItemHeading className="accHead">
+            <AccordionItemButton className="accBut">
+              <h3>03 Bankruptcy & Insolvency</h3>
+            </AccordionItemButton>
+          </AccordionItemHeading>
+          <AccordionItemPanel className="accPanel">
+            <img
+              src="https://bylaw.wpengine.com/wp-content/uploads/2023/10/practices-area-hover-image-2.jpg"
+              alt=""
+            />
+            <p>
+              <h4>Professional Agencies</h4>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Blanditiis, velit? Hic vitae et facilis dolore maxime doloremque
+              excepturi, eius ducimus architecto in, ullam tempore obcaecati,
+              sint autem consequuntur sapiente maiores?
+              <button>Know More</button>
+            </p>
+          </AccordionItemPanel>
+        </AccordionItem>
+        <AccordionItem className="accItem" data-aos="fade-right">
+          <AccordionItemHeading className="accHead">
+            <AccordionItemButton className="accBut">
+              <h3>04 Dispute Resolution</h3>
+            </AccordionItemButton>
+          </AccordionItemHeading>
+          <AccordionItemPanel className="accPanel">
+            <img
+              src="https://bylaw.wpengine.com/wp-content/uploads/2023/10/practices-area-hover-image-2.jpg"
+              alt=""
+            />
+            <p>
+              <h4>Settling Outside</h4>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repellendus exercitationem et ut molestiae ipsa adipisci sit, fuga
+              veritatis totam laboriosam odit aliquam, assumenda nihil
+              perferendis, quis repellat provident voluptate magnam.
+              <button>Know More</button>
+            </p>
+          </AccordionItemPanel>
+        </AccordionItem>
+      </Accordion>
     </div>
   );
 };

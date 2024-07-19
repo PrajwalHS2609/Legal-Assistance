@@ -5,6 +5,7 @@ import Services from "./Components/Services/Services";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./Components/HomePage/HomePage";
 import ScrollTo from "./Components/ScrollTo/ScrollTo";
+import Footer from "./Components/Footer/Footer";
 const App = () => {
   return (
     <div>
@@ -15,6 +16,7 @@ const App = () => {
           <Route path="/" element={<HomePage />} />
           <Route path="/service" element={<Services />} />
         </Routes>
+        <Footer/>
       </BrowserRouter>
     </div>
   );

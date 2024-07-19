@@ -8,7 +8,7 @@ const HomeHeaderTxt = (props) => {
           <p>{props.quote}</p>
         </div>
         <div className="homeHeaderHead">
-          <h1>{props.head}</h1>
+          <h2>{props.head}</h2>
         </div>
         <div className="homeHeaderPara">
           <p>

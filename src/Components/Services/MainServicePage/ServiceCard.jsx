@@ -1,6 +1,5 @@
 import React from "react";
 import "./MainService.css";
-import { Link } from "react-router-dom";
 
 const ServiceCard = (props) => {
   return (

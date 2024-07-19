@@ -1,1 +1,1 @@
-make only one dropDown instead of multi 
+add arrow to faq

@@ -72,6 +72,12 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  overflow: hidden;
+}
+.homeExpertiseMainContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .homeExpertiseCardContainer {
   border: 1px solid grey;
@@ -182,7 +188,8 @@
 }
 .ExpertiseServiceCardTxt > h2 > a {
   color: white;
-  transition: 200ms ease-in-out;text-decoration: none;
+  transition: 200ms ease-in-out;
+  text-decoration: none;
 }
 .ExpertiseServiceCardTxt :hover {
   color: #cb935d;

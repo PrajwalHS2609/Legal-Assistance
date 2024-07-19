@@ -11,10 +11,7 @@ const HomeHeaderSlider = () => {
           <HomeHeaderTxt
             quote="LEGAL EXPERTS"
             head="Focused On Client Based Law Firm"
-            para=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
-            itaque blanditiis beatae eum hic corporis veritatis quisquam nihil
-            nesciunt, alias est et delectus. Voluptate, rerum ipsa amet sed
-            soluta praesentium"
+            para="Specializing in client-centered legal services, we prioritize your needs and success. Our dedicated team provides personalized, expert guidance to navigate your legal challenges effectively."
           />
 
           <img
@@ -26,10 +23,7 @@ const HomeHeaderSlider = () => {
           <HomeHeaderTxt
             quote="CARE & COMMITTED"
             head="We Work For Client Legal Success"
-            para=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
-        itaque blanditiis beatae eum hic corporis veritatis quisquam nihil
-        nesciunt, alias est et delectus. Voluptate, rerum ipsa amet sed
-        soluta praesentium"
+            para="At M & M Associates, we are committed to your legal success. Our experienced team provides top-notch, tailored legal services, ensuring the best outcomes for our clients. Trust us as your reliable partner in navigating legal complexities. "
           />
 
           <img
@@ -41,10 +35,7 @@ const HomeHeaderSlider = () => {
           <HomeHeaderTxt
             quote="EXPERT TEAM"
             head="Expert Legal Support And Justice"
-            para=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
-       itaque blanditiis beatae eum hic corporis veritatis quisquam nihil
-       nesciunt, alias est et delectus. Voluptate, rerum ipsa amet sed
-       soluta praesentium"
+            para="Providing expert legal support, we are dedicated to delivering justice for our clients. Our experienced team offers professional, reliable guidance to navigate complex legal issues and achieve the best outcomes."
           />
 
           <img

@@ -110,3 +110,9 @@
     font-size: 15px;
   }
 }
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+  #homeFaqMainImgContent {
+    /* border: solid; */
+    height: 150vh;
+  }
+}

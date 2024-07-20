@@ -75,10 +75,12 @@
   color: white;
   width: 100%;
   text-align: center;
-  font-size: 20px;
+  font-size: 25px;
   width: 150px;
+  font-weight: bold;
 }
 .homeAboutMainItem1 > h3 {
+  font-size: 30px;
   color: white;
   text-align: center;
   width: 100%;
@@ -95,6 +97,9 @@
 }
 .homeAboutFooterContent > h4 {
   color: white;
+}
+.homeAboutFooterContent > h4 > a:hover {
+  color: var(--customGold);
 }
 #homeAboutMainContent1 {
   margin-bottom: 100px;

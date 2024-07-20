@@ -7,7 +7,7 @@ const HomeExpertiseService = (props) => {
       <div className="ExpertiseServiceCardCover"> </div>
       <img src={props.img} alt="" />
       <div className="ExpertiseServiceCardTxtContainer">
-        <div className="ExpertiseServiceCardIcon">{props.icon}</div>
+        <div className="ExpertiseServiceCardIcon"><img src={props.iconService} alt="" /></div>
         <div className="ExpertiseServiceCardTxt">
           <h2>
             <Link to={props.link}>{props.txt}</Link>

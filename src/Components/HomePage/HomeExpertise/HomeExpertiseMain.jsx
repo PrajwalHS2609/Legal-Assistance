@@ -1,21 +1,25 @@
 import React, { useEffect } from "react";
 import "./HomeExpertise.css";
 import HomeExpertiseCard from "./HomeExpertiseCard";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faPeopleGroup,
-  faPeopleRoof,
-  faScaleBalanced,
-  faEnvelopeOpenText,
-  faHammer,
-  faBuildingColumns,
-  faHandcuffs,
-  faGavel,
-  faSuitcaseRolling,
-} from "@fortawesome/free-solid-svg-icons";
 import "aos/dist/aos.css";
 import AOS from "aos";
-
+import familyWhite from "./../../../Images/ExpertiseImg/FamilyWhite.png";
+import criminalWhite from "./../../../Images/ExpertiseImg/CriminalWhite.png";
+import civilWhite from "./../../../Images/ExpertiseImg/CivilWhite.png";
+import familyBlack from "./../../../Images/ExpertiseImg/FamilyBlack.png";
+import criminalBlack from "./../../../Images/ExpertiseImg/CriminalBlack.png";
+import civilBlack from "./../../../Images/ExpertiseImg/CivilBlack.png";
+import employmentWhite from "./../../../Images/ExpertiseImg/EmployementWhite.png";
+import realEstateWhite from "./../../../Images/ExpertiseImg/Real_EstateWhite.png";
+import employmentBlack from "./../../../Images/ExpertiseImg/EmployementBlack.png";
+import realEstateBlack from "./../../../Images/ExpertiseImg/Real_EstateBlack.png";
+import commercialWhite from "./../../../Images/ExpertiseImg/CommercialWhite.png";
+import consumerWhite from "./../../../Images/ExpertiseImg/ConsumerWhite.png";
+import immigrantWhite from "./../../../Images/ExpertiseImg/ImmigrationWhite.png";
+import commercialBlack from "./../../../Images/ExpertiseImg/CommercialBlack.png";
+import consumerBlack from "./../../../Images/ExpertiseImg/ConsumerBlack.png";
+import immigrantBlack from "./../../../Images/ExpertiseImg/ImmigrationBlack.png";
+import service from "./../../../Images/ExpertiseImg/OtherService.png"
 import HomeExpertiseService from "./HomeExpertiseServiceCard";
 const HomeExpertiseMain = () => {
   useEffect(() => {
@@ -25,102 +29,63 @@ const HomeExpertiseMain = () => {
   }, []);
   return (
     <div className="homeExpertiseMainContainer">
-            <div className="homeExpertiseMainContent" data-aos="fade-left">
-
-      <HomeExpertiseCard
-        icon={
-          <FontAwesomeIcon
-            icon={faPeopleGroup}
-            className="expIcon"
-          ></FontAwesomeIcon>
-        }
-        txt="Family Law"
-        img="https://bylaw.wpengine.com/wp-content/uploads/2023/10/practices-area-hover-image-1.jpg"
-        data-aos="fade-left"
-      />
-      <HomeExpertiseCard
-        icon={
-          <FontAwesomeIcon
-            icon={faHandcuffs}
-            className="expIcon"
-          ></FontAwesomeIcon>
-        }
-        txt="Criminal Law"
-        img="https://bylaw.wpengine.com/wp-content/uploads/2023/10/practices-area-hover-image-2.jpg"
-        data-aos="fade-left"
-      />
-      <HomeExpertiseCard
-        icon={
-          <FontAwesomeIcon icon={faGavel} className="expIcon"></FontAwesomeIcon>
-        }
-        txt="Civil Law"
-        img="https://bylaw.wpengine.com/wp-content/uploads/2023/10/practices-area-hover-image-3.jpg"
-        data-aos="fade-left"
-      />
+      <div className="homeExpertiseMainContent" data-aos="fade-left">
+        <HomeExpertiseCard
+          imgIconBlack={familyBlack}
+          imgIconWhite={familyWhite}
+          txt="Family Law"
+          img="https://bylaw.wpengine.com/wp-content/uploads/2023/10/practices-area-hover-image-1.jpg"
+        />
+        <HomeExpertiseCard
+          imgIconBlack={criminalBlack}
+          imgIconWhite={criminalWhite}
+          txt="Criminal Law"
+          img="https://bylaw.wpengine.com/wp-content/uploads/2023/10/practices-area-hover-image-2.jpg"
+        />
+        <HomeExpertiseCard
+          imgIconBlack={civilBlack}
+          imgIconWhite={civilWhite}
+          txt="Civil Law"
+          img="https://bylaw.wpengine.com/wp-content/uploads/2023/10/practices-area-hover-image-3.jpg"
+        />
       </div>
       <div className="homeExpertiseMainContent" data-aos="fade-right">
         <HomeExpertiseCard
-          icon={
-            <FontAwesomeIcon
-              icon={faHammer}
-              className="expIcon"
-            ></FontAwesomeIcon>
-          }
+          imgIconBlack={employmentBlack}
+          imgIconWhite={employmentWhite}
           txt="Employment Law"
           img="https://bylaw.wpengine.com/wp-content/uploads/2023/10/practices-area-hover-image-4.jpg"
-          data-aos="fade-right"
         />
         <HomeExpertiseService
-          icon={
-            <FontAwesomeIcon
-              icon={faScaleBalanced}
-              className="expServIcon"
-            ></FontAwesomeIcon>
-          }
+          iconService={service}
           txt="More Services"
           img="https://bylaw.wpengine.com/wp-content/uploads/2023/10/practices-area-hover-image-5.jpg"
           link="/service"
         />
 
         <HomeExpertiseCard
-          icon={
-            <FontAwesomeIcon
-              icon={faPeopleRoof}
-              className="expIcon"
-            ></FontAwesomeIcon>
-          }
+          imgIconBlack={realEstateBlack}
+          imgIconWhite={realEstateWhite}
           txt="Real Estate Law"
           img="https://bylaw.wpengine.com/wp-content/uploads/2023/10/practices-area-hover-image-6.jpg"
         />
       </div>
       <div className="homeExpertiseMainContent" data-aos="fade-left">
         <HomeExpertiseCard
-          icon={
-            <FontAwesomeIcon
-              icon={faEnvelopeOpenText}
-              className="expIcon"
-            ></FontAwesomeIcon>
-          }
+          imgIconBlack={consumerBlack}
+          imgIconWhite={consumerWhite}
           txt="Consumer Law"
           img="https://bylaw.wpengine.com/wp-content/uploads/2023/10/practices-area-hover-image-7.jpg"
         />
         <HomeExpertiseCard
-          icon={
-            <FontAwesomeIcon
-              icon={faSuitcaseRolling}
-              className="expIcon"
-            ></FontAwesomeIcon>
-          }
+          imgIconBlack={immigrantBlack}
+          imgIconWhite={immigrantWhite}
           txt="Immigration Law"
           img="https://bylaw.wpengine.com/wp-content/uploads/2023/10/practices-area-hover-image-8.jpg"
         />
         <HomeExpertiseCard
-          icon={
-            <FontAwesomeIcon
-              icon={faBuildingColumns}
-              className="expIcon"
-            ></FontAwesomeIcon>
-          }
+          imgIconBlack={commercialBlack}
+          imgIconWhite={commercialWhite}
           txt="Commercial Law"
           img="https://bylaw.wpengine.com/wp-content/uploads/2023/10/practices-area-hover-image-9.jpg"
         />

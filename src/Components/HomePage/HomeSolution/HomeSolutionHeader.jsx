@@ -12,14 +12,14 @@ const HomeSolutionHeader = () => {
         ></FontAwesomeIcon>
         CALL US 24/7
       </h5>
-      <h1>For Legal Solution</h1>
+      <h2>For Legal Solution</h2>
       <h1>
         <span>+000 - 123 - 456789</span>
       </h1>
       <h3>Or</h3>
-      <h1>
+      <h2>
         Schedule A <span>Free Consultation</span>
-      </h1>
+      </h2>
     </div>
   );
 };

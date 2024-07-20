@@ -1,0 +1,112 @@
+.homeFaqContainer {
+  /* border: solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  width: 100%;
+}
+.homeFaqHeadContainer {
+  /* border: solid blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.homeFaqContainer > h2 {
+  text-align: center;
+  width: 100%;
+  color: var(--customBlue);
+  font-size: 30px;
+}
+.homeFaqContainer > h2 > span {
+  color: var(--customGold);
+  font-weight: bold;
+}
+
+.homeFaqMain {
+  /* border: solid green; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 20px;
+}
+.homeFaqMainContent {
+  width: 50%;
+}
+.faqHead {
+  border-bottom: solid var(--customGold);
+  height: 8vh;
+  width: 100%;
+  margin-top: 40px;
+  cursor: pointer;
+  /* box-shadow: 0px 3px 10px 1px rgb(206, 204, 204); */
+  color: var(--customBluw);
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.faqPanel {
+  box-shadow: 0px 3px 10px 1px rgb(206, 204, 204);
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: var(--customBlue);
+  padding: 10px;
+}
+.faqPanel > p {
+  font-size: 20px;
+  margin-left: 20px;
+  margin: 10px;
+  color: white;
+}
+.faqBut {
+  /* border: solid purple; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+.faqBut > h3 {
+  margin-left: 20px;
+  font-size: 22px;
+}
+#homeFaqMainImgContent {
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0;
+}
+#homeFaqMainImgContent > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+@media screen and (min-width: 320px) and (max-width: 700px) {
+  .homeFaqMain {
+    /* border: solid green; */
+    width: 100%;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0px;
+  }
+  .homeFaqMainContent {
+    width: 100%;
+  }
+  .faqBut > h3 {
+    margin-left: 20px;
+    font-size: 15px;
+  }
+}

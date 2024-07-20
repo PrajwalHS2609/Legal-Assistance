@@ -9,6 +9,10 @@ import {
   AccordionItemPanel,
 } from "react-accessible-accordion";
 import "react-accessible-accordion/dist/fancy-example.css";
+import property from "./../../../Images/SupportImg/Property Buying & Selling.png"
+import  divorce from "./../../../Images/SupportImg/Divorce & Companseation.png"
+import business from "./../../../Images/SupportImg/Business Legal Advisor.png"
+import dispute from "./../../../Images/SupportImg/Intellectual Property Rights.png"
 import "aos/dist/aos.css";
 import AOS from "aos";
 const HomeSupportMain = () => {
@@ -23,21 +27,21 @@ const HomeSupportMain = () => {
         <AccordionItem className="accItem" data-aos="fade-right">
           <AccordionItemHeading className="accHead">
             <AccordionItemButton className="accBut">
-              <h3>01 Commercial Litigation</h3>
+              <h3>01 Property Buying & Selling</h3>
             </AccordionItemButton>
           </AccordionItemHeading>
 
           <AccordionItemPanel className="accPanel">
-            <img 
-              src="https://bylaw.wpengine.com/wp-content/uploads/2023/10/practices-area-hover-image-2.jpg"
-              alt=""
+            <img
+              src={property}
+              alt="property"
             />
             <p>
-              <h4>Strategic Information</h4>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora
-              eaque nemo sint, velit quasi maiores, excepturi, blanditiis
-              officia eveniet eum ex. Corrupti rem pariatur ducimus id facere
-              dolorum aspernatur obcaecati.
+              <h4>Property Buying & Selling</h4>
+              Property Buying & Selling services provide expert assistance in
+              real estate transactions. Our knowledgeable team ensures smooth
+              and secure dealings, guiding you through the legal complexities of
+              purchasing or selling property to achieve the best results.
               <button>Know More</button>
             </p>
           </AccordionItemPanel>
@@ -45,20 +49,21 @@ const HomeSupportMain = () => {
         <AccordionItem className="accItem" data-aos="fade-right">
           <AccordionItemHeading className="accHead">
             <AccordionItemButton className="accBut">
-              <h3>02 Franchising & Licensing</h3>
+              <h3>02 Divorce & Compensation</h3>
             </AccordionItemButton>
           </AccordionItemHeading>
           <AccordionItemPanel className="accPanel">
             <img
-              src="https://bylaw.wpengine.com/wp-content/uploads/2023/10/practices-area-hover-image-2.jpg"
-              alt=""
+              src={divorce}
+              alt="divorce"
             />
             <p>
-              <h4>Business Relationship</h4>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-              temporibus facere voluptate ab quis. Maxime aut animi quae
-              accusantium iusto, quo maiores! Necessitatibus a assumenda magnam
-              veniam asperiores nam vitae!
+              <h4>Divorce & Compensation</h4>
+              Divorce & Compensation services offer compassionate and
+              professional support during difficult times. Our experienced team
+              provides expert legal advice and representation to ensure fair
+              settlements and protect your rights throughout the divorce
+              process.
               <button>Know More</button>
             </p>
           </AccordionItemPanel>
@@ -66,20 +71,20 @@ const HomeSupportMain = () => {
         <AccordionItem className="accItem" data-aos="fade-right">
           <AccordionItemHeading className="accHead">
             <AccordionItemButton className="accBut">
-              <h3>03 Bankruptcy & Insolvency</h3>
+              <h3>03 Business Legal Advisor</h3>
             </AccordionItemButton>
           </AccordionItemHeading>
           <AccordionItemPanel className="accPanel">
             <img
-              src="https://bylaw.wpengine.com/wp-content/uploads/2023/10/practices-area-hover-image-2.jpg"
-              alt=""
+              src={business}
+              alt="dispute"
             />
             <p>
-              <h4>Professional Agencies</h4>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Blanditiis, velit? Hic vitae et facilis dolore maxime doloremque
-              excepturi, eius ducimus architecto in, ullam tempore obcaecati,
-              sint autem consequuntur sapiente maiores?
+              <h4>Business Legal Advisor</h4>A Business Legal Advisor provides
+              expert guidance on legal matters affecting your company. Our
+              seasoned professionals offer strategic advice to ensure
+              compliance, mitigate risks, and support your business growth and
+              success.
               <button>Know More</button>
             </p>
           </AccordionItemPanel>
@@ -92,15 +97,16 @@ const HomeSupportMain = () => {
           </AccordionItemHeading>
           <AccordionItemPanel className="accPanel">
             <img
-              src="https://bylaw.wpengine.com/wp-content/uploads/2023/10/practices-area-hover-image-2.jpg"
-              alt=""
+              src={dispute}
+              alt="dispute"
             />
             <p>
-              <h4>Settling Outside</h4>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Repellendus exercitationem et ut molestiae ipsa adipisci sit, fuga
-              veritatis totam laboriosam odit aliquam, assumenda nihil
-              perferendis, quis repellat provident voluptate magnam.
+              <h4>Intellectual Property Rights</h4>
+              Intellectual Property Rights services protect your creative and
+              innovative assets. Our expert team offers comprehensive support in
+              securing and enforcing patents, trademarks, copyrights, and trade
+              secrets, ensuring your intellectual property is safeguarded and
+              leveraged effectively.
               <button>Know More</button>
             </p>
           </AccordionItemPanel>

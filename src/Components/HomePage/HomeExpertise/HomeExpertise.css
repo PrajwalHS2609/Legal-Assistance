@@ -5,9 +5,7 @@
   align-items: center;
   flex-direction: column;
   gap: 40px;
-}
-.homeExpertiseMainContainer {
-  background-color: whitesmoke;
+  background-color: var(--customWhite);
 }
 
 .homeExpertiseContainer {
@@ -127,18 +125,32 @@
   justify-content: center;
   align-items: center;
 }
+.homeExpertiseCardIcon > img {
+  width: 100px;
+  color: white;
+  transition: 500ms ease-in-out;
+}
+.whiteImg {
+  display: none;
+  transition: 500ms ease-in-out;
+}
+.blackImg {
+  transition: 500ms ease-in-out;
+}
+.homeExpertiseCardContainer:hover .whiteImg {
+  display: block;
+}
+.homeExpertiseCardContainer:hover .blackImg {
+  display: none;
+}
 .homeExpertiseCardTxt > h2 {
   color: black;
-  transition: 500ms ease-in-out;
+  transition: 200ms ease-in-out;
 }
 .homeExpertiseCardContainer:hover .homeExpertiseCardTxt > h2 {
   color: white;
 }
-.expIcon {
-  font-size: 50px;
-  color: black;
-  transition: 500ms ease-in-out;
-}
+
 .homeExpertiseCardContainer:hover .expIcon {
   color: white;
 }
@@ -185,6 +197,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.ExpertiseServiceCardIcon > img {
+  width: 100px;
 }
 .ExpertiseServiceCardTxt > h2 > a {
   color: white;

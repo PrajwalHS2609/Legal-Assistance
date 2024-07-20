@@ -10,16 +10,16 @@ const HomeExpertiseHead = () => {
         </div>
         <div className="homeExpertiseHead">
           <h1>
-            We <span>Expertise</span> On
+            Indian <span>Legal</span> Experts
           </h1>
         </div>
         <div className="homeExpertisePara">
           <p>
-            Semper feugiat nibh sed pulvinar proin gravida hendrerit lectus.
-            Faucibus purus in massa tempor nec feugiat. Imperdiet massa
-            tincidunt nunc pulvinar sapien et ligula ullamcorper. Sed pulvinar
-            proin gravida hendrerit lectus a. Ullamcorper malesuada proin
-            consequat.
+            Indian Legal Experts provides professional and reliable legal
+            services tailored to your needs. Our experienced team of legal
+            professionals specializes in navigating the complexities of Indian
+            law to deliver effective solutions and achieve the best outcomes
+            for our clients.
           </p>
         </div>
       </div>

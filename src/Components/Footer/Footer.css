@@ -1,5 +1,5 @@
 .footerContainer {
-  border: solid red;
+  /* border: solid red; */
   width: 100%;
   display: flex;
   justify-content: center;
@@ -7,4 +7,5 @@
   gap: 20px;
   padding: 20px;
   background-color: var(--customBlue);
+  margin-top: 40px;
 }

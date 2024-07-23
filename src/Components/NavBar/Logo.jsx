@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faScaleBalanced } from "@fortawesome/free-solid-svg-icons";
 const Logo = () => {
   return (
-    <div>
+    <div className="logo">
       <FontAwesomeIcon
         icon={faScaleBalanced}
         className="solCal"

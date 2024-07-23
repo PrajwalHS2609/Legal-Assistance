@@ -39,7 +39,12 @@
   text-decoration: none;
   color: white;
 }
-@media screen and (min-width: 320px) {
+.logo {
+  /* border: solid red; */
+  height: 100%;
+  padding: 20px;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .navContainer {
     /* border: solid; */
     height: 12vh;

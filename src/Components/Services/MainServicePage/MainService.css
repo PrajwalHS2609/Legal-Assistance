@@ -113,3 +113,17 @@
 .leftArrow {
   color: var(--customGold);
 }
+@media screen and (min-width:320px) and (max-width:768px) {
+  .mainServiceContent1 {
+    width: 100%;
+    /* border: solid blue; */
+
+  }
+  .mainServiceContent1 > p {
+    width: 100%;
+  }
+  .serviceCardContainer {
+    /* border: solid green; */
+    min-width: 300px;
+  }
+}

@@ -19,6 +19,9 @@
   height: auto;
   position: relative;
 }
+.imgMob {
+  display: none;
+}
 .civilLawHeadContainer > h2 {
   position: absolute;
   color: white;
@@ -86,4 +89,12 @@
     min-width: 300px;
     /* border: solid red; */
   }
+  /* .imgComp {
+    display: none;
+  } */
+  /* .imgMob {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+  } */
 }

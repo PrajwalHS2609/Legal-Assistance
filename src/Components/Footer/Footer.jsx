@@ -6,7 +6,6 @@ const Footer = () => {
   return (
     <div className='footerContainer'>
       <Footer1/>
-      {/* <div className='footerUnderline'></div> */}
       <Footer2/>
     </div>
   )

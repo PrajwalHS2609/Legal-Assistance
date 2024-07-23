@@ -1,0 +1,89 @@
+.civilLawPage {
+  /* border: solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.civilLawHeadContainer {
+  /* border: solid blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+.civilLawHeadContainer > img {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.civilLawHeadContainer > h2 {
+  position: absolute;
+  color: white;
+  font-size: 40px;
+}
+.civilLawHeadCover {
+  /* bottom: solid yellow; */
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #171f2ad6;
+}
+.civilLawMainContainer {
+  /* border: solid blue; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.civilLawLitigation {
+  /* border: solid green; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+.civilLawLitigation > h2 {
+  text-align: center;
+  font-size: 40px;
+  color: var(--customGold);
+}
+.civilLawLitigation > ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.civilLawLitigation > ul > li {
+  list-style: none;
+  width: 30%;
+  /* border: solid red; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px;
+  padding: 10px;
+  box-shadow: 0 0 10px black;
+  border-radius: 20px;
+}
+.civilLawLitigation > ul > li > img {
+  width: 10%;
+  height: auto;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .civilLawLitigation > ul > li {
+    min-width: 300px;
+    /* border: solid red; */
+  }
+}

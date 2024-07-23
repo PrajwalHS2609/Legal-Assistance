@@ -214,7 +214,7 @@
   color: white;
   transition: 500ms ease-in-out;
 }
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .homeExpertiseContainer {
     margin-top: 5%;
   }
@@ -272,7 +272,12 @@
     width: 90%;
     text-align: center;
   }
-
+  .homeExpertiseMainContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
   .homeExpertiseMainContainer {
     border: solid transparent;
     width: 100%;

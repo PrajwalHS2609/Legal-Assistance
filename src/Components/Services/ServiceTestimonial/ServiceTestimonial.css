@@ -1,0 +1,60 @@
+.serviceTestimonialContainer {
+  border: solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  width: 100%;
+  background-color: var(--customBlue);
+  overflow: hidden;
+}
+.serviceTestimonialHead {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+.serviceTestimonialHead > h3 {
+  font-size: 18px;
+  color: var(--customGold);
+  text-align: center;
+}
+.serviceTestimonialHead > h2 {
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+.serviceTestimonialHead > h2 > span {
+  color: var(--customGold);
+}
+.serviceTestimonialHead > p {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  width: 40%;
+}
+.serviceTestimonialMain {
+  border: solid blue;
+  width: 70%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.serviceTestimonialCard {
+  border: solid green;
+  width: 30%;
+  background-color: white;
+  
+}
+.serviceTestimonialCardContent{
+    border: solid yellowgreen;
+    width: 100%;
+    padding: 10px;
+}

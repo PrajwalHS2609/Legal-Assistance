@@ -1,138 +1,123 @@
 import React from "react";
 import "./MainService.css";
 import ServiceCard from "./ServiceCard";
+import servDivorce from "./../../../Images/Law Service Icons/Divorce_Law___Family_Court_Matters.png";
+import servProperty from "./../../../Images/Law Service Icons/Intellectual_Property_Rights_Services.png";
+import servDispute from "./../../../Images/Law Service Icons/Alternative_Dispute_Resolution.png";
+import servNotary from "./../../../Images/Law Service Icons/Notary_Services.png";
+import servCriminal from "./../../../Images/Law Service Icons/Criminal_law.png";
+import servCivil from "./../../../Images/Law Service Icons/Civil_law.png";
+import servCommercial from "./../../../Images/Law Service Icons/Commercial_law.png";
+import servConsumer from "./../../../Images/Law Service Icons/Consumer_law.png";
+import servHighCourt from "./../../../Images/Law Service Icons/High_Court_Matters.png";
+import servAnimal from "./../../../Images/Law Service Icons/Animal_law.png";
+import servCorporate from "./../../../Images/Law Service Icons/Corporate_IPR_and_Labour_Cases.png";
+import servDrafting from "./../../../Images/Law Service Icons/Drafting_Agreement_Deed___Documentation_Registration_of_Property.png";
+import servPropertyVerif from "./../../../Images/Law Service Icons/Property_Document_Verification.png";
+import servSupremeCourt from "./../../../Images/Law Service Icons/Supreme_Court_Matters.png";
+import servMarriage from "./../../../Images/Law Service Icons/Court_Marriage__Marriage_Registration.png";
 
 const MainService = () => {
   return (
     <div className="mainServiceContainer">
-      <h1>Our Services</h1>
-      <div className="mainServiceContent">
+      <div className="mainServiceContent1">
+        <h2>What Service We Provide</h2>
+        <p>
+          We offer comprehensive legal services, including consultation,
+          representation, and guidance, ensuring effective and efficient
+          resolution of legal matters.
+        </p>
+      </div>
+      <div className="mainServiceContent2">
         <ServiceCard
-          icon={
-            <img
-              src="https://kamalandcoadvocates.com/assets/images/icons/icon-4.png"
-              alt=""
-            />
-          }
+          icon={servDivorce}
           head="Divorce Law / Family Court Matters"
-          para=" Family matters, our firm has been dealing with a long time now and we
-          have developed a knack for getting judgments and orders in our favor.
-          Family matters involve a lot of emotions, feelings, empathy; and
-          understanding these and valuing them to the required extent helps to
-          deal in family matters more easily. Matters like marriages, child
-          adoption, child custody, marital breakdown, maintenance, and more
-          delicate cases like domestic violence, divorce are all cases that we
-          have advocated and disposed of with a snap of the finger."
-        />
+          para="Comprehensive legal support and expertise for divorce and family court matters."
+       link="/"
+       />
         <ServiceCard
-          icon={
-            <img
-              src="https://kamalandcoadvocates.com/assets/images/icons/service.png"
-              alt=""
-            />
-          }
-          head="Notary Services"
-          para="Efficient and trusted notary services ensuring fast and reliable authentication for your legal documents and transactions."
-        />
-        <ServiceCard
-          icon={
-            <img
-              src="https://kamalandcoadvocates.com/assets/images/icons/intermediary.png"
-              alt=""
-            />
-          }
-          head="Alternative Dispute Resolution"
-          para="Skilled in arbitration and mediation, we provide effective dispute resolution, focusing on amicable solutions and cost-efficiency."
-        />
-        <ServiceCard
-          icon={
-            <img
-              src="https://kamalandcoadvocates.com/assets/images/icons/property-law.png"
-              alt=""
-            />
-          }
+          icon={servProperty}
           head="Intellectual Property Rights Services"
-          para="Expert management of copyright, trademark, and patent registrations, with dedicated maintenance and follow-up to protect your creative assets."
-        />
+          para="Complete services for effectively safeguarding and managing your intellectual property rights."
+       link="/"
+       />
         <ServiceCard
-          icon={
-            <img
-              src="https://kamalandcoadvocates.com/assets/images/icons/icon-2.png"
-              alt=""
-            />
-          }
+          icon={servDispute}
+          head="Alternative Dispute Resolution"
+          para="Tailored, efficient resolution methods designed to meet your specific needs without resorting to court litigation."
+       link="/"
+       />
+        <ServiceCard
+          icon={servNotary}
+          head="Notary Services"
+          para="Secure your documents with our professional and dependable notary services."
+       link="/"
+       />
+        <ServiceCard
+          icon={servCriminal}
           head="Criminal law"
-          para="Criminal Law covers issues such as physical assault, theft, rape, homicide, extortion, dowry harassment, caste atrocities and financial fraud..."
-        />
+          para="Effective defense and representation for criminal charges, ensuring the protection of clients' rights."
+       link="/"
+       />
         <ServiceCard
-          icon={
-            <img
-              src="https://kamalandcoadvocates.com/assets/images/icons/icon-7.png"
-              alt=""
-            />
-          }
-          head="Property document verification"
-          para="Property lawyers in Bangalore help clients with legal issues related to residential and property development, acquisitions, leases, ownership..."
-        />
-        <ServiceCard
-          icon={
-            <img
-              src="https://kamalandcoadvocates.com/assets/images/icons/icon-1.png"
-              alt=""
-            />
-          }
+          icon={servCivil}
           head="Civil law"
-          para="Advocate Kamal, A civil lawyer holds many years of experience and skills to defend individuals in civil legal matters..."
-        />
+          para="Professional legal guidance and representation for all civil law matters."
+       link="/civil-law"
+       />
         <ServiceCard
-          icon={
-            <img
-              src="https://kamalandcoadvocates.com/assets/images/icons/icon-8.png"
-              alt=""
-            />
-          }
+          icon={servCommercial}
           head="Commercial law"
-          para="Commercial lawyers are Counselor who advises companies and governments on business-related issues. commercial law firms are divided up into..."
-        />
+          para="Specialized legal services for businesses, addressing all facets of commercial law."
+       link="/"
+       />
         <ServiceCard
-          icon={
-            <img
-              src="https://kamalandcoadvocates.com/assets/images/icons/icon-3.png"
-              alt=""
-            />
-          }
+          icon={servHighCourt}
           head="High Court Matters"
-          para="We provide specialist lawyers who specifically possess the expertise to deal with high court cases. The lawyers are seasoned to deal with all high court matters that extend to cover writ petitions, criminal petitions, appeals, MFA, RFA, RSA. Over time, we have gained the tactical knowledge required to handle all types of appeals – criminal, miscellaneous first appeal, regular first appeal, regular second appeal with the utmost skill."
-        />
+          para="Expert legal representation and advocacy for intricate and high-stakes cases in the High Court."
+       link="/"
+       />
         <ServiceCard
-          icon={
-            <img
-              src="https://kamalandcoadvocates.com/assets/images/icons/icon-5.png"
-              alt=""
-            />
-          }
-          head="Supreme Court Matters"
-          para="Dealing with supreme court cases requires utmost precision, skill, knowledge, presence of mind; which is why the lawyers handling supreme court cases have been handpicked with utmost care. These lawyers know their work like the back of their hands. Any engagement with the supreme court shall require experience, work dynamics that are not ordinary; Our firm is proud to provide you with specialist lawyers in this regard."
-        />
-        <ServiceCard
-          icon={
-            <img
-              src="https://kamalandcoadvocates.com/assets/images/icons/icon-6.png"
-              alt=""
-            />
-          }
-          head="Court Marriage/ Marriage Registration"
-          para="We also help in marriage registration and have well-specialized lawyers who deal with it. In India, marriage registration can be done either under..."
-        />
-        <ServiceCard
-          icon={
-            <img
-              src="https://kamalandcoadvocates.com/assets/images/icons/icon-9.png"
-              alt=""
-            />
-          }
+          icon={servAnimal}
           head="Animal law"
-          para="We handle all cases related to animal cruelty and animal abuse. Do call the number given below in case you need help with anything related to the.."
+          para="Complete legal services for animal rights, welfare, and associated legal matters."
+        link="/"
+        />
+        <ServiceCard
+          icon={servCorporate}
+          head="Corporate IPR and Labour Cases"
+          para="Specialized legal services for corporate intellectual property rights and labor law cases."
+        link="/"
+        />
+        <ServiceCard
+          icon={servDrafting}
+          head="Drafting Agreement Deed & Documentation Registration of Property"
+          para="Complete services for drafting agreements, documenting deeds, and registering properties, ensuring legal precision and compliance."
+       link="/"
+       />
+        <ServiceCard
+          icon={servPropertyVerif}
+          head="Property Document Verification"
+          para="Skilled legal defense for criminal charges, effectively safeguarding your rights and freedom."
+        link="/"
+        />
+        <ServiceCard
+          icon={servSupremeCourt}
+          head="Supreme Court Matters"
+          para="Ensure the authenticity and accuracy of property documents with our professional verification services."
+        link="/"
+        />
+        <ServiceCard
+          icon={servMarriage}
+          head="Court Marriage/ Marriage Registration"
+          para="Thorough legal representation and advocacy for intricate and high-stakes cases in the Supreme Court of Justice."
+        link="/"
+        />
+        <ServiceCard
+          icon={servConsumer}
+          head="Consumer Law"
+          para="Specialized legal services for businesses, addressing all facets of Consumer law."
+        link="/"
         />
       </div>
     </div>

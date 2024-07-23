@@ -14,14 +14,14 @@ const Footer1Menu = () => {
             icon={faChevronRight}
             className="footerIcon"
           ></FontAwesomeIcon>
-          <Link>Home</Link>
+          <Link to={"/"}>Home</Link>
         </li>
         <li>
           <FontAwesomeIcon
             icon={faChevronRight}
             className="footerIcon"
           ></FontAwesomeIcon>
-          <Link>Service</Link>
+          <Link to={"/service"}>Service</Link>
         </li>
         <li>
           <FontAwesomeIcon

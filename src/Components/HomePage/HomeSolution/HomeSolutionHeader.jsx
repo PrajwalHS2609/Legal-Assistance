@@ -2,6 +2,7 @@ import React from "react";
 import "./HomeSolution.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeadphones } from "@fortawesome/free-solid-svg-icons";
+
 const HomeSolutionHeader = () => {
   return (
     <div className="homeSolutionHeaderContainer">

@@ -11,7 +11,7 @@
   height: 100%;
   width: 100%;
 }
-.serviceHeaderContainer > h1 {
+.serviceHeaderContainer > h2 {
   color: white;
   position: absolute;
 }

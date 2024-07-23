@@ -1,16 +1,24 @@
 import React from "react";
 import "./MainService.css";
-
+import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 const ServiceCard = (props) => {
   return (
     <div className="serviceCardContainer">
-      <div className="serviceCardIcon">{props.icon}</div>
-      <div className="serviceCardHead">
-        <h3>{props.head}</h3>
-      </div>
-      <div className="serviceCardpara">
-        <p>{props.para}</p>
-      </div>
+      <img className="serviceCardImg" src={props.icon} alt="" />
+      <h3 className="serviceCardHead">{props.head}</h3>
+      <p className="serviceCardPara">{props.para}</p>
+      <p>
+        <Link to={props.link}>
+          ReadMore{" "}
+          <FontAwesomeIcon
+            icon={faArrowRight}
+            className="leftArrow"
+          ></FontAwesomeIcon>
+        </Link>
+      </p>
+      <div className="serviceCardCover"></div>
     </div>
   );
 };

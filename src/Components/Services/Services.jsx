@@ -10,7 +10,7 @@ const Services = () => {
     <div className="servicePage">
       <ServiceHeader />
       <MainService/>
-      <ServiceTestimonial/>
+      {/* <ServiceTestimonial/> */}
       <HomeFaq/>
     </div>
   );

@@ -8,6 +8,7 @@
 }
 .civilLawHeadContainer {
   /* border: solid blue; */
+  height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,9 +20,9 @@
   height: auto;
   position: relative;
 }
-.imgMob {
+/* .imgMob {
   display: none;
-}
+} */
 .civilLawHeadContainer > h2 {
   position: absolute;
   color: white;

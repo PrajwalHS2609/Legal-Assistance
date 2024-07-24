@@ -1,22 +1,27 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./ServiceTestimonial.css";
-const ServiceTestimonialCard = () => {
+import quote from "./../../../Images/double-quotes.png"
+import "aos/dist/aos.css";
+import AOS from "aos";
+const ServiceTestimonialCard = (props) => {
+  useEffect(() => {
+    AOS.init({
+      duration: 600,
+    });
+  }, []);
   return (
-    <div className="serviceTestimonialCard">
+    <div className="serviceTestimonialCard" data-aos="fade-up">
       <div className="serviceTestimonialCardContent">
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa totam
-          debitis, autem nobis atque, itaque deserunt laudantium fuga sint eius,
-          nesciunt facilis. Sequi deleniti consequuntur, enim porro tempore
-          fugiat nulla.
+         {props.para}
         </p>
       </div>
       <div className="serviceTestimonialCardContent">
         <div className="serviceTestimonialCardItem">
-          <p>Suhail</p>
+          <p>{props.name}</p>
         </div>
         <div className="serviceTestimonialCardItem">
-          <img src="" alt="" />
+          <img src={quote} alt="quote" />
         </div>
       </div>
     </div>

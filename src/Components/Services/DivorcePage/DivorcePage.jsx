@@ -8,6 +8,7 @@ import DivorceImp from "./DivorceImp";
 import DivorceAssist from "./DivorceAssist";
 import { Helmet } from "react-helmet";
 import DivorceImg from "./DivorceImg";
+import InnerBreadCrumb from "../../BreadCrumbs/InnerBreadCrumb";
 const DivorcePage = () => {
   return (
     <div className="divorcePageContainer">
@@ -25,6 +26,7 @@ const DivorcePage = () => {
         />
       </Helmet>
       <DivorceImg/>
+      <InnerBreadCrumb link="/service" service="Service"  currService="Divorce & Family Court" />
       <DivorceHead/>
       <DivorceWhy/>
       <DivorceGuide/>

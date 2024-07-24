@@ -2,7 +2,6 @@ import React from "react";
 import "./MainService.css";
 import ServiceCard from "./ServiceCard";
 import servDivorce from "./../../../Images/Law Service Icons/Divorce_Law___Family_Court_Matters.png";
-import servProperty from "./../../../Images/Law Service Icons/Intellectual_Property_Rights_Services.png";
 import servDispute from "./../../../Images/Law Service Icons/Alternative_Dispute_Resolution.png";
 import servNotary from "./../../../Images/Law Service Icons/Notary_Services.png";
 import servCriminal from "./../../../Images/Law Service Icons/Criminal_law.png";
@@ -10,11 +9,9 @@ import servCivil from "./../../../Images/Law Service Icons/Civil_law.png";
 import servCommercial from "./../../../Images/Law Service Icons/Commercial_law.png";
 import servConsumer from "./../../../Images/Law Service Icons/Consumer_law.png";
 import servHighCourt from "./../../../Images/Law Service Icons/High_Court_Matters.png";
-import servAnimal from "./../../../Images/Law Service Icons/Animal_law.png";
 import servCorporate from "./../../../Images/Law Service Icons/Corporate_IPR_and_Labour_Cases.png";
 import servDrafting from "./../../../Images/Law Service Icons/Drafting_Agreement_Deed___Documentation_Registration_of_Property.png";
 import servPropertyVerif from "./../../../Images/Law Service Icons/Property_Document_Verification.png";
-import servSupremeCourt from "./../../../Images/Law Service Icons/Supreme_Court_Matters.png";
 import servMarriage from "./../../../Images/Law Service Icons/Court_Marriage__Marriage_Registration.png";
 
 const MainService = () => {
@@ -35,12 +32,7 @@ const MainService = () => {
           para="Comprehensive legal support and expertise for divorce and family court matters."
           link="/divorce-and-family-court-lawyers-in-bangalore"
         />
-        <ServiceCard
-          icon={servProperty}
-          head="Intellectual Property Rights Services"
-          para="Complete services for effectively safeguarding and managing your intellectual property rights."
-          link="/intellectual-property-rights-services-lawyer-in-bangalore"
-        />
+
         <ServiceCard
           icon={servDispute}
           head="Alternative Dispute Resolution"
@@ -77,12 +69,7 @@ const MainService = () => {
           para="Expert legal representation and advocacy for intricate and high-stakes cases in the High Court."
           link="/"
         />
-        <ServiceCard
-          icon={servAnimal}
-          head="Animal law"
-          para="Complete legal services for animal rights, welfare, and associated legal matters."
-          link="/"
-        />
+
         <ServiceCard
           icon={servCorporate}
           head="Corporate IPR and Labour Cases"
@@ -101,12 +88,7 @@ const MainService = () => {
           para="Skilled legal defense for criminal charges, effectively safeguarding your rights and freedom."
           link="/"
         />
-        <ServiceCard
-          icon={servSupremeCourt}
-          head="Supreme Court Matters"
-          para="Ensure the authenticity and accuracy of property documents with our professional verification services."
-          link="/"
-        />
+
         <ServiceCard
           icon={servMarriage}
           head="Court Marriage/ Marriage Registration"

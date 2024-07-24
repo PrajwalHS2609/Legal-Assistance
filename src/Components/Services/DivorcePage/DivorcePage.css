@@ -1,0 +1,53 @@
+.divorceContainer {
+  /* border: solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+.divorceImg {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.divorceImg > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.divorceContainer > h1 {
+  width: 80%;
+  text-align: center;
+  font-size: 30px;
+  color: var(--customGold);
+}
+.divorceContainer > h2 {
+  width: 80%;
+  text-align: center;
+  font-size: 25px;
+  color: var(--customGold);
+}
+.divorceContainer > p {
+  width: 80%;
+  text-align: justify;
+  font-size: 20px;
+}
+.divorceContainer > ul > li {
+  list-style: none;
+  margin: 20px;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .divorceContainer > h1 {
+    width: 100%;
+  }
+  .divorceContainer > h2 {
+    width: 100%;
+  }
+  .divorceContainer > p {
+    width: 100%;
+  }
+}

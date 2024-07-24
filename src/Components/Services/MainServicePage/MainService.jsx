@@ -33,91 +33,91 @@ const MainService = () => {
           icon={servDivorce}
           head="Divorce Law / Family Court Matters"
           para="Comprehensive legal support and expertise for divorce and family court matters."
-       link="/"
-       />
+          link="/divorce-and-family-court-lawyers-in-bangalore"
+        />
         <ServiceCard
           icon={servProperty}
           head="Intellectual Property Rights Services"
           para="Complete services for effectively safeguarding and managing your intellectual property rights."
-       link="/"
-       />
+          link="/intellectual-property-rights-services-lawyer-in-bangalore"
+        />
         <ServiceCard
           icon={servDispute}
           head="Alternative Dispute Resolution"
           para="Tailored, efficient resolution methods designed to meet your specific needs without resorting to court litigation."
-       link="/"
-       />
+          link="/alternative-dispute-resolution-in-bangalore"
+        />
         <ServiceCard
           icon={servNotary}
           head="Notary Services"
           para="Secure your documents with our professional and dependable notary services."
-       link="/"
-       />
+          link="/"
+        />
         <ServiceCard
           icon={servCriminal}
           head="Criminal law"
           para="Effective defense and representation for criminal charges, ensuring the protection of clients' rights."
-       link="/"
-       />
+          link="/"
+        />
         <ServiceCard
           icon={servCivil}
           head="Civil law"
           para="Professional legal guidance and representation for all civil law matters."
-       link="/civil-law"
-       />
+          link="/civil-law"
+        />
         <ServiceCard
           icon={servCommercial}
           head="Commercial law"
           para="Specialized legal services for businesses, addressing all facets of commercial law."
-       link="/"
-       />
+          link="/"
+        />
         <ServiceCard
           icon={servHighCourt}
           head="High Court Matters"
           para="Expert legal representation and advocacy for intricate and high-stakes cases in the High Court."
-       link="/"
-       />
+          link="/"
+        />
         <ServiceCard
           icon={servAnimal}
           head="Animal law"
           para="Complete legal services for animal rights, welfare, and associated legal matters."
-        link="/"
+          link="/"
         />
         <ServiceCard
           icon={servCorporate}
           head="Corporate IPR and Labour Cases"
           para="Specialized legal services for corporate intellectual property rights and labor law cases."
-        link="/"
+          link="/"
         />
         <ServiceCard
           icon={servDrafting}
           head="Drafting Agreement Deed & Documentation Registration of Property"
           para="Complete services for drafting agreements, documenting deeds, and registering properties, ensuring legal precision and compliance."
-       link="/"
-       />
+          link="/"
+        />
         <ServiceCard
           icon={servPropertyVerif}
           head="Property Document Verification"
           para="Skilled legal defense for criminal charges, effectively safeguarding your rights and freedom."
-        link="/"
+          link="/"
         />
         <ServiceCard
           icon={servSupremeCourt}
           head="Supreme Court Matters"
           para="Ensure the authenticity and accuracy of property documents with our professional verification services."
-        link="/"
+          link="/"
         />
         <ServiceCard
           icon={servMarriage}
           head="Court Marriage/ Marriage Registration"
           para="Thorough legal representation and advocacy for intricate and high-stakes cases in the Supreme Court of Justice."
-        link="/"
+          link="/"
         />
         <ServiceCard
           icon={servConsumer}
           head="Consumer Law"
           para="Specialized legal services for businesses, addressing all facets of Consumer law."
-        link="/"
+          link="/"
         />
       </div>
     </div>

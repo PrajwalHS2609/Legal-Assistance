@@ -1,14 +1,10 @@
 import React from "react";
 import "./Navbar.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faScaleBalanced } from "@fortawesome/free-solid-svg-icons";
+import logo from  "./../../Images/MM Associates Logo.png"
 const Logo = () => {
   return (
     <div className="logo">
-      <FontAwesomeIcon
-        icon={faScaleBalanced}
-        className="solCal"
-      ></FontAwesomeIcon>
+      <img src={logo} alt="logo" />
     </div>
   );
 };

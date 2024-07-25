@@ -24,21 +24,31 @@ const Menu = () => {
       </li>
       <li>About Us</li>
       <li>Careers</li>
-      <li>Contact Us</li>{" "}
+      <li><Link to="/contact-us">Contact Us</Link></li>{" "}
       <FontAwesomeIcon
         icon={faBarsStaggered}
         className="menuBar"
         onClick={showSideBar}
       ></FontAwesomeIcon>
-      
       <div className="respMenuContainer">
         <li>
-          <Link onClick={hideSideBar} to={"/"}>Home</Link> <FontAwesomeIcon icon={faX} className="menuX" onClick={hideSideBar}></FontAwesomeIcon>
+          <Link onClick={hideSideBar} to={"/"}>
+            Home
+          </Link>{" "}
+          <FontAwesomeIcon
+            icon={faX}
+            className="menuX"
+            onClick={hideSideBar}
+          ></FontAwesomeIcon>
         </li>
-        <li><Link onClick={hideSideBar} to={"/service"}>Service</Link></li>
+        <li>
+          <Link onClick={hideSideBar} to={"/service"}>
+            Service
+          </Link>
+        </li>
         <li>About Us</li>
         <li>Careers</li>
-        <li>Contact Us</li>
+        <li><Link to="/contact-us">Contact Us</Link></li>
       </div>
     </div>
   );

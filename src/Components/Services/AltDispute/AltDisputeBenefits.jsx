@@ -5,9 +5,9 @@ import lawHammer from "./../../../Images/Law Service Icons/Commercial_law.png";
 const AltDisputeBenefits = () => {
   return (
     <div className="altDisputeContainer">
-      <h2>Benefits of Using M & M Associates for ADR</h2>{" "}
+      <h2>Benefits of Using MM Associates for ADR</h2>{" "}
       <p>
-        Choosing M & M Associates for your Alternative Dispute Resolution (ADR)
+        Choosing MM Associates for your Alternative Dispute Resolution (ADR)
         in Bangalore provides several key benefits:
       </p>
       <ul>

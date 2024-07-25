@@ -2,26 +2,22 @@ import React from "react";
 import "../Footer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faScaleBalanced,
   faLocationDot,
   faEnvelope,
   faPhone,
 } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
+import mmLogo from "./../../../Images/MM Associates Logo.png"
 const Footer1Add = () => {
   return (
     <div className="footerAddContainer">
-      <FontAwesomeIcon
-        icon={faScaleBalanced}
-        className="solCal"
-      ></FontAwesomeIcon>
+      <img src={mmLogo} alt="" />
       <p>
         Trusted legal experts delivering exceptional results with personalized
         service.
       </p>
 
       <div className="footerAddContent">
-        <ul>
           <li>
             <FontAwesomeIcon
               icon={faLocationDot}
@@ -35,7 +31,7 @@ const Footer1Add = () => {
               icon={faEnvelope}
               className="footerIcon"
             ></FontAwesomeIcon>
-            <Link to="/"> info@m&massociates.com</Link>
+            <Link to="/"> info@mmassociates.com</Link>
           </li>
           <li>
             {" "}
@@ -45,7 +41,6 @@ const Footer1Add = () => {
             ></FontAwesomeIcon>
             <Link to={"/"}>+91 1234567890</Link>
           </li>
-        </ul>
       </div>
     </div>
   );

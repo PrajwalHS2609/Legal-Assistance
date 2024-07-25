@@ -5,9 +5,10 @@ import AltDisputeWhy from "./AltDisputeWhy";
 import AltDisputeMeditation from "./AltDisputeMeditation";
 import AltDisputeArbitration from "./AltDisputeArbitration ";
 import AltDisputeNego from "./AltDisputeNego";
-import AltDisputeBenefits from './AltDisputeBenefits';
-import AltDisputeHow from './AltDisputeHow';
+import AltDisputeBenefits from "./AltDisputeBenefits";
+import AltDisputeHow from "./AltDisputeHow";
 import AltDisputeImg from "./AltDisputeImg";
+import InnerBreadCrumb from "../../BreadCrumbs/InnerBreadCrumb";
 
 const AltDispute = () => {
   return (
@@ -25,14 +26,20 @@ const AltDispute = () => {
           href="https://mandmassociates.com/alternative-dispute-resolution-in-bangalore  "
         />
       </Helmet>
-      <AltDisputeImg/>
+      <AltDisputeImg />
+      <InnerBreadCrumb
+        link="/service"
+        service="Service"
+        currService="Alternative Dispute Resolution"
+      />
+
       <AltDisputeHead />
       <AltDisputeWhy />
       <AltDisputeMeditation />
       <AltDisputeArbitration />
       <AltDisputeNego />
-      <AltDisputeBenefits/>
-      <AltDisputeHow/>
+      <AltDisputeBenefits />
+      <AltDisputeHow />
     </div>
   );
 };

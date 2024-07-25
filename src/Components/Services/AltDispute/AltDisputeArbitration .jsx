@@ -9,8 +9,8 @@ const AltDisputeArbitration = () => {
         Arbitration is another effective Alternative Dispute Resolution (ADR)
         method in Bangalore, where disputes are resolved by an arbitrator or a
         panel of arbitrators. Unlike mediation, arbitration results in a binding
-        decision that is enforceable in the same way as a court judgment. At M &
-        M Associates, we offer comprehensive arbitration services to handle
+        decision that is enforceable in the same way as a court judgment. At MM
+        Associates, we offer comprehensive arbitration services to handle
         complex disputes involving business contracts, employment issues, and
         more.
       </p>

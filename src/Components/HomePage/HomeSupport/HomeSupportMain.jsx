@@ -9,10 +9,12 @@ import {
   AccordionItemPanel,
 } from "react-accessible-accordion";
 import "react-accessible-accordion/dist/fancy-example.css";
-import property from "./../../../Images/SupportImg/Property Buying & Selling.png"
-import  divorce from "./../../../Images/SupportImg/Divorce & Companseation.png"
-import business from "./../../../Images/SupportImg/Business Legal Advisor.png"
-import dispute from "./../../../Images/SupportImg/Intellectual Property Rights.png"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
+import property from "./../../../Images/SupportImg/Property Buying & Selling.png";
+import divorce from "./../../../Images/SupportImg/Divorce & Companseation.png";
+import business from "./../../../Images/SupportImg/Business Legal Advisor.png";
+import dispute from "./../../../Images/SupportImg/Intellectual Property Rights.png";
 import "aos/dist/aos.css";
 import AOS from "aos";
 const HomeSupportMain = () => {
@@ -27,15 +29,16 @@ const HomeSupportMain = () => {
         <AccordionItem className="accItem" data-aos="fade-right">
           <AccordionItemHeading className="accHead">
             <AccordionItemButton className="accBut">
-              <h3>01 Property Buying & Selling</h3>
+              <h3>01 Property Buying & Selling</h3>{" "}
+              <FontAwesomeIcon
+                icon={faChevronDown}
+                className="dropIcon"
+              ></FontAwesomeIcon>
             </AccordionItemButton>
           </AccordionItemHeading>
 
           <AccordionItemPanel className="accPanel">
-            <img
-              src={property}
-              alt="property"
-            />
+            <img src={property} alt="property" />
             <p>
               <h4>Property Buying & Selling</h4>
               Property Buying & Selling services provide expert assistance in
@@ -50,13 +53,14 @@ const HomeSupportMain = () => {
           <AccordionItemHeading className="accHead">
             <AccordionItemButton className="accBut">
               <h3>02 Divorce & Compensation</h3>
+              <FontAwesomeIcon
+                icon={faChevronDown}
+                className="dropIcon"
+              ></FontAwesomeIcon>
             </AccordionItemButton>
           </AccordionItemHeading>
           <AccordionItemPanel className="accPanel">
-            <img
-              src={divorce}
-              alt="divorce"
-            />
+            <img src={divorce} alt="divorce" />
             <p>
               <h4>Divorce & Compensation</h4>
               Divorce & Compensation services offer compassionate and
@@ -72,13 +76,14 @@ const HomeSupportMain = () => {
           <AccordionItemHeading className="accHead">
             <AccordionItemButton className="accBut">
               <h3>03 Business Legal Advisor</h3>
+              <FontAwesomeIcon
+                icon={faChevronDown}
+                className="dropIcon"
+              ></FontAwesomeIcon>
             </AccordionItemButton>
           </AccordionItemHeading>
           <AccordionItemPanel className="accPanel">
-            <img
-              src={business}
-              alt="dispute"
-            />
+            <img src={business} alt="dispute" />
             <p>
               <h4>Business Legal Advisor</h4>A Business Legal Advisor provides
               expert guidance on legal matters affecting your company. Our
@@ -93,13 +98,14 @@ const HomeSupportMain = () => {
           <AccordionItemHeading className="accHead">
             <AccordionItemButton className="accBut">
               <h3>04 Dispute Resolution</h3>
+              <FontAwesomeIcon
+                icon={faChevronDown}
+                className="dropIcon"
+              ></FontAwesomeIcon>
             </AccordionItemButton>
           </AccordionItemHeading>
           <AccordionItemPanel className="accPanel">
-            <img
-              src={dispute}
-              alt="dispute"
-            />
+            <img src={dispute} alt="dispute" />
             <p>
               <h4>Intellectual Property Rights</h4>
               Intellectual Property Rights services protect your creative and

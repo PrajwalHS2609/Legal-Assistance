@@ -22,7 +22,7 @@ const DivorceAssist = () => {
       </p>
       <p>
         When facing divorce or family court matters, having a dedicated and
-        experienced legal professional by your side is essential. At M & M
+        experienced legal professional by your side is essential. At MM
         Associates, we are proud to be your trusted Divorce & Family Court
         Lawyer in Bangalore, offering expert legal guidance and support tailored
         to your needs. Our commitment to excellence ensures that you receive the

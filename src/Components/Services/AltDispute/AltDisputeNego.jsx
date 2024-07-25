@@ -10,7 +10,7 @@ const AltDisputeNego = () => {
         (ADR) in Bangalore where parties engage directly with each other to
         settle their differences. Effective negotiation requires strong
         communication skills, strategic thinking, and an understanding of each
-        party's interests and objectives. At M & M Associates, we provide expert
+        party's interests and objectives. At MM Associates, we provide expert
         negotiation services to help parties reach agreements without the need
         for formal ADR processes.
       </p>

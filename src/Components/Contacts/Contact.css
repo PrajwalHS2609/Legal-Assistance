@@ -1,0 +1,231 @@
+.contactContainer {
+  /* border: solid red; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.contactWrapper {
+  /* border: solid black; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+.contactContent1 {
+  /* border: solid blue; */
+  width: 60%;
+  padding: 10px;
+}
+.contactContent2 {
+  /* border: solid green; */
+  width: 40%;
+  padding: 10px;
+}
+
+.contactForm {
+  /* border: solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+  box-shadow: 0 0 10px grey;
+  width: 100%;
+}
+.contactForm > h3 {
+  font-size: 30px;
+  color: var(--customBlue);
+  font-weight: bold;
+}
+.contactForm > h3 > span {
+  color: var(--customGold);
+}
+.contactForm > form {
+  width: 100%;
+}
+.contactForm > form > fieldset {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.formName {
+  /* border: solid green; */
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.formName > input {
+  border: none;
+  border-bottom: 1px solid grey;
+  width: 40%;
+  padding: 10px;
+  outline: none;
+}
+.formMail {
+  /* border: solid green; */
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.formMail > input {
+  border: none;
+  border-bottom: 1px solid grey;
+  width: 40%;
+  padding: 10px;
+  outline: none;
+}
+.formTextarea {
+  /* border: solid green; */
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.formTextarea > textarea {
+  border: none;
+  border-bottom: 1px solid grey;
+  padding: 10px;
+  outline: none;
+  width: 100%;
+}
+.contactForm > form > fieldset > button {
+  border: 2px solid var(--customGold);
+  width: 100px;
+  height: 40px;
+  background-color: var(--customBlue);
+  color: white;
+  box-shadow: 10px 5px 0px var(--customGold);
+  transition: 300ms ease-in-out;
+}
+.contactForm > form > fieldset > button:hover {
+  background-color: var(--customGold);
+  box-shadow: none;
+}
+.contactAddContainer {
+  /* border: solid rebeccapurple; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  background-color: var(--customBlue);
+}
+
+.contactAddContainer > h3 {
+  color: white;
+  font-size: 30px;
+}
+.contactAddContainer > h3 > span {
+  color: var(--customGold);
+}
+
+.address {
+  /* border: solid yellowgreen; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 20px;
+}
+.address > h4 {
+  color: white;
+  font-size: 25px;
+}
+.address > li {
+  color: white;
+  list-style: none;
+  margin: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+.socialMedia {
+  /* border: solid red; */
+
+  height: 100%;
+  width: 100%;
+  background-color: #131d29a6;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.socialContact {
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 100%;
+  box-shadow: inset 0 0 20px var(--customGold);
+  color: white;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .contactWrapper {
+    /* border: solid black; */
+    flex-direction: column;
+    padding: 0px;
+  }
+  .contactContent1 {
+    /* border: solid blue; */
+    width: 100%;
+    padding: 10px;
+  }
+  .contactContent2 {
+    /* border: solid green; */
+    width: 100%;
+    padding: 10px;
+  }
+  .contactForm > form > fieldset {
+    /* border: solid brown; */
+    flex-direction: column;
+    gap: 20px;
+  }
+  .formName {
+    /* border: solid green; */
+    width: 100%;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .formName > input {
+    width: 100%;
+  }
+  .formMail {
+    /* border: solid green; */
+    width: 100%;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .formMail > input {
+    width: 100%;
+  }
+  .contactAddContainer {
+    /* border: solid rebeccapurple; */
+    padding: 10px;
+  }
+  .address {
+    /* border: solid yellowgreen; */
+    gap: 20px;
+    padding: 10px;
+  }
+  .address > li {
+    color: white;
+    list-style: none;
+    margin: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+  }
+}

@@ -6,7 +6,7 @@ const DivorceImg = () => {
     <div className="civilLawHeadContainer">
       <img className="imgComp" src={civilLawImg} alt="civilLawImg" />
       <div className="civilLawHeadCover"></div>
-      <h2>Intellectual Property Rights </h2>
+      <h2>Divorce & Family Court </h2>
     </div>
   );
 };

@@ -24,8 +24,7 @@ const App = () => {
           <Route
             path="/divorce-and-family-court-lawyers-in-bangalore"
             element={<DivorcePage />}
-          />
-
+          />x``
           <Route
             path="/alternative-dispute-resolution-in-bangalore"
             element={<AltDispute />}

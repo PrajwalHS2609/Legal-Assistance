@@ -12,7 +12,7 @@ const AltDisputeBenefits = () => {
       </p>
       <ul>
         <li>
-          <img src={lawHammer} alt="" />{" "}
+          {" "}
           <span> Experienced Professionals:</span>{" "}
           <p>
             Our team consists of experienced ADR practitioners who bring a
@@ -23,7 +23,7 @@ const AltDisputeBenefits = () => {
         </li>
         <li>
           {" "}
-          <img src={lawHammer} alt="" /> <span>Client-Centered Approach:</span>{" "}
+           <span>Client-Centered Approach:</span>{" "}
           <p>
             We prioritize our clients' needs and work closely with them to
             understand their goals and concerns. Our client-centered approach
@@ -33,7 +33,7 @@ const AltDisputeBenefits = () => {
         </li>
         <li>
           {" "}
-          <img src={lawHammer} alt="" /> <span> Comprehensive Services:</span>{" "}
+           <span> Comprehensive Services:</span>{" "}
           <p>
             We offer a full suite of ADR services, including mediation,
             arbitration, and negotiation. This comprehensive approach allows us
@@ -43,7 +43,7 @@ const AltDisputeBenefits = () => {
         </li>
         <li>
           {" "}
-          <img src={lawHammer} alt="" /> <span>Commitment to Fairness:</span>{" "}
+           <span>Commitment to Fairness:</span>{" "}
           <p>
             Our commitment to fairness and impartiality ensures that all parties
             involved receive equitable treatment and that disputes are resolved
@@ -52,7 +52,7 @@ const AltDisputeBenefits = () => {
         </li>
         <li>
           {" "}
-          <img src={lawHammer} alt="" /> <span> Efficient Resolution: </span>{" "}
+           <span> Efficient Resolution: </span>{" "}
           <p>
             We are dedicated to resolving disputes efficiently and effectively,
             minimizing the time and cost associated with legal conflicts.

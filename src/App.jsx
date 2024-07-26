@@ -8,7 +8,7 @@ import ScrollTo from "./Components/ScrollTo/ScrollTo";
 import Footer from "./Components/Footer/Footer";
 import CivilLawPage from "./Components/Services/CivilLawPage/CivilLawPage";
 import DivorcePage from "./Components/Services/DivorcePage/DivorcePage";
-import IntellectualProperty from "./Components/Services/IntellectualProperty/IntellectualProperty";
+
 import AltDispute from "./Components/Services/AltDispute/AltDispute";
 import Contacts from "./Components/Contacts/Contacts";
 const App = () => {
@@ -25,10 +25,7 @@ const App = () => {
             path="/divorce-and-family-court-lawyers-in-bangalore"
             element={<DivorcePage />}
           />
-          <Route
-            path="/intellectual-property-rights-services-lawyer-in-bangalore"
-            element={<IntellectualProperty />}
-          />
+        
           <Route
             path="/alternative-dispute-resolution-in-bangalore"
             element={<AltDispute />}

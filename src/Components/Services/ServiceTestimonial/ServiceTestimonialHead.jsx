@@ -5,7 +5,7 @@ const ServiceTestimonialHead = () => {
     <div className="serviceTestimonialHead">
       <h3>Testimonials</h3>
       <h2>
-        What They Say About M<span>&</span>M Associates
+        What They Say About <span>MM Associates</span>
       </h2>
       <p>
         Trusted, professional, and dedicated legal experts delivering

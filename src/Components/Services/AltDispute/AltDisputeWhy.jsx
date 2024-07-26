@@ -12,7 +12,7 @@ const AltDisputeWhy = () => {
       </p>
       <ul>
         <li>
-          <img src={lawHammer} alt="lawHammer" /> <span> Cost-Effectiveness:</span>{" "}
+           <span> Cost-Effectiveness:</span>{" "}
           <p>
             ADR methods are generally less expensive than traditional court
             proceedings. By avoiding the lengthy and costly process of
@@ -21,7 +21,7 @@ const AltDisputeWhy = () => {
         </li>
         <li>
           {" "}
-          <img src={lawHammer} alt="lawHammer" /> <span>Time Efficiency:</span>{" "}
+           <span>Time Efficiency:</span>{" "}
           <p>
             ADR processes are typically faster than going through the court
             system. Mediation and arbitration can often be scheduled and
@@ -31,7 +31,7 @@ const AltDisputeWhy = () => {
         </li>
         <li>
           {" "}
-          <img src={lawHammer} alt="lawHammer" /> <span> Confidentiality:</span>{" "}
+           <span> Confidentiality:</span>{" "}
           <p>
             ADR proceedings are usually private, unlike court cases which are
             often public. This confidentiality helps protect sensitive
@@ -40,7 +40,7 @@ const AltDisputeWhy = () => {
         </li>
         <li>
           {" "}
-          <img src={lawHammer} alt="lawHammer" /> <span>Flexibility:</span>{" "}
+           <span>Flexibility:</span>{" "}
           <p>
             ADR methods offer greater flexibility in terms of scheduling and
             procedure. Parties can tailor the process to suit their needs and
@@ -49,7 +49,7 @@ const AltDisputeWhy = () => {
         </li>
         <li>
           {" "}
-          <img src={lawHammer} alt="lawHammer" />{" "}
+          {" "}
           <span>Preservation of Relationships:</span>{" "}
           <p>
             ADR techniques, especially mediation, focus on finding mutually

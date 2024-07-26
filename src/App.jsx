@@ -19,12 +19,12 @@ const App = () => {
         <ScrollTo />
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/service" element={<Services />} />
+          <Route path="/services" element={<Services />} />
           <Route path="/civil-law" element={<CivilLawPage />} />
           <Route
             path="/divorce-and-family-court-lawyers-in-bangalore"
             element={<DivorcePage />}
-          />x``
+          />
           <Route
             path="/alternative-dispute-resolution-in-bangalore"
             element={<AltDispute />}

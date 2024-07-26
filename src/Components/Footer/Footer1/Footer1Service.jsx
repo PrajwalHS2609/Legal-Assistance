@@ -7,7 +7,7 @@ const Footer1Service = () => {
   return (
     <div className="footerMenuContainer">
       <ul>
-        <h3>Our Services</h3>
+        <h3>Our Legal Services</h3>
         <li>
           {" "}
           <FontAwesomeIcon

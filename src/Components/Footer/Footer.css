@@ -50,6 +50,7 @@
 }
 .footerMenuContainer > ul > h3 {
   color: var(--customGold);
+  font-size: 20px;
 }
 .footerAddContent > li {
   margin: 20px;
@@ -122,7 +123,7 @@
   color: var(--customGold);
 }
 .footerSocialContainer > ul > h3 {
-  color: var(--customGold);
+  color: var(--customGold);font-size: 20px;
 }
 .footerSocialContainer > ul > li {
   margin: 30px;

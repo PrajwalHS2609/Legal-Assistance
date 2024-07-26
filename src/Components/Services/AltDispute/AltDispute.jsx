@@ -28,8 +28,8 @@ const AltDispute = () => {
       </Helmet>
       <AltDisputeImg />
       <InnerBreadCrumb
-        link="/service"
-        service="Service"
+        link="/services"
+        service="Services"
         currService="Alternative Dispute Resolution"
       />
 

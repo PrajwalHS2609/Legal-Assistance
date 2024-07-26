@@ -7,7 +7,7 @@ const CivilLawPage = () => {
   return (
     <div className="civilLawPage">
       <CivilLawHead />
-      <InnerBreadCrumb link="/service" service="Service"  currService="Civil Law" />
+      <InnerBreadCrumb link="/services" service="Services"  currService="Civil Law" />
       <CivilLawMain />
     </div>
   );

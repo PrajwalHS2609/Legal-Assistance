@@ -26,7 +26,7 @@ const DivorcePage = () => {
         />
       </Helmet>
       <DivorceImg/>
-      <InnerBreadCrumb link="/service" service="Service"  currService="Divorce & Family Court" />
+      <InnerBreadCrumb link="/services" service="Services"  currService="Divorce & Family Court" />
       <DivorceHead/>
       <DivorceWhy/>
       <DivorceGuide/>

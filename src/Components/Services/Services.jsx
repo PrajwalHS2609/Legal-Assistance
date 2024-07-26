@@ -10,7 +10,7 @@ const Services = () => {
   return (
     <div className="servicePage">
       <ServiceHeader />
-      <BreadCrumbs service="Service"/>
+      <BreadCrumbs service="Services"/>
       <MainService/>
       <ServiceTestimonial/>
       <HomeFaq/>

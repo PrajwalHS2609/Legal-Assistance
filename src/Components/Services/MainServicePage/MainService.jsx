@@ -18,7 +18,7 @@ const MainService = () => {
   return (
     <div className="mainServiceContainer">
       <div className="mainServiceContent1">
-        <h2>What Service We Provide</h2>
+        <h2>What Services We Provide</h2>
         <p>
           We offer comprehensive legal services, including consultation,
           representation, and guidance, ensuring effective and efficient

@@ -39,24 +39,28 @@ const MainService = () => {
           para="Tailored, efficient resolution methods designed to meet your specific needs without resorting to court litigation."
           link="/alternative-dispute-resolution-in-bangalore"
         />
-        <ServiceCard
-          icon={servNotary}
-          head="Notary Services"
-          para="Secure your documents with our professional and dependable notary services."
-          link="/"
-        />
+
         <ServiceCard
           icon={servCriminal}
           head="Criminal law"
           para="Effective defense and representation for criminal charges, ensuring the protection of clients' rights."
           link="/"
         />
+
         <ServiceCard
           icon={servCivil}
           head="Civil law"
           para="Professional legal guidance and representation for all civil law matters."
           link="/civil-law"
         />
+
+        <ServiceCard
+          icon={servNotary}
+          head="Notary Services"
+          para="Secure your documents with our professional and dependable notary services."
+          link="/"
+        />
+
         <ServiceCard
           icon={servCommercial}
           head="Commercial law"

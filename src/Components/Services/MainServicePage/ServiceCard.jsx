@@ -11,7 +11,7 @@ const ServiceCard = (props) => {
       <p className="serviceCardPara">{props.para}</p>
       <p>
         <Link to={props.link}>
-          ReadMore{" "}
+          Read More{" "}
           <FontAwesomeIcon
             icon={faArrowRight}
             className="leftArrow"

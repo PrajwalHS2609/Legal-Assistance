@@ -18,19 +18,19 @@ const App = () => {
         <Navbar />
         <ScrollTo />
         <Routes>
-          {/* <Route path="/" element={<HomePage />} />
+          <Route path="/" element={<HomePage />} />
           <Route path="/service" element={<Services />} />
-          <Route path="/civil-law" element={<CivilLawPage />} /> */}
+          <Route path="/civil-law" element={<CivilLawPage />} />
           <Route
             path="/divorce-and-family-court-lawyers-in-bangalore"
             element={<DivorcePage />}
           />
 
-          {/* <Route
+          <Route
             path="/alternative-dispute-resolution-in-bangalore"
             element={<AltDispute />}
           />
-          <Route path="/contact-us" element={<Contacts />} /> */}
+          <Route path="/contact-us" element={<Contacts />} />
         </Routes>
         <Footer />
       </BrowserRouter>

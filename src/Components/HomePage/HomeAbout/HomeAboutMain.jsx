@@ -9,7 +9,7 @@ const HomeAboutMain = () => {
         <div className="homeAboutMainItem1">
           <h3>
             {" "}
-            <NumberCounter end={50} delay={5} />
+            <NumberCounter end={8} delay={5} />
           </h3>
         </div>
         <div className="homeAboutMainItem2">
@@ -20,7 +20,7 @@ const HomeAboutMain = () => {
         <div className="homeAboutMainItem1">
           <h3>
             {" "}
-            <NumberCounter end={900} delay={5} postFix="+" />
+            <NumberCounter end={100} delay={5} postFix="+" />
           </h3>
         </div>
         <div className="homeAboutMainItem2">
@@ -31,7 +31,7 @@ const HomeAboutMain = () => {
         <div className="homeAboutMainItem1">
           <h3>
             {" "}
-            <NumberCounter end={852} delay={5} />
+            <NumberCounter end={147} delay={5} />
           </h3>
         </div>
         <div className="homeAboutMainItem2">
@@ -49,7 +49,7 @@ const HomeAboutMain = () => {
       </div>
       <div className="homeAboutMainContent" id="homeAboutMainContent1">
         <div className="homeAboutMainItem1">
-          <h3><NumberCounter end={10} delay={5} postFix="+" />
+          <h3><NumberCounter end={5} delay={5} postFix="+" />
           </h3>
         </div>
         <div className="homeAboutMainItem2">

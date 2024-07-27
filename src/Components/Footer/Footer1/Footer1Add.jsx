@@ -23,7 +23,7 @@ const Footer1Add = () => {
               icon={faLocationDot}
               className="footerIcon"
             ></FontAwesomeIcon>{" "}
-            Bangalore
+            #119, 2nd Floor, 4th Cross, Behind Mavalli Biryani, Lalbagh Road, Bangalore - 560027
           </li>
           <li>
             {" "}

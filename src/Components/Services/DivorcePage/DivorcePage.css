@@ -36,10 +36,20 @@
   text-align: justify;
   font-size: 20px;
 }
+.divorceContainer > p > a {
+  text-decoration: none;
+  color: var(--customGold);
+}
+
 .divorceContainer > ul > li {
   list-style: none;
   margin: 20px;
 }
+.divorceContainer > ul > li > a {
+  text-decoration: none;
+  color: var(--customGold);
+}
+
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .divorceContainer > h1 {
     width: 100%;

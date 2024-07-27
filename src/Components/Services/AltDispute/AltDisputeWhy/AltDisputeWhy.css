@@ -20,7 +20,10 @@
   text-align: justify;
   font-size: 20px;
 }
-
+.altDisputeWhy > p > a {
+  text-decoration: none;
+  color: var(--customGold);
+}
 .altDisputeWhy > li {
   /* border: solid green; */
   list-style: none;
@@ -69,13 +72,12 @@
     min-width: 300px;
     flex-direction: column;
     overflow: hidden;
-
   }
   .altDisputeWhyIcon {
     width: 70%;
     border-radius: 20px;
   }
-  .altDisputeList{
+  .altDisputeList {
     display: flex;
     justify-content: center;
     align-items: center;

@@ -11,6 +11,8 @@ import DivorcePage from "./Components/Services/DivorcePage/DivorcePage";
 
 import AltDispute from "./Components/Services/AltDispute/AltDispute";
 import Contacts from "./Components/Contacts/Contacts";
+import CriminalLaw from "./Components/Services/CriminalLaw/CriminalLaw";
+import NotaryService from "./Components/Services/NotaryService/NotaryService";
 const App = () => {
   return (
     <div>
@@ -20,7 +22,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/services" element={<Services />} />
-          <Route path="/civil-law" element={<CivilLawPage />} />
+          <Route path="/civil-lawyers-in-bangalore" element={<CivilLawPage />} />
           <Route
             path="/divorce-and-family-court-lawyers-in-bangalore"
             element={<DivorcePage />}
@@ -28,6 +30,11 @@ const App = () => {
           <Route
             path="/alternative-dispute-resolution-in-bangalore"
             element={<AltDispute />}
+          />{" "}
+          <Route path="/criminal-lawyers-in-bangalore" element={<CriminalLaw />} />
+          <Route
+            path="/notary-services-in-bangalore"
+            element={<NotaryService />}
           />
           <Route path="/contact-us" element={<Contacts />} />
         </Routes>

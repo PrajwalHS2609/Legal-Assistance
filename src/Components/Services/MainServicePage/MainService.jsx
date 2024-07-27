@@ -44,21 +44,21 @@ const MainService = () => {
           icon={servCriminal}
           head="Criminal law"
           para="Effective defense and representation for criminal charges, ensuring the protection of clients' rights."
-          link="/"
+          link="/criminal-lawyers-in-bangalore"
         />
 
         <ServiceCard
           icon={servCivil}
           head="Civil law"
           para="Professional legal guidance and representation for all civil law matters."
-          link="/civil-law"
+          link="/civil-lawyers-in-bangalore"
         />
 
         <ServiceCard
           icon={servNotary}
           head="Notary Services"
           para="Secure your documents with our professional and dependable notary services."
-          link="/"
+          link="/notary-services-in-bangalore"
         />
 
         <ServiceCard
@@ -76,7 +76,7 @@ const MainService = () => {
 
         <ServiceCard
           icon={servCorporate}
-          head="Corporate IPR and Labour Cases"
+          head="Labour Law"
           para="Specialized legal services for corporate intellectual property rights and labor law cases."
           link="/"
         />

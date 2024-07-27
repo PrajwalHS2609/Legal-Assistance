@@ -1,5 +1,5 @@
 import React from "react";
-import "./DivorcePage.css"
+import "./DivorcePage.css";
 import DivorceHead from "./DivorceHead";
 import DivorceWhy from "./DivorceWhy";
 import DivorceGuide from "./DivorceGuide";
@@ -9,6 +9,7 @@ import DivorceAssist from "./DivorceAssist";
 import { Helmet } from "react-helmet";
 import DivorceImg from "./DivorceImg";
 import InnerBreadCrumb from "../../BreadCrumbs/InnerBreadCrumb";
+import DivorceMain from "./DivorceMain";
 const DivorcePage = () => {
   return (
     <div className="divorcePageContainer">
@@ -22,17 +23,23 @@ const DivorcePage = () => {
         />
         <link
           rel="canonical"
-          href="https://mandmassociates.com/divorce-and-family-court-lawyers-in-bangalore"
+          href="URL: https://lawyersinbangalore.com/divorce-and-family-court-lawyers-in-bangalore"
         />
       </Helmet>
-      <DivorceImg/>
-      <InnerBreadCrumb link="/services" service="Services"  currService="Divorce & Family Court" />
-      <DivorceHead/>
-      <DivorceWhy/>
-      <DivorceGuide/>
-      <DivorceService/>
-      <DivorceImp/>
-      <DivorceAssist/>
+      <DivorceImg />
+      <InnerBreadCrumb
+        link="/services"
+        service="Services"
+        currService="Divorce & Family Court"
+      />
+      <DivorceMain />
+      <DivorceHead />
+      <DivorceWhy />
+      <DivorceGuide />
+      <DivorceService />
+      <DivorceImp />
+      <DivorceAssist />
+      <DivorceMain />
     </div>
   );
 };

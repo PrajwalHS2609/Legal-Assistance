@@ -9,6 +9,7 @@ import AltDisputeHow from "./AltDisputeHow";
 import AltDisputeImg from "./AltDisputeImg";
 import InnerBreadCrumb from "../../BreadCrumbs/InnerBreadCrumb";
 import AltDisputeWhy from "./AltDisputeWhy/AltDisputeWhy";
+import AltDisputeMain from "./AltDisputeMain";
 
 const AltDispute = () => {
   return (
@@ -23,7 +24,7 @@ const AltDispute = () => {
         />
         <link
           rel="canonical"
-          href="https://mandmassociates.com/alternative-dispute-resolution-in-bangalore  "
+          href="https://lawyersinbangalore/alternative-dispute-resolution-in-bangalore"
         />
       </Helmet>
       <AltDisputeImg />
@@ -32,7 +33,7 @@ const AltDispute = () => {
         service="Services"
         currService="Alternative Dispute Resolution"
       />
-
+      <AltDisputeMain />
       <AltDisputeHead />
       <AltDisputeWhy />
       {/* <AltDisputeWhy /> */}

@@ -1,0 +1,61 @@
+.notaryService {
+  /* border: solid red; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+.notaryService > h2 {
+  width: 80%;
+  text-align: center;
+  color: var(--customGold);
+  font-size: 25px;
+}
+.notaryService > h3 {
+  width: 80%;
+  text-align: start;
+  color: var(--customGold);
+  font-size: 25px;
+}
+.notaryService > li > h3 {
+  color: var(--customGold);
+  width: 80%;
+  font-size: 20px;
+  font-weight: bold;
+}
+.notaryService > p {
+  font-size: 20px;
+  width: 80%;
+}
+
+.notaryService > li {
+  list-style: none;
+  margin: 10px;
+  width: 80%;
+  text-align: justify;
+  font-size: 20px;
+}
+.notaryService > li > span {
+  color: var(--customGold);
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.notaryService > li > img {
+  width: 3%;
+}
+.notaryService > li > p {
+  font-size: 20px;
+}
+.notaryService>h3>img{
+  width: 5%;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .notaryService > li > img {
+    width: 10%;
+  }
+}

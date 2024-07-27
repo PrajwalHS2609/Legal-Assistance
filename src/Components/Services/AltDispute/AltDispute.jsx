@@ -1,7 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import AltDisputeHead from "./AltDisputeHead";
-import AltDisputeWhy from "./AltDisputeWhy";
 import AltDisputeMeditation from "./AltDisputeMeditation";
 import AltDisputeArbitration from "./AltDisputeArbitration ";
 import AltDisputeNego from "./AltDisputeNego";
@@ -9,6 +8,7 @@ import AltDisputeBenefits from "./AltDisputeBenefits";
 import AltDisputeHow from "./AltDisputeHow";
 import AltDisputeImg from "./AltDisputeImg";
 import InnerBreadCrumb from "../../BreadCrumbs/InnerBreadCrumb";
+import AltDisputeWhy from "./AltDisputeWhy/AltDisputeWhy";
 
 const AltDispute = () => {
   return (
@@ -35,6 +35,7 @@ const AltDispute = () => {
 
       <AltDisputeHead />
       <AltDisputeWhy />
+      {/* <AltDisputeWhy /> */}
       <AltDisputeMeditation />
       <AltDisputeArbitration />
       <AltDisputeNego />

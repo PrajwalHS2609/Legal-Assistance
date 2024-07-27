@@ -21,3 +21,15 @@
   font-size: 20px;
   font-weight: bold;
 }
+
+@media screen and (min-width:320px) and (max-width:768px) {
+  .breadCrumbsContainer > a {
+    font-size: 15px;
+
+  }
+  .breadCrumbsContainer > span {
+    font-size: 15px;
+    text-align: center;
+  }
+  
+}

@@ -13,13 +13,13 @@
   width: 80%;
   text-align: center;
   color: var(--customGold);
-  font-size: 25px;
+  font-size: 30px;
 }
 .notaryService > h3 {
   width: 80%;
   text-align: start;
   color: var(--customGold);
-  font-size: 25px;
+  font-size: 30px;
 }
 .notaryService > li > h3 {
   color: var(--customGold);
@@ -31,7 +31,10 @@
   font-size: 20px;
   width: 80%;
 }
-
+.notaryService > p > a {
+  text-decoration: none;
+  color: var(--customGold);
+}
 .notaryService > li {
   list-style: none;
   margin: 10px;
@@ -51,11 +54,18 @@
 .notaryService > li > p {
   font-size: 20px;
 }
-.notaryService>h3>img{
+.notaryService > li > p > a {
+  text-decoration: none;
+  color: var(--customGold);
+}
+.notaryService > h3 > img {
   width: 5%;
 }
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .notaryService > li > img {
+    width: 10%;
+  }
+  .notaryService > h3 > img {
     width: 10%;
   }
 }

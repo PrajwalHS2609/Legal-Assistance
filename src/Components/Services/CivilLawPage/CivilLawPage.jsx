@@ -19,7 +19,7 @@ const CivilLawPage = () => {
     <div className="civilLawPage">
       <Helmet>
         <title>
-          Title: Civil Lawyers in Bangalore | Best Civil Lawyers in Karnataka{" "}
+          Civil Lawyers in Bangalore | Best Civil Lawyers in Karnataka{" "}
         </title>
         <meta
           name="description"

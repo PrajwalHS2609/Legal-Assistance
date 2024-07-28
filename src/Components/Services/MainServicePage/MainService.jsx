@@ -65,20 +65,20 @@ const MainService = () => {
           icon={servCommercial}
           head="Commercial law"
           para="Specialized legal services for businesses, addressing all facets of commercial law."
-          link="/"
+          link="/commercial-court-lawyers-in-bangalore"
         />
         <ServiceCard
           icon={servHighCourt}
           head="High Court Matters"
           para="Expert legal representation and advocacy for intricate and high-stakes cases in the High Court."
-          link="/"
+          link="/high-court-lawyers-in-bangalore"
         />
 
         <ServiceCard
           icon={servCorporate}
           head="Labour Law"
           para="Specialized legal services for corporate intellectual property rights and labor law cases."
-          link="/"
+          link="/labour-court-lawyers-in-bangalore"
         />
         <ServiceCard
           icon={servDrafting}

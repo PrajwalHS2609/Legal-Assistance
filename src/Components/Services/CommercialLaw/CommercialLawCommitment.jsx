@@ -1,6 +1,6 @@
 import React from "react";
 
-const ComercialLawCommitment = () => {
+const CommercialLawCommitment = () => {
   return (
     <div className="divorceContainer">
       <h2>Commercial Court Lawyers in Bangalore at MM Associates </h2>
@@ -28,4 +28,4 @@ const ComercialLawCommitment = () => {
   );
 };
 
-export default ComercialLawCommitment;
+export default CommercialLawCommitment;

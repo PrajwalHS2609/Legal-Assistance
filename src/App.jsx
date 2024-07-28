@@ -13,6 +13,9 @@ import AltDispute from "./Components/Services/AltDispute/AltDispute";
 import Contacts from "./Components/Contacts/Contacts";
 import CriminalLaw from "./Components/Services/CriminalLaw/CriminalLaw";
 import NotaryService from "./Components/Services/NotaryService/NotaryService";
+import CommercialLaw from "./Components/Services/CommercialLaw/CommercialLaw";
+import HighCourt from "./Components/Services/HighCourt/HighCourt";
+import LabourLaw from "./Components/Services/LabourLaw/LabourLaw";
 const App = () => {
   return (
     <div>
@@ -22,7 +25,10 @@ const App = () => {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/services" element={<Services />} />
-          <Route path="/civil-lawyers-in-bangalore" element={<CivilLawPage />} />
+          <Route
+            path="/civil-lawyers-in-bangalore"
+            element={<CivilLawPage />}
+          />
           <Route
             path="/divorce-and-family-court-lawyers-in-bangalore"
             element={<DivorcePage />}
@@ -31,10 +37,25 @@ const App = () => {
             path="/alternative-dispute-resolution-in-bangalore"
             element={<AltDispute />}
           />{" "}
-          <Route path="/criminal-lawyers-in-bangalore" element={<CriminalLaw />} />
+          <Route
+            path="/criminal-lawyers-in-bangalore"
+            element={<CriminalLaw />}
+          />
           <Route
             path="/notary-services-in-bangalore"
             element={<NotaryService />}
+          />
+          <Route
+            path="/commercial-court-lawyers-in-bangalore"
+            element={<CommercialLaw />}
+          />
+          <Route
+            path="/high-court-lawyers-in-bangalore"
+            element={<HighCourt />}
+          />
+          <Route
+            path="/labour-court-lawyers-in-bangalore"
+            element={<LabourLaw />}
           />
           <Route path="/contact-us" element={<Contacts />} />
         </Routes>

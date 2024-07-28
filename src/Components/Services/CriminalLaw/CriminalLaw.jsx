@@ -1,9 +1,9 @@
 import React from "react";
-import CriminalLawHead from "./CriminalLawHead";
 import InnerBreadCrumb from "../../BreadCrumbs/InnerBreadCrumb";
 import CriminalLawMain from "./CriminalLawMain";
 import CriminalLawContent from "./CriminalLawContent";
 import { Helmet } from "react-helmet";
+import CriminalLawImg from "./CriminalLawImg";
 
 const CriminalLaw = () => {
   return (
@@ -21,7 +21,7 @@ const CriminalLaw = () => {
           href="https://lawyersinbangalore.com/criminal-lawyers-in-bangalore"
         />
       </Helmet>
-      <CriminalLawHead />
+      <CriminalLawImg/>
       <InnerBreadCrumb
         link="/services"
         service="Services"

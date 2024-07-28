@@ -21,7 +21,7 @@ const Footer1Menu = () => {
             icon={faChevronRight}
             className="footerIcon"
           ></FontAwesomeIcon>
-          <Link to={"/service"}>Service</Link>
+          <Link to={"/services"}>Service</Link>
         </li>
         <li>
           <FontAwesomeIcon
@@ -43,7 +43,7 @@ const Footer1Menu = () => {
             icon={faChevronRight}
             className="footerIcon"
           ></FontAwesomeIcon>
-          <Link> Contact Us</Link>
+          <Link to={"/contact-us"}> Contact Us</Link>
         </li>
       </ul>
     </div>

@@ -6,9 +6,10 @@ import HighCourtCommercial from "./HighCourtCommercial";
 import HighCourtConstitutionLaw from "./HighCourtConstitutionLaw";
 import HighCourtService from "./HighCourtService";
 import HighCourtCommitment from "./HighCourtCommitment";
-import HighCourtImg from "./HighCourtImg";
 import InnerBreadCrumb from "../../BreadCrumbs/InnerBreadCrumb";
 import { Helmet } from "react-helmet";
+import ServiceLawImg from "../CivilLawPage/ServiceLawImg";
+import highCourtImg from "./../../../Images/InnerServicesImgs/High Court Matters.png"
 
 const HighCourt = () => {
   return (
@@ -27,7 +28,7 @@ const HighCourt = () => {
           href="https://lawyersinbangalore.com/high-court-lawyers-in-bangalore"
         />
       </Helmet>
-      <HighCourtImg />
+      <ServiceLawImg img={highCourtImg} alt={highCourtImg} head="High Court Matters"/>
       <InnerBreadCrumb
         link="/services"
         service="Services"

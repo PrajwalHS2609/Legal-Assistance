@@ -1,10 +1,11 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import InnerBreadCrumb from "../../BreadCrumbs/InnerBreadCrumb";
-import DraftingAgreementImg from "./DraftingAgreementImg";
+import draftingImg from "./../../../Images/InnerServicesImgs/Property Registeration.png"
 import DraftingAgreementHead from "./DraftingAgreementHead";
 import DraftingAgreementService from "./DraftingAgreementService";
 import DraftingAgreementWhy from "./DraftingAgreementWhy";
+import ServiceLawImg from "../CivilLawPage/ServiceLawImg";
 
 const DraftingAgreement = () => {
   return (
@@ -23,7 +24,7 @@ const DraftingAgreement = () => {
           href="https://lawyersinbangalore.com/lawyers-for-property-registration-in-bangalore"
         />
       </Helmet>
-      <DraftingAgreementImg />
+      <ServiceLawImg img={draftingImg} alt={draftingImg} head="Property Registration"/>
       <InnerBreadCrumb
         link="/services"
         service="Services"

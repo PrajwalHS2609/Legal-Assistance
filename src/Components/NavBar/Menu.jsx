@@ -42,7 +42,7 @@ const Menu = () => {
           ></FontAwesomeIcon>
         </li>
         <li>
-          <Link onClick={hideSideBar} to={"/service"}>
+          <Link onClick={hideSideBar} to={"/services"}>
             Service
           </Link>
         </li>

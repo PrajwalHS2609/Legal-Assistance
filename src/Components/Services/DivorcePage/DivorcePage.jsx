@@ -7,9 +7,10 @@ import DivorceService from "./DivorceService";
 import DivorceImp from "./DivorceImp";
 import DivorceAssist from "./DivorceAssist";
 import { Helmet } from "react-helmet";
-import DivorceImg from "./DivorceImg";
+import divorceLawImg from "./../../../Images/InnerServicesImgs/Divorce & Family Court.png"
 import InnerBreadCrumb from "../../BreadCrumbs/InnerBreadCrumb";
 import DivorceMain from "./DivorceMain";
+import ServiceLawImg from "../CivilLawPage/ServiceLawImg";
 const DivorcePage = () => {
   return (
     <div className="divorcePageContainer">
@@ -26,7 +27,7 @@ const DivorcePage = () => {
           href="https://lawyersinbangalore.com/divorce-and-family-court-lawyers-in-bangalore"
         />
       </Helmet>
-      <DivorceImg />
+      <ServiceLawImg img={divorceLawImg} alt={divorceLawImg} head="Divorce & Family Court"/>
       <InnerBreadCrumb
         link="/services"
         service="Services"

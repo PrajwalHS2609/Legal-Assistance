@@ -1,10 +1,11 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
-import PropertyDocImg from './PropertyDocImg'
 import PropertyDocHead from './PropertyDocHead'
 import PropertyDocService from './PropertyDocService'
 import PropertyDocWhy from './PropertyDocWhy'
 import InnerBreadCrumb from '../../BreadCrumbs/InnerBreadCrumb'
+import ServiceLawImg from '../CivilLawPage/ServiceLawImg'
+import propertyDocImg from "./../../../Images/InnerServicesImgs/Property Document Verification.png"
 
 const PropertyDoc = () => {
   return (
@@ -21,7 +22,7 @@ const PropertyDoc = () => {
         href="https://lawyersinbangalore.com/property-document-verification-lawyers-in-bangalore"
       />
     </Helmet>
-    <PropertyDocImg/>
+    <ServiceLawImg img={propertyDocImg} alt={propertyDocImg} head="Property Document Verification"/>
     <InnerBreadCrumb
       link="/services"
       service="Services"

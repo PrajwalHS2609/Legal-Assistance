@@ -20,6 +20,7 @@ import DraftingAgreement from "./Components/Services/DraftingAgreement/DraftingA
 import PropertyDoc from "./Components/Services/PropertyDoc/PropertyDoc";
 import MarriageLaw from "./Components/Services/MarriageLaw/MarriageLaw";
 import ConsumerLaw from "./Components/Services/ConsumerLaw/ConsumerLaw";
+import ImmigrationLaw from "./Components/Services/ImmigrationLaw/ImmigrationLaw";
 const App = () => {
   return (
     <div>
@@ -76,6 +77,10 @@ const App = () => {
           <Route
             path="/consumer-court-lawyers-in-bangalore"
             element={<ConsumerLaw />}
+          />
+             <Route
+            path="/immigration-lawyers-in-bangalore"
+            element={<ImmigrationLaw />}
           />
           <Route path="/contact-us" element={<Contacts />} />
         </Routes>

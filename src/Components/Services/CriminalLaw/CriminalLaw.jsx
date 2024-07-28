@@ -3,8 +3,8 @@ import InnerBreadCrumb from "../../BreadCrumbs/InnerBreadCrumb";
 import CriminalLawMain from "./CriminalLawMain";
 import CriminalLawContent from "./CriminalLawContent";
 import { Helmet } from "react-helmet";
-import CriminalLawImg from "./CriminalLawImg";
-
+import ServiceLawImg from './../CivilLawPage/ServiceLawImg';
+import criminalLawImg from "./../../../Images/InnerServicesImgs/Criminal Law.png"
 const CriminalLaw = () => {
   return (
     <div className="civilLawPage">
@@ -21,7 +21,7 @@ const CriminalLaw = () => {
           href="https://lawyersinbangalore.com/criminal-lawyers-in-bangalore"
         />
       </Helmet>
-      <CriminalLawImg/>
+      <ServiceLawImg img={criminalLawImg} alt={criminalLawImg} head="Criminal Law"/>
       <InnerBreadCrumb
         link="/services"
         service="Services"

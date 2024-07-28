@@ -6,8 +6,8 @@ const AltDisputeNego = () => {
     <div className="altDisputeContainer">
       <h2>Negotiation Services in Bangalore</h2>{" "}
       <p>
-        Negotiation is a fundamental component of Alternative Dispute Resolution
-        (ADR) in Bangalore where parties engage directly with each other to
+        Negotiation is a fundamental component of <a href="https://lawyersinbangalore/alternative-dispute-resolution-in-bangalore">Alternative Dispute Resolution
+        (ADR) in Bangalore</a> where parties engage directly with each other to
         settle their differences. Effective negotiation requires strong
         communication skills, strategic thinking, and an understanding of each
         party's interests and objectives. At MM Associates, we provide expert

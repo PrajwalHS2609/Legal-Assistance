@@ -1,5 +1,5 @@
 import React from "react";
-import "./DivorcePage.css"
+import "./DivorcePage.css";
 
 const DivorceImp = () => {
   return (
@@ -9,11 +9,18 @@ const DivorceImp = () => {
       </h2>{" "}
       <p>
         Selecting the right legal representation is crucial in divorce and
-        family court matters. As a prominent Divorce Lawyer in Bangalore and
-        Family Court Lawyer in Bangalore, we bring a wealth of experience and a
-        track record of success to every case we handle. Our team is dedicated
-        to providing strategic legal solutions and achieving favorable outcomes
-        for our clients.
+        family court matters. As a prominent{" "}
+        <a href="https://lawyersinbangalore.com/divorce-and-family-court-lawyers-in-bangalore">
+          Divorce Lawyer in Bangalore
+        </a>{" "}
+        and
+        <a href="https://lawyersinbangalore.com/divorce-and-family-court-lawyers-in-bangalore">
+          {" "}
+          Family Court Lawyer in Bangalore
+        </a>
+        , we bring a wealth of experience and a track record of success to every
+        case we handle. Our team is dedicated to providing strategic legal
+        solutions and achieving favorable outcomes for our clients.
       </p>
       <p>
         We understand that each case is unique, and we tailor our approach to

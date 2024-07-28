@@ -39,7 +39,7 @@
 }
 .serviceTestimonialMain {
   /* border: solid blue; */
-  width: 70%;
+  width: 100%;
   padding: 10px;
   display: flex;
   justify-content: center;
@@ -50,6 +50,7 @@
 .serviceTestimonialCard {
   /* border: solid green; */
   width: 30%;
+  height: 100%;
   background-color: white;
 }
 .serviceTestimonialCardContent {
@@ -62,11 +63,11 @@
   align-items: center;
 }
 .serviceTestimonialCardContent > p {
-  font-size: 18px;
+  font-size: 15px;
   text-align: justify;
 }
 .serviceTestimonialCardItem > p {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bold;
 }
 .serviceTestimonialCardItem > img {

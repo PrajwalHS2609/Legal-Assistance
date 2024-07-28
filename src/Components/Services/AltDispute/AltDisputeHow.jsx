@@ -1,13 +1,16 @@
 import React from "react";
-import "./AltDispute.css"
+import "./AltDispute.css";
 const AltDisputeHow = () => {
   return (
     <div className="altDisputeContainer">
       <h2>How to Get Started with ADR Services</h2>{" "}
       <p>
-        If you are considering Alternative Dispute Resolution (ADR) in
-        Bangalore, MM Associates is here to help. Our team is ready to assist
-        you in exploring your options and determining the best approach for your
+        If you are considering{" "}
+        <a href="https://lawyersinbangalore/alternative-dispute-resolution-in-bangalore">
+          Alternative Dispute Resolution (ADR) in Bangalore
+        </a>
+        , MM Associates is here to help. Our team is ready to assist you in
+        exploring your options and determining the best approach for your
         situation. Contact us today to schedule a consultation and learn more
         about how our ADR services can benefit you.
       </p>

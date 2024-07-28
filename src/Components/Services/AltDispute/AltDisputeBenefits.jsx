@@ -16,7 +16,7 @@ const AltDisputeBenefits = () => {
       <li>
         <div className="altDisputeWhyIcon">
           {" "}
-          <img src={icon} alt="" />
+          <img src={icon} alt="icon" />
         </div>
         <div className="altDisputeList">
           <span> Experienced Professionals :</span>{" "}
@@ -31,7 +31,7 @@ const AltDisputeBenefits = () => {
       <li>
         <div className="altDisputeWhyIcon">
           {" "}
-          <img src={icon} alt="" />
+          <img src={icon} alt="icon" />
         </div>
         <div className="altDisputeList">
           <span> Client-Centered Approach:</span>{" "}
@@ -46,7 +46,7 @@ const AltDisputeBenefits = () => {
       <li>
         <div className="altDisputeWhyIcon">
           {" "}
-          <img src={icon} alt="" />
+          <img src={icon} alt="icon" />
         </div>
         <div className="altDisputeList">
           <span>Comprehensive Services:</span>{" "}
@@ -61,7 +61,7 @@ const AltDisputeBenefits = () => {
       <li>
         <div className="altDisputeWhyIcon">
           {" "}
-          <img src={icon} alt="" />
+          <img src={icon} alt="icon" />
         </div>
         <div className="altDisputeList">
           <span>Commitment to Fairness: </span>{" "}
@@ -75,7 +75,7 @@ const AltDisputeBenefits = () => {
       <li>
         <div className="altDisputeWhyIcon">
           {" "}
-          <img src={icon} alt="" />
+          <img src={icon} alt="icon" />
         </div>
         <div className="altDisputeList">
           <span> Efficient Resolution:</span>{" "}

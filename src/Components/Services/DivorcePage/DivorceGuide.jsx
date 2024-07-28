@@ -7,7 +7,7 @@ const DivorceGuide = () => {
       <h2>Expert Guidance as a Family Court Lawyer in Bangalore</h2>
       <p>
         Family court matters often involve sensitive issues that require careful
-        handling. As a seasoned Family Court Lawyer in Bangalore, we specialize
+        handling. As a seasoned <a href="https://lawyersinbangalore.com/divorce-and-family-court-lawyers-in-bangalore">Family Court Lawyer in Bangalore</a>, we specialize
         in providing comprehensive legal support for a range of family-related
         issues. Whether you are dealing with child custody disputes, domestic
         violence, or adoption, our expertise ensures that you receive the best

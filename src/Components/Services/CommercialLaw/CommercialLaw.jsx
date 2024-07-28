@@ -11,7 +11,8 @@ import CommercialLawEmployment from "./CommercialLawEmployment";
 import CommercialLawCommitment from "./CommercialLawCommitment";
 import { Helmet } from "react-helmet";
 import InnerBreadCrumb from "../../BreadCrumbs/InnerBreadCrumb";
-import CommercialLawImg from "./CommercialLawImg";
+import commercialLawImg from "./../../../Images/InnerServicesImgs/Commercial Law.png"
+import ServiceLawImg from "../CivilLawPage/ServiceLawImg";
 
 const CommercialLaw = () => {
   return (
@@ -30,7 +31,7 @@ const CommercialLaw = () => {
           href=" https://lawyersinbangalore.com/commercial-court-lawyers-in-bangalore"
         />
       </Helmet>
-      <CommercialLawImg />
+      <ServiceLawImg img={commercialLawImg} alt={commercialLawImg} head="Commercial Law"/>
       <InnerBreadCrumb
         link="/services"
         service="Services"

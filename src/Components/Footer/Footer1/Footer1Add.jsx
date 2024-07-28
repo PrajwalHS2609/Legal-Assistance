@@ -6,7 +6,6 @@ import {
   faEnvelope,
   faPhone,
 } from "@fortawesome/free-solid-svg-icons";
-import { Link } from "react-router-dom";
 import mmLogo from "./../../../Images/MM Associates Logo.png"
 const Footer1Add = () => {
   return (
@@ -31,7 +30,7 @@ const Footer1Add = () => {
               icon={faEnvelope}
               className="footerIcon"
             ></FontAwesomeIcon>
-            <Link to="/"> info@mmassociates.com</Link>
+            <a href="mailto:info@lawyersatbangalore.com">info@lawyersatbangalore.com</a>
           </li>
           <li>
             {" "}
@@ -39,7 +38,7 @@ const Footer1Add = () => {
               icon={faPhone}
               className="footerIcon"
             ></FontAwesomeIcon>
-            <Link to={"/"}>+91 1234567890</Link>
+            <a href="tel:">+91 1234567890</a>
           </li>
       </div>
     </div>

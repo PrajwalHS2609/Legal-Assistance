@@ -4,8 +4,8 @@ import ConsumerLawHead from "./ConsumerLawHead";
 import ConsumerLawRole from "./ConsumerLawRole";
 import ConsumerLawWhy from "./ConsumerLawWhy";
 import InnerBreadCrumb from "../../BreadCrumbs/InnerBreadCrumb";
-import ConsumerLawImg from "./ConsumerLawImg";
-
+import consumerLawImg from "./../../../Images/InnerServicesImgs/Consumer Law.png"
+import ServiceLawImg from "../CivilLawPage/ServiceLawImg";
 const ConsumerLaw = () => {
   return (
     <div className="civilLawPage">
@@ -16,14 +16,14 @@ const ConsumerLaw = () => {
         </title>
         <meta
           name="description"
-          content=": Consumer Court Lawyers in Bangalore. Our expertise in consumer law ensures that your rights are protected and that you receive the compensation and resolution you deserve."
+          content="Consumer Court Lawyers in Bangalore. Our expertise in consumer law ensures that your rights are protected and that you receive the compensation and resolution you deserve."
         />
         <link
           rel="canonical"
           href="https://lawyersinbangalore.com/consumer-court-lawyers-in-bangalore"
         />
       </Helmet>
-      <ConsumerLawImg />
+      <ServiceLawImg img={consumerLawImg} alt={consumerLawImg} head="Consumer Law"/>
       <InnerBreadCrumb
         link="/services"
         service="Services"

@@ -1,10 +1,11 @@
 import React from "react";
 import InnerBreadCrumb from "../../BreadCrumbs/InnerBreadCrumb";
 import { Helmet } from "react-helmet";
-import MarriageLawImg from "./MarriageLawImg";
 import MarriageLawHead from "./MarriageLawHead";
 import MarriageLawWhy from "./MarriageLawWhy";
 import MarriageLawService from "./MarriageLawService";
+import marriageLawImg from "./../../../Images/InnerServicesImgs/Court Marriage.png";
+import ServiceLawImg from "../CivilLawPage/ServiceLawImg";
 
 const MarriageLaw = () => {
   return (
@@ -17,21 +18,21 @@ const MarriageLaw = () => {
         <meta
           name="description"
           content="Property Document Verification Lawyers in Bangalore. This detailed guide will help you understand the importance of property document verification and how our expert team can assist you."
-        />import MarriageLawService from './MarriageLawService';
+        />
 
         <link
           rel="canonical"
           href="https://lawyersinbangalore.com/marriage-registration-lawyers-in-bangalore"
         />
       </Helmet>
-      <MarriageLawImg />
+      <ServiceLawImg img={marriageLawImg} alt={marriageLawImg} head="Court Marriage" />
       <InnerBreadCrumb
         link="/services"
         service="Services"
-        currService="Marriage Law"
+        currService="Court Marriage"
       />
       <MarriageLawHead />
-      <MarriageLawService/>
+      <MarriageLawService />
       <MarriageLawWhy />
     </div>
   );

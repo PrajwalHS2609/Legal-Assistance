@@ -27,7 +27,7 @@ const NotaryService = () => {
         />
         <link
           rel="canonical"
-          href="https://lawyersinbangalore.com/notary-services-in-bangalore  "
+          href="https://lawyersinbangalore.com/notary-services-in-bangalore"
         />
       </Helmet>
       <NotaryServiceImg />

@@ -3,7 +3,6 @@ import "./CivilLawPage.css";
 import CivilLawHead from "./CivilLawImg";
 import CivilLawMain from "./CivilLawMain";
 import InnerBreadCrumb from "../../BreadCrumbs/InnerBreadCrumb";
-// import CivilLawImg from "./CivilLawImg";
 import CivilLawConclusion from "./CivilLawConclusion";
 import CivilLawExpertise from "./CivilLawExpertise";
 import CivilLawPersonalized from "./CivilLawPersonalized";
@@ -14,6 +13,7 @@ import CivilConsumerProtection from "./CivilConsumerProtection";
 import CivilEmploymentLaw from "./CivilEmploymentLaw";
 import CivilTortLaw from "./CivilTortLaw";
 import { Helmet } from "react-helmet";
+import CivilLawImg from "./CivilLawImg";
 const CivilLawPage = () => {
   return (
     <div className="civilLawPage">
@@ -30,13 +30,13 @@ const CivilLawPage = () => {
           href="https://lawyersinbangalore.com/civil-lawyers-in-bangalore"
         />
       </Helmet>
-      {/* <CivilLawImg /> */}
-      <CivilLawHead />
+      <CivilLawImg />
       <InnerBreadCrumb
         link="/services"
         service="Services"
         currService="Civil Law"
       />
+      <CivilLawHead />
       <CivilLawMain />
       <CivilLawExpertise />
       <CivilLawPersonalized />

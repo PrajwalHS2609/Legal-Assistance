@@ -16,6 +16,10 @@ import NotaryService from "./Components/Services/NotaryService/NotaryService";
 import CommercialLaw from "./Components/Services/CommercialLaw/CommercialLaw";
 import HighCourt from "./Components/Services/HighCourt/HighCourt";
 import LabourLaw from "./Components/Services/LabourLaw/LabourLaw";
+import DraftingAgreement from "./Components/Services/DraftingAgreement/DraftingAgreement";
+import PropertyDoc from "./Components/Services/PropertyDoc/PropertyDoc";
+import MarriageLaw from "./Components/Services/MarriageLaw/MarriageLaw";
+import ConsumerLaw from "./Components/Services/ConsumerLaw/ConsumerLaw";
 const App = () => {
   return (
     <div>
@@ -56,6 +60,22 @@ const App = () => {
           <Route
             path="/labour-court-lawyers-in-bangalore"
             element={<LabourLaw />}
+          />
+          <Route
+            path="/lawyers-for-property-registration-in-bangalore"
+            element={<DraftingAgreement />}
+          />
+          <Route
+            path="/property-document-verification-lawyers-in-bangalore"
+            element={<PropertyDoc />}
+          />
+          <Route
+            path="/marriage-registration-lawyers-in-bangalore"
+            element={<MarriageLaw />}
+          />
+          <Route
+            path="/consumer-court-lawyers-in-bangalore"
+            element={<ConsumerLaw />}
           />
           <Route path="/contact-us" element={<Contacts />} />
         </Routes>

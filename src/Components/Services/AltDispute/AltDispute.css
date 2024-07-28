@@ -42,9 +42,9 @@
   text-align: justify;
   font-size: 20px;
 }
-.altDisputeContainer > p>a {
-text-decoration: none;
-color: var(--customGold);
+.altDisputeContainer > p > a {
+  text-decoration: none;
+  color: var(--customGold);
 }
 .altDisputeContainer > ul {
   display: flex;
@@ -57,8 +57,14 @@ color: var(--customGold);
   list-style: none;
   margin: 20px;
   font-size: 20px;
-  width: 80%;text-align: justify;
+  width: 80%;
+  text-align: justify;
 }
+.altDisputeContainer > ul > li > a {
+  color: var(--customGold);
+  text-decoration: none;
+}
+
 .altDisputeContainer > ul > li > img {
   width: 4%;
   height: auto;
@@ -80,8 +86,7 @@ color: var(--customGold);
   .altDisputeContainer > ul {
     width: 100%;
     justify-content: space-evenly;
-    align-items:flex-end;
-    
+    align-items: flex-end;
   }
   .altDisputeContainer > ul > li {
     width: 100%;

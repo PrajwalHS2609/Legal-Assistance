@@ -13,6 +13,7 @@ import servCorporate from "./../../../Images/Law Service Icons/Corporate_IPR_and
 import servDrafting from "./../../../Images/Law Service Icons/Drafting_Agreement_Deed___Documentation_Registration_of_Property.png";
 import servPropertyVerif from "./../../../Images/Law Service Icons/Property_Document_Verification.png";
 import servMarriage from "./../../../Images/Law Service Icons/Court_Marriage__Marriage_Registration.png";
+import immigrantBlack from "./../../../Images/ExpertiseImg/ImmigrationBlack.png";
 
 const MainService = () => {
   return (
@@ -84,26 +85,32 @@ const MainService = () => {
           icon={servDrafting}
           head="Drafting Agreement Deed & Documentation Registration of Property"
           para="Complete services for drafting agreements, documenting deeds, and registering properties, ensuring legal precision and compliance."
-          link="/"
+          link="/lawyers-for-property-registration-in-bangalore"
         />
         <ServiceCard
           icon={servPropertyVerif}
           head="Property Document Verification"
           para="Skilled legal defense for criminal charges, effectively safeguarding your rights and freedom."
-          link="/"
+          link="/property-document-verification-lawyers-in-bangalore"
         />
 
         <ServiceCard
           icon={servMarriage}
           head="Court Marriage/ Marriage Registration"
           para="Thorough legal representation and advocacy for intricate and high-stakes cases in the Supreme Court of Justice."
-          link="/"
+          link="/marriage-registration-lawyers-in-bangalore  "
         />
         <ServiceCard
           icon={servConsumer}
           head="Consumer Law"
           para="Specialized legal services for businesses, addressing all facets of Consumer law."
-          link="/"
+          link="/consumer-court-lawyers-in-bangalore"
+        />
+        <ServiceCard
+          icon={""}
+          head="Immigration Law"
+          para="Specialized legal services for businesses, addressing all facets of Consumer law."
+          link="/immigration-lawyers-in-bangalore"
         />
       </div>
     </div>

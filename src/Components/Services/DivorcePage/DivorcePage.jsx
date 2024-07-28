@@ -23,7 +23,7 @@ const DivorcePage = () => {
         />
         <link
           rel="canonical"
-          href="URL: https://lawyersinbangalore.com/divorce-and-family-court-lawyers-in-bangalore"
+          href="https://lawyersinbangalore.com/divorce-and-family-court-lawyers-in-bangalore"
         />
       </Helmet>
       <DivorceImg />
@@ -39,7 +39,6 @@ const DivorcePage = () => {
       <DivorceService />
       <DivorceImp />
       <DivorceAssist />
-      <DivorceMain />
     </div>
   );
 };

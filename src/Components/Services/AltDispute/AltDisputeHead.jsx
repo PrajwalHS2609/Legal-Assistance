@@ -9,7 +9,7 @@ const AltDisputeHead = () => {
         In the realm of legal conflicts, traditional courtroom litigation is not
         always the most effective or efficient method of resolving disputes. At
         MM Associates, we specialize in providing expert{" "}
-        <a href="https://lawyersinbangalore/alternative-dispute-resolution-in-bangalore">
+        <a href="https://lawyersinbangalore.com/alternative-dispute-resolution-in-bangalore">
           Alternative Dispute Resolution (ADR) in Bangalore
         </a>
         , offering a range of solutions designed to resolve conflicts outside
@@ -22,13 +22,13 @@ const AltDisputeHead = () => {
         Alternative Dispute Resolution (ADR) in Bangalore refers to various
         methods of resolving disputes without resorting to traditional
         litigation.{" "}
-        <a href="https://lawyersinbangalore/alternative-dispute-resolution-in-bangalore">
+        <a href="https://lawyersinbangalore.com/alternative-dispute-resolution-in-bangalore">
           ADR
         </a>{" "}
         includes techniques such as mediation, arbitration, and negotiation,
         which can provide quicker, more flexible, and cost-effective solutions
         to legal conflicts. At{" "}
-        <a href="https://lawyersinbangalore/">MM Associates</a>, our approach to
+        <a href="https://lawyersinbangalore.com/">MM Associates</a>, our approach to
         ADR is tailored to meet the unique needs of each case, ensuring that
         disputes are resolved efficiently and fairly.
       </p>

@@ -11,6 +11,7 @@ import HomeWhy from "./HomeWhy/HomeWhy";
 import HomeHeadContent from "./HomeHeadContent/HomeHeadContent";
 import { Helmet } from "react-helmet";
 import HomePractice from "./HomeHeadContent/HomePractice";
+import HomeContentRoles from "./HomeHeadContent/HomeContentRoles";
 
 const HomePage = () => {
   return (
@@ -27,13 +28,14 @@ const HomePage = () => {
       </Helmet>
       <HomeHeader />
       <HomeHeadContent />
-      <HomePractice/>
       <HomeExpertise />
       <HomeWhy />
       <HomeSupport />
       <HomeSolution />
       <HomeAbout />
       <HomeTestimonial />
+      <HomeContentRoles/>
+      <HomePractice/>
       <HomeFaq />
     </div>
   );

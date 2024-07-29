@@ -7,7 +7,7 @@ const AltDisputeWhy = () => {
     <div className="altDisputeContainer">
       <h2>Why Choose ADR Services in Bangalore?</h2>{" "}
       <p>
-        Opting for <a href="https://lawyersinbangalore/alternative-dispute-resolution-in-bangalore">Alternative Dispute Resolution (ADR) in Bangalore</a> offers
+        Opting for <a href="https://lawyersinbangalore.com/alternative-dispute-resolution-in-bangalore">Alternative Dispute Resolution (ADR) in Bangalore</a> offers
         several advantages over conventional litigation:
       </p>
       <ul>

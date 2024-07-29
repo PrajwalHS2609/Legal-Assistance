@@ -6,7 +6,7 @@ const AltDisputeHow = () => {
       <h2>How to Get Started with ADR Services</h2>{" "}
       <p>
         If you are considering{" "}
-        <a href="https://lawyersinbangalore/alternative-dispute-resolution-in-bangalore">
+        <a href="https://lawyersinbangalore.com/alternative-dispute-resolution-in-bangalore">
           Alternative Dispute Resolution (ADR) in Bangalore
         </a>
         , MM Associates is here to help. Our team is ready to assist you in

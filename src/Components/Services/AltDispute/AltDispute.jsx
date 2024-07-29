@@ -25,7 +25,7 @@ const AltDispute = () => {
         />
         <link
           rel="canonical"
-          href="https://lawyersinbangalore/alternative-dispute-resolution-in-bangalore"
+          href="https://lawyersinbangalore.com/alternative-dispute-resolution-in-bangalore"
         />
       </Helmet>
       <InnerBreadCrumb

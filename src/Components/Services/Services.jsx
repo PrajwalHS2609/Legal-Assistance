@@ -5,6 +5,8 @@ import MainService from "./MainServicePage/MainService";
 import HomeFaq from './../HomePage/HomeFaq/HomeFaq';
 import ServiceTestimonial from "./ServiceTestimonial/ServiceTestimonial";
 import BreadCrumbs from "../BreadCrumbs/BreadCrumbs";
+import HomeWhy from "../HomePage/HomeWhy/HomeWhy";
+import HomeTestimonial from "../HomePage/HomeTestimonial/HomeTestimonial";
 
 const Services = () => {
   return (
@@ -13,7 +15,9 @@ const Services = () => {
       <BreadCrumbs service="Services"/>
       <MainService/>
       <ServiceTestimonial/>
-      <HomeFaq/>
+      <HomeWhy />
+      <HomeTestimonial />
+      {/* <HomeFaq/> */}
     </div>
   );
 };

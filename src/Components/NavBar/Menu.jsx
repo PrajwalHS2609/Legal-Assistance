@@ -23,7 +23,6 @@ const Menu = () => {
         <Link to={"/services"}>Services</Link>
       </li>
       <li>About Us</li>
-      <li>Careers</li>
       <li><Link to="/contact-us">Contact Us</Link></li>{" "}
       <FontAwesomeIcon
         icon={faBarsStaggered}
@@ -47,7 +46,6 @@ const Menu = () => {
           </Link>
         </li>
         <li>About Us</li>
-        <li>Careers</li>
         <li><Link to="/contact-us">Contact Us</Link></li>
       </div>
     </div>

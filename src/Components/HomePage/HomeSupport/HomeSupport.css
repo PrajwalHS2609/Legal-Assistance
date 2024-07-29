@@ -146,6 +146,10 @@
   box-shadow: 5px 5px 0px #a87e55;
   transition: 200ms ease-in-out;
 }
+.accPanel > p > button > a {
+  text-decoration: none;
+  color: white;
+}
 .accPanel > p > button:hover {
   background-color: #a87e55;
   box-shadow: none;

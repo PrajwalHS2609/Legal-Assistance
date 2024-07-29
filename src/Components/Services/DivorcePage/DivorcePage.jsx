@@ -11,6 +11,8 @@ import divorceLawImg from "./../../../Images/InnerServicesImgs/Divorce & Family 
 import InnerBreadCrumb from "../../BreadCrumbs/InnerBreadCrumb";
 import DivorceMain from "./DivorceMain";
 import ServiceLawImg from "../CivilLawPage/ServiceLawImg";
+import HomeWhy from "../../HomePage/HomeWhy/HomeWhy";
+import HomeTestimonial from "../../HomePage/HomeTestimonial/HomeTestimonial";
 const DivorcePage = () => {
   return (
     <div className="divorcePageContainer">
@@ -40,6 +42,8 @@ const DivorcePage = () => {
       <DivorceService />
       <DivorceImp />
       <DivorceAssist />
+      <HomeWhy />
+      <HomeTestimonial />
     </div>
   );
 };

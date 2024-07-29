@@ -17,6 +17,7 @@ import business from "./../../../Images/SupportImg/Business Legal Advisor.png";
 import dispute from "./../../../Images/SupportImg/Intellectual Property Rights.png";
 import "aos/dist/aos.css";
 import AOS from "aos";
+import { Link } from "react-router-dom";
 const HomeSupportMain = () => {
   useEffect(() => {
     AOS.init({
@@ -45,7 +46,7 @@ const HomeSupportMain = () => {
               real estate transactions. Our knowledgeable team ensures smooth
               and secure dealings, guiding you through the legal complexities of
               purchasing or selling property to achieve the best results.
-              <button>Know More</button>
+              <button><Link to={"/"}>Know More</Link></button>
             </p>
           </AccordionItemPanel>
         </AccordionItem>
@@ -68,7 +69,7 @@ const HomeSupportMain = () => {
               provides expert legal advice and representation to ensure fair
               settlements and protect your rights throughout the divorce
               process.
-              <button>Know More</button>
+              <button><Link to={"/divorce-and-family-court-lawyers-in-bangalore"}>Know More</Link></button>
             </p>
           </AccordionItemPanel>
         </AccordionItem>
@@ -90,7 +91,7 @@ const HomeSupportMain = () => {
               seasoned professionals offer strategic advice to ensure
               compliance, mitigate risks, and support your business growth and
               success.
-              <button>Know More</button>
+              <button><Link>Know More</Link></button>
             </p>
           </AccordionItemPanel>
         </AccordionItem>
@@ -113,7 +114,7 @@ const HomeSupportMain = () => {
               securing and enforcing patents, trademarks, copyrights, and trade
               secrets, ensuring your intellectual property is safeguarded and
               leveraged effectively.
-              <button>Know More</button>
+              <button><Link>Know More</Link></button>
             </p>
           </AccordionItemPanel>
         </AccordionItem>

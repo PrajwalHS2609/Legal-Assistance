@@ -6,13 +6,15 @@ import ConsumerLawWhy from "./ConsumerLawWhy";
 import InnerBreadCrumb from "../../BreadCrumbs/InnerBreadCrumb";
 import consumerLawImg from "./../../../Images/InnerServicesImgs/Consumer Law.png"
 import ServiceLawImg from "../CivilLawPage/ServiceLawImg";
+import HomeWhy from "../../HomePage/HomeWhy/HomeWhy";
+import HomeTestimonial from "../../HomePage/HomeTestimonial/HomeTestimonial";
 const ConsumerLaw = () => {
   return (
     <div className="civilLawPage">
       <Helmet>
         <title>
           Consumer Court Lawyers in Bangalore | Consumer Court Advocates in
-          BangaloreF{" "}
+          Bangalore{" "}
         </title>
         <meta
           name="description"
@@ -32,6 +34,8 @@ const ConsumerLaw = () => {
       <ConsumerLawHead />
       <ConsumerLawRole />
       <ConsumerLawWhy />
+      <HomeWhy />
+      <HomeTestimonial />
     </div>
   );
 };

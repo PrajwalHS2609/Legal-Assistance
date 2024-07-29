@@ -17,6 +17,7 @@ const HomeHeaderSlider = () => {
             quote="CONSUMER COURT"
             head="Top Consumer Rights Champions"
             para="We are dedicated to defending your rights. With extensive expertise in consumer law, we provide strong, effective representation to ensure justice is served. Trust us to handle your consumer disputes with professionalism and commitment."
+            link="/consumer-court-lawyers-in-bangalore"
           />
 
           <img src={header1} alt="header1" />
@@ -26,6 +27,7 @@ const HomeHeaderSlider = () => {
             quote="LABOUR COURT"
             head="Elite Labour Law Advocates"
             para="We offer expert legal representation for all labour and employment issues. Our dedicated team ensures your rights are protected with professionalism and precision."
+            link="/labour-court-lawyers-in-bangalore"
           />
 
           <img src={header2} alt="header2" />
@@ -33,8 +35,9 @@ const HomeHeaderSlider = () => {
         <Carousel.Item className="carouselItem" interval={3000}>
           <HomeHeaderTxt
             quote="CIVIL COURT"
-            head="Expert Legal Support And Justice"
+            head="Premier Civil Litigation Experts"
             para="Providing expert legal support, we are dedicated to delivering justice for our clients. Our experienced team offers professional, reliable guidance to navigate complex legal issues and achieve the best outcomes."
+            link="/civil-lawyers-in-bangalore"
           />
 
           <img src={header3} alt="header3" />
@@ -44,8 +47,9 @@ const HomeHeaderSlider = () => {
             {" "}
             <HomeHeaderTxt
               quote="FAMILY COURT"
-              head="Premier Civil Litigation Experts"
+              head="Expert Family and Divorce Legal Services"
               para="We offer exceptional legal representation for all civil matters. With a focus on achieving justice and tailored solutions, trust our dedicated team to handle your case with expertise and precision."
+              link="/divorce-and-family-court-lawyers-in-bangalore"
             />
           </div>
           <img src={divorce} alt="divorce" />
@@ -57,6 +61,7 @@ const HomeHeaderSlider = () => {
               quote=" MAGISTRATE COURT"
               head="Top-Notch Criminal Defense Attorneys"
               para="We deliver outstanding legal representation to safeguard your rights. With vast experience and a dedication to justice, we provide a strong defense tailored to your specific case. Rely on our expertise and commitment for all your criminal legal needs."
+              link="/criminal-lawyers-in-bangalore"
             />
           </div>
           <img src={criminal} alt="criminal" />

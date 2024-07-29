@@ -73,6 +73,15 @@
 .serviceTestimonialCardItem > img {
   width: 60px;
 }
+.serviceTestimonialMain > p {
+  color: white;
+  font-size: 20px;
+}
+.serviceTestimonialMain > p > a {
+  text-decoration: none;
+  color: var(--customGold);
+}
+
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .serviceTestimonialContainer {
     /* border: solid red; */

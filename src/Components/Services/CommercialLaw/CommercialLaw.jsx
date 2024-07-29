@@ -13,6 +13,8 @@ import { Helmet } from "react-helmet";
 import InnerBreadCrumb from "../../BreadCrumbs/InnerBreadCrumb";
 import commercialLawImg from "./../../../Images/InnerServicesImgs/Commercial Law.png"
 import ServiceLawImg from "../CivilLawPage/ServiceLawImg";
+import HomeWhy from "../../HomePage/HomeWhy/HomeWhy";
+import HomeTestimonial from "../../HomePage/HomeTestimonial/HomeTestimonial";
 
 const CommercialLaw = () => {
   return (
@@ -47,6 +49,8 @@ const CommercialLaw = () => {
       <CommercialLawRealEstate />
       <CommercialLawEmployment />
       <CommercialLawCommitment />
+      <HomeWhy />
+      <HomeTestimonial />
     </div>
   );
 };

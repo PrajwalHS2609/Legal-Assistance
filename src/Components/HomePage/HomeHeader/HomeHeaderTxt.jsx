@@ -1,5 +1,6 @@
 import React from "react";
 import "./HomeHeader.css";
+import { Link } from "react-router-dom";
 const HomeHeaderTxt = (props) => {
   return (
     <div className="homeHeaderTxtContainer">
@@ -15,7 +16,7 @@ const HomeHeaderTxt = (props) => {
            {props.para}
           </p>
         </div>
-        <button>Get Started</button>
+        <button><Link to={props.link}>Get Started</Link></button>
       </div>
     </div>
   );

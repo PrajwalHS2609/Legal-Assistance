@@ -11,6 +11,8 @@ import AltDisputeWhy from "./AltDisputeWhy/AltDisputeWhy";
 import AltDisputeMain from "./AltDisputeMain";
 import altDisputeImg from "./../../../Images/InnerServicesImgs/Alternative Dispute Resolution.png"
 import ServiceLawImg from "../CivilLawPage/ServiceLawImg";
+import HomeWhy from "../../HomePage/HomeWhy/HomeWhy";
+import HomeTestimonial from "../../HomePage/HomeTestimonial/HomeTestimonial";
 
 const AltDispute = () => {
   return (
@@ -43,6 +45,8 @@ const AltDispute = () => {
       <AltDisputeNego />
       <AltDisputeBenefits />
       <AltDisputeHow />
+      <HomeWhy />
+      <HomeTestimonial />
     </div>
   );
 };

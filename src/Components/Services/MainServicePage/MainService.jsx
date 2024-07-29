@@ -19,7 +19,9 @@ const MainService = () => {
   return (
     <div className="mainServiceContainer">
       <div className="mainServiceContent1">
-        <h2>What Services We Provide</h2>
+        <h1>
+          Lawyers Services in Bangalore at <span>MM Associates</span>
+        </h1>
         <p>
           We offer comprehensive legal services, including consultation,
           representation, and guidance, ensuring effective and efficient

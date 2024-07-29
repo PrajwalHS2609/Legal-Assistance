@@ -21,21 +21,23 @@ const MarriageLaw = () => {
         <meta
           name="description"
           content="Property Document Verification Lawyers in Bangalore. This detailed guide will help you understand the importance of property document verification and how our expert team can assist you."
-        />import MarriageLawMain from './MarriageLawMain';
-
-
+        />
         <link
           rel="canonical"
           href="https://lawyersinbangalore.com/marriage-registration-lawyers-in-bangalore"
         />
       </Helmet>
-      <ServiceLawImg img={marriageLawImg} alt="marriageLawImg" head="Court Marriage" />
+      <ServiceLawImg
+        img={marriageLawImg}
+        alt="marriageLawImg"
+        head="Court Marriage"
+      />
       <InnerBreadCrumb
         link="/services"
         service="Services"
         currService="Court Marriage"
       />
-<MarriageLawMain/>
+      <MarriageLawMain />
       <MarriageLawHead />
       <MarriageLawService />
       <MarriageLawWhy />

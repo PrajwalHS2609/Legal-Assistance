@@ -6,6 +6,8 @@ import MarriageLawWhy from "./MarriageLawWhy";
 import MarriageLawService from "./MarriageLawService";
 import marriageLawImg from "./../../../Images/InnerServicesImgs/Court Marriage.png";
 import ServiceLawImg from "../CivilLawPage/ServiceLawImg";
+import HomeWhy from "../../HomePage/HomeWhy/HomeWhy";
+import HomeTestimonial from "../../HomePage/HomeTestimonial/HomeTestimonial";
 
 const MarriageLaw = () => {
   return (
@@ -25,7 +27,7 @@ const MarriageLaw = () => {
           href="https://lawyersinbangalore.com/marriage-registration-lawyers-in-bangalore"
         />
       </Helmet>
-      <ServiceLawImg img={marriageLawImg} alt={marriageLawImg} head="Court Marriage" />
+      <ServiceLawImg img={marriageLawImg} alt="marriageLawImg" head="Court Marriage" />
       <InnerBreadCrumb
         link="/services"
         service="Services"
@@ -34,6 +36,8 @@ const MarriageLaw = () => {
       <MarriageLawHead />
       <MarriageLawService />
       <MarriageLawWhy />
+      <HomeWhy />
+      <HomeTestimonial />
     </div>
   );
 };

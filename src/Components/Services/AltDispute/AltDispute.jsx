@@ -30,7 +30,7 @@ const AltDispute = () => {
           href="https://lawyersinbangalore/alternative-dispute-resolution-in-bangalore"
         />
       </Helmet>
-      <ServiceLawImg img={altDisputeImg} alt={altDisputeImg} head="Alternative Dispute Resolution"/>
+      <ServiceLawImg img={altDisputeImg} alt="altDisputeImg" head="Alternative Dispute Resolution"/>
       <InnerBreadCrumb
         link="/services"
         service="Services"

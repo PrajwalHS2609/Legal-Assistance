@@ -14,6 +14,8 @@ import NotaryServiceUnderstanding from "./NotaryServiceUnderstanding";
 import { Helmet } from "react-helmet";
 import notaryServiceImg from "./../../../Images/InnerServicesImgs/Notary Services.png"
 import ServiceLawImg from './../CivilLawPage/ServiceLawImg';
+import HomeWhy from "../../HomePage/HomeWhy/HomeWhy";
+import HomeTestimonial from "../../HomePage/HomeTestimonial/HomeTestimonial";
 
 const NotaryService = () => {
   return (
@@ -31,7 +33,7 @@ const NotaryService = () => {
           href="https://lawyersinbangalore.com/notary-services-in-bangalore"
         />
       </Helmet>
-      <ServiceLawImg img={notaryServiceImg} alt={notaryServiceImg} head="Notary Services"/>
+      <ServiceLawImg img={notaryServiceImg} alt="notaryServiceImg" head="Notary Services"/>
       <InnerBreadCrumb
         link="/services"
         service="Services"
@@ -48,6 +50,8 @@ const NotaryService = () => {
       <NotaryServiceChoose />
       <NotaryServiceRole />
       <NotaryServiceEnsuring />
+      <HomeWhy />
+      <HomeTestimonial />
     </div>
   );
 };

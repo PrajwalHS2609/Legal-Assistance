@@ -194,7 +194,7 @@
     text-align: justify;
   }
   .homeSolutionCardPara {
-    border: solid;
+    /* border: solid; */
     width: 80%;
   }
 }

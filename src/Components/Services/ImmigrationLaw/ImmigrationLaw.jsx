@@ -6,6 +6,8 @@ import InnerBreadCrumb from "./../../BreadCrumbs/InnerBreadCrumb";
 import { Helmet } from "react-helmet";
 import immigrationLawImg from "./../../../Images/HeaderImg/HeaderImg3.jpg"
 import ServiceLawImg from './../CivilLawPage/ServiceLawImg';
+import HomeWhy from "../../HomePage/HomeWhy/HomeWhy";
+import HomeTestimonial from "../../HomePage/HomeTestimonial/HomeTestimonial";
 
 const ImmigrationLaw = () => {
   return (
@@ -23,7 +25,7 @@ const ImmigrationLaw = () => {
           href="https://lawyersinbangalore.com/immigration-lawyers-in-bangalore"
         />
       </Helmet>
-      <ServiceLawImg img={immigrationLawImg} alt={immigrationLawImg} head="Immigration Law"/>
+      <ServiceLawImg img={immigrationLawImg} alt="immigrationLawImg" head="Immigration Law"/>
       <InnerBreadCrumb
         link="/services"
         service="Services"
@@ -32,6 +34,8 @@ const ImmigrationLaw = () => {
       <ImmigrationLawHead />
       <ImmigrationLawService />
       <ImmigrationLawWhy />
+      <HomeWhy />
+      <HomeTestimonial />
     </div>
   );
 };

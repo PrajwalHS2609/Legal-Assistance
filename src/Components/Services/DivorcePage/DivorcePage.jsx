@@ -29,7 +29,7 @@ const DivorcePage = () => {
           href="https://lawyersinbangalore.com/divorce-and-family-court-lawyers-in-bangalore"
         />
       </Helmet>
-      <ServiceLawImg img={divorceLawImg} alt={divorceLawImg} head="Divorce & Family Court"/>
+      <ServiceLawImg img={divorceLawImg} alt="divorceLawImg" head="Divorce & Family Court"/>
       <InnerBreadCrumb
         link="/services"
         service="Services"

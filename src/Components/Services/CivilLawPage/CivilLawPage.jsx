@@ -33,7 +33,7 @@ const CivilLawPage = () => {
           href="https://lawyersinbangalore.com/civil-lawyers-in-bangalore"
         />
       </Helmet>
-      <ServiceLawImg img={civilLawImg} alt={civilLawImg} head="Civil Law"/>
+      <ServiceLawImg img={civilLawImg} alt="civilLawImg" head="Civil Law"/>
       <InnerBreadCrumb
         link="/services"
         service="Services"

@@ -6,6 +6,8 @@ import DraftingAgreementHead from "./DraftingAgreementHead";
 import DraftingAgreementService from "./DraftingAgreementService";
 import DraftingAgreementWhy from "./DraftingAgreementWhy";
 import ServiceLawImg from "../CivilLawPage/ServiceLawImg";
+import HomeWhy from "../../HomePage/HomeWhy/HomeWhy";
+import HomeTestimonial from "../../HomePage/HomeTestimonial/HomeTestimonial";
 
 const DraftingAgreement = () => {
   return (
@@ -24,7 +26,7 @@ const DraftingAgreement = () => {
           href="https://lawyersinbangalore.com/lawyers-for-property-registration-in-bangalore"
         />
       </Helmet>
-      <ServiceLawImg img={draftingImg} alt={draftingImg} head="Property Registration"/>
+      <ServiceLawImg img={draftingImg} alt="draftingImg" head="Property Registration"/>
       <InnerBreadCrumb
         link="/services"
         service="Services"
@@ -33,6 +35,8 @@ const DraftingAgreement = () => {
       <DraftingAgreementHead />
       <DraftingAgreementService />
       <DraftingAgreementWhy />
+      <HomeWhy/>
+      <HomeTestimonial />
     </div>
   );
 };

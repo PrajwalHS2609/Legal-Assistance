@@ -6,6 +6,8 @@ import InnerBreadCrumb from "../../BreadCrumbs/InnerBreadCrumb";
 import { Helmet } from "react-helmet";
 import labourLaw from "./../../../Images/InnerServicesImgs/Labour Law.png"
 import ServiceLawImg from "../CivilLawPage/ServiceLawImg";
+import HomeWhy from "../../HomePage/HomeWhy/HomeWhy";
+import HomeTestimonial from "../../HomePage/HomeTestimonial/HomeTestimonial";
 
 const LabourLaw = () => {
   return (
@@ -24,7 +26,7 @@ const LabourLaw = () => {
           href="https://lawyersinbangalore.com/labour-court-lawyers-in-bangalore"
         />
       </Helmet>
-      <ServiceLawImg img={labourLaw} alt={labourLaw} head="Labour Law"/>
+      <ServiceLawImg img={labourLaw} alt="labourLaw" head="Labour Law"/>
       <InnerBreadCrumb
         link="/services"
         service="Services"
@@ -33,6 +35,8 @@ const LabourLaw = () => {
       <LabourLawHead />
       <LabourLawService />
       <LabourLawCommitment />
+      <HomeWhy />
+      <HomeTestimonial />
     </div>
   );
 };

@@ -14,7 +14,7 @@ const Services = () => {
       <ServiceHeader />
       <BreadCrumbs service="Services"/>
       <MainService/>
-      <ServiceTestimonial/>
+      {/* <ServiceTestimonial/> */}
       <HomeWhy />
       <HomeTestimonial />
       {/* <HomeFaq/> */}

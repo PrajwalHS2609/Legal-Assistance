@@ -21,6 +21,7 @@ import PropertyDoc from "./Components/Services/PropertyDoc/PropertyDoc";
 import MarriageLaw from "./Components/Services/MarriageLaw/MarriageLaw";
 import ConsumerLaw from "./Components/Services/ConsumerLaw/ConsumerLaw";
 import ImmigrationLaw from "./Components/Services/ImmigrationLaw/ImmigrationLaw";
+import AboutUs from "./Components/AboutUs/AboutUs";
 const App = () => {
   return (
     <div>
@@ -78,10 +79,11 @@ const App = () => {
             path="/consumer-court-lawyers-in-bangalore"
             element={<ConsumerLaw />}
           />
-             <Route
+          <Route
             path="/immigration-lawyers-in-bangalore"
             element={<ImmigrationLaw />}
           />
+          <Route path="/about-us" element={<AboutUs />} />
           <Route path="/contact-us" element={<Contacts />} />
         </Routes>
         <Footer />

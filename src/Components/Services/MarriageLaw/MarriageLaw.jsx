@@ -8,6 +8,7 @@ import marriageLawImg from "./../../../Images/InnerServicesImgs/Court Marriage.p
 import ServiceLawImg from "../CivilLawPage/ServiceLawImg";
 import HomeWhy from "../../HomePage/HomeWhy/HomeWhy";
 import HomeTestimonial from "../../HomePage/HomeTestimonial/HomeTestimonial";
+import MarriageLawMain from "./MarriageLawMain";
 
 const MarriageLaw = () => {
   return (
@@ -20,7 +21,8 @@ const MarriageLaw = () => {
         <meta
           name="description"
           content="Property Document Verification Lawyers in Bangalore. This detailed guide will help you understand the importance of property document verification and how our expert team can assist you."
-        />
+        />import MarriageLawMain from './MarriageLawMain';
+
 
         <link
           rel="canonical"
@@ -33,6 +35,7 @@ const MarriageLaw = () => {
         service="Services"
         currService="Court Marriage"
       />
+<MarriageLawMain/>
       <MarriageLawHead />
       <MarriageLawService />
       <MarriageLawWhy />

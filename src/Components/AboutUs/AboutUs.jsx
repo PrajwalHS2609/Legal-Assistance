@@ -1,6 +1,6 @@
 import React from "react";
 import ServiceLawImg from "../Services/CivilLawPage/ServiceLawImg";
-import aboutUsImg from "./../../Images/InnerServicesImgs/Property Document Verification.png"
+import aboutUsImg from "./../../Images/AboutUs.png"
 import "./AboutUs.css"
 import AboutUsMain from "./AboutUsMain";
 import HomeWhy from "../HomePage/HomeWhy/HomeWhy";

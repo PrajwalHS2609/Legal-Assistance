@@ -109,7 +109,7 @@ const MainService = () => {
         <ServiceCard
           icon={servImmigration}
           head="Immigration Law"
-          para="Specialized legal services for businesses, addressing all facets of Consumer law."
+          para="Specialized legal services for businesses, addressing all aspects of immigration law."
           link="/immigration-lawyers-in-bangalore"
         />
       </div>

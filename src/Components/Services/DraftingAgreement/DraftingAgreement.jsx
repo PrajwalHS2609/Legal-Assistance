@@ -1,13 +1,14 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import InnerBreadCrumb from "../../BreadCrumbs/InnerBreadCrumb";
-import draftingImg from "./../../../Images/InnerServicesImgs/Property Registeration.png"
+import draftingImg from "./../../../Images/InnerServicesImgs/Property Registeration.png";
 import DraftingAgreementHead from "./DraftingAgreementHead";
 import DraftingAgreementService from "./DraftingAgreementService";
 import DraftingAgreementWhy from "./DraftingAgreementWhy";
 import ServiceLawImg from "../CivilLawPage/ServiceLawImg";
 import HomeWhy from "../../HomePage/HomeWhy/HomeWhy";
 import HomeTestimonial from "../../HomePage/HomeTestimonial/HomeTestimonial";
+import DraftingAgreementMain from "./DraftingAgreementMain";
 
 const DraftingAgreement = () => {
   return (
@@ -26,16 +27,21 @@ const DraftingAgreement = () => {
           href="https://lawyersinbangalore.com/lawyers-for-property-registration-in-bangalore"
         />
       </Helmet>
-      <ServiceLawImg img={draftingImg} alt="draftingImg" head="Property Registration"/>
+      <ServiceLawImg
+        img={draftingImg}
+        alt="draftingImg"
+        head="Property Registration"
+      />
       <InnerBreadCrumb
         link="/services"
         service="Services"
         currService="Property Registration"
       />
+      <DraftingAgreementMain />
       <DraftingAgreementHead />
       <DraftingAgreementService />
       <DraftingAgreementWhy />
-      <HomeWhy/>
+      <HomeWhy />
       <HomeTestimonial />
     </div>
   );

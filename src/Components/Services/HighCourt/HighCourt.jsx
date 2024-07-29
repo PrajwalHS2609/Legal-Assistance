@@ -12,6 +12,7 @@ import ServiceLawImg from "../CivilLawPage/ServiceLawImg";
 import highCourtImg from "./../../../Images/InnerServicesImgs/High Court Matters.png"
 import HomeWhy from "../../HomePage/HomeWhy/HomeWhy";
 import HomeTestimonial from "../../HomePage/HomeTestimonial/HomeTestimonial";
+import HighCourtMain from './HighCourtMain';
 
 const HighCourt = () => {
   return (
@@ -36,6 +37,7 @@ const HighCourt = () => {
         service="Services"
         currService="High Court Matters"
       />
+      <HighCourtMain/>
       <HighCourtHead />
       <HighCourtCivil />
       <HighCourtCriminal />

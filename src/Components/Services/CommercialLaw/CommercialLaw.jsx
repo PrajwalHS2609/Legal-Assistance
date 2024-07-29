@@ -15,6 +15,7 @@ import commercialLawImg from "./../../../Images/InnerServicesImgs/Commercial Law
 import ServiceLawImg from "../CivilLawPage/ServiceLawImg";
 import HomeWhy from "../../HomePage/HomeWhy/HomeWhy";
 import HomeTestimonial from "../../HomePage/HomeTestimonial/HomeTestimonial";
+import CommercialLawMain from "./CommercialLawMain";
 
 const CommercialLaw = () => {
   return (
@@ -39,6 +40,7 @@ const CommercialLaw = () => {
         service="Services"
         currService="Commercial Law"
       />
+      <CommercialLawMain/>
       <CommercialLawHead />
       <CommercialLawTypes />
       <CommercialLawPersonalized />

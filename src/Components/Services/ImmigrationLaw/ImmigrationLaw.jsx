@@ -4,14 +4,14 @@ import ImmigrationLawService from "./ImmigrationLawService";
 import ImmigrationLawWhy from "./ImmigrationLawWhy";
 import InnerBreadCrumb from "./../../BreadCrumbs/InnerBreadCrumb";
 import { Helmet } from "react-helmet";
-import immigrationLawImg from "./../../../Images/HeaderImg/HeaderImg3.jpg"
+import immigrationLawImg from "./../../../Images/InnerServicesImgs/ImmigrationLaw.png"
 import ServiceLawImg from './../CivilLawPage/ServiceLawImg';
 import HomeWhy from "../../HomePage/HomeWhy/HomeWhy";
 import HomeTestimonial from "../../HomePage/HomeTestimonial/HomeTestimonial";
 
 const ImmigrationLaw = () => {
   return (
-    <div className="civilLawPage">
+    <div className="">
       <Helmet>
         <title>
           Immigration Lawyers in Bangalore | Immigration Attorneys in Bangalore{" "}

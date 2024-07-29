@@ -3,12 +3,13 @@ import "./HomeAbout.css";
 import HomeAboutHead from "./HomeAboutHead";
 import HomeAboutMain from "./HomeAboutMain";
 import HomeAboutFooter from "./HomeAboutFooter";
-import aboutUsImg from "./../../../Images/AboutUsImg.png";
+import aboutUsImg from "./../../../Images/AboutUs.png";
+import ServiceLawImg from "../../Services/CivilLawPage/ServiceLawImg";
 
 const HomeAbout = () => {
   return (
     <div className="homeAboutContainer">
-      <img src={aboutUsImg} alt="aboutUsImg" />
+      <ServiceLawImg img={aboutUsImg} alt="aboutUsImg" head="Alternative Dispute Resolution"/>
       <div className="homeAboutCover">
         <HomeAboutHead />
         <HomeAboutMain />

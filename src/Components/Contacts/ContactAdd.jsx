@@ -34,7 +34,7 @@ const ContactAdd = () => {
               icon={faEnvelope}
               className="footerIcon"
             ></FontAwesomeIcon>{" "}
-            info@mmassociates.com{" "}
+            info@lawyersatbangalore.com{" "}
           </li>
           <li>
             {" "}

@@ -1,4 +1,4 @@
-import React from "react";
+  import React from "react";
 import "../Footer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
@@ -28,7 +28,7 @@ const Footer1Menu = () => {
             icon={faChevronRight}
             className="footerIcon"
           ></FontAwesomeIcon>
-          <Link>About Us</Link>
+          <Link to={"/about-us"}>About Us</Link>
         </li>
         <li>
           {" "}

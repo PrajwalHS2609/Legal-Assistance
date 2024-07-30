@@ -9,7 +9,7 @@ import ServiceLawImg from "../../Services/CivilLawPage/ServiceLawImg";
 const HomeAbout = () => {
   return (
     <div className="homeAboutContainer">
-      <ServiceLawImg img={aboutUsImg} alt="aboutUsImg" head="Alternative Dispute Resolution"/>
+      <ServiceLawImg img={aboutUsImg} alt="aboutUsImg" head=""/>
       <div className="homeAboutCover">
         <HomeAboutHead />
         <HomeAboutMain />

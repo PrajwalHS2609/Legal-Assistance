@@ -14,36 +14,30 @@ const Footer1Service = () => {
             icon={faChevronRight}
             className="footerIcon"
           ></FontAwesomeIcon>
-          <Link>Family Law</Link>
+          <Link to={"/divorce-and-family-court-lawyers-in-bangalore"}>
+            Family Law
+          </Link>
         </li>
         <li>
           <FontAwesomeIcon
             icon={faChevronRight}
             className="footerIcon"
           ></FontAwesomeIcon>
-          <Link>Criminal Law</Link>
+          <Link to={"/criminal-lawyers-in-bangalore"}>Criminal Law</Link>
         </li>
         <li>
           <FontAwesomeIcon
             icon={faChevronRight}
             className="footerIcon"
           ></FontAwesomeIcon>
-          <Link>Civil Law</Link>
+          <Link to={"/civil-lawyers-in-bangalore"}>Civil Law</Link>
         </li>
         <li>
           <FontAwesomeIcon
             icon={faChevronRight}
             className="footerIcon"
           ></FontAwesomeIcon>
-          <Link>Employment Law</Link>
-        </li>
-        <li>
-          {" "}
-          <FontAwesomeIcon
-            icon={faChevronRight}
-            className="footerIcon"
-          ></FontAwesomeIcon>
-          <Link>Estate law</Link>
+          <Link to={"/labour-court-lawyers-in-bangalore"}>Employment Law</Link>
         </li>
         <li>
           {" "}
@@ -51,7 +45,9 @@ const Footer1Service = () => {
             icon={faChevronRight}
             className="footerIcon"
           ></FontAwesomeIcon>
-          <Link>Consumer law</Link>
+          <Link to={"/lawyers-for-property-registration-in-bangalore"}>
+            Estate law
+          </Link>
         </li>
         <li>
           {" "}
@@ -59,7 +55,7 @@ const Footer1Service = () => {
             icon={faChevronRight}
             className="footerIcon"
           ></FontAwesomeIcon>
-          <Link>Immigration law</Link>
+          <Link to={"/consumer-court-lawyers-in-bangalore"}>Consumer law</Link>
         </li>
         <li>
           {" "}
@@ -67,7 +63,17 @@ const Footer1Service = () => {
             icon={faChevronRight}
             className="footerIcon"
           ></FontAwesomeIcon>
-          <Link>Commercial law</Link>
+          <Link to={"/immigration-lawyers-in-bangalore"}>Immigration law</Link>
+        </li>
+        <li>
+          {" "}
+          <FontAwesomeIcon
+            icon={faChevronRight}
+            className="footerIcon"
+          ></FontAwesomeIcon>
+          <Link to={"/commercial-court-lawyers-in-bangalore"}>
+            Commercial law
+          </Link>
         </li>
       </ul>
     </div>

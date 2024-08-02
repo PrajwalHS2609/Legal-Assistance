@@ -1,5 +1,6 @@
 import React from "react";
 import "./HomeExpertise.css";
+import { Link } from "react-router-dom";
 const HomeExpertiseCard = (props) => {
   return (
     <div className="homeExpertiseCardContainer">
@@ -11,7 +12,7 @@ const HomeExpertiseCard = (props) => {
           <img src={props.imgIconWhite} className="whiteImg" alt="" />
         </div>
         <div className="homeExpertiseCardTxt">
-          <h2>{props.txt}</h2>
+          <h2><Link to={props.link}>{props.txt}</Link></h2>
         </div>
       </div>
     </div>

@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ServiceTestimonialCard from "../../Services/ServiceTestimonial/ServiceTestimonialCard";
-
+import "aos/dist/aos.css";
+import AOS from "aos";
 const HomeTestimonialMain = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 600,
+    });
+  }, []);
   return (
     <div className="serviceTestimonialMain">
       <ServiceTestimonialCard
@@ -28,7 +34,7 @@ const HomeTestimonialMain = () => {
         para="Our business has relied on MM Associates for legal advice and representation. Their lawyers in Bangalore have been instrumental in ensuring our compliance and handling complex transactions."
         name="Verma K"
       />
-      <p>
+      <p data-aos="fade-up">
         When it comes to legal matters, having the right representation is
         crucial. At MM Associates, our team of{" "}
         <a href="https://lawyersinbangalore.com/services">
@@ -40,8 +46,9 @@ const HomeTestimonialMain = () => {
         or employment law, we have the expertise to guide you through the
         complexities of the legal system. Trust MM Associates to be your
         reliable partner in achieving the best possible legal outcomes. Contact
-        us today to learn how our <a href="https://lawyersinbangalore.com/">lawyers in Bangalore</a> can assist
-        you with your legal needs.
+        us today to learn how our{" "}
+        <a href="https://lawyersinbangalore.com/">lawyers in Bangalore</a> can
+        assist you with your legal needs.
       </p>
     </div>
   );

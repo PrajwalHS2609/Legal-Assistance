@@ -147,7 +147,11 @@
   color: black;
   transition: 200ms ease-in-out;
 }
-.homeExpertiseCardContainer:hover .homeExpertiseCardTxt > h2 {
+.homeExpertiseCardTxt > h2 > a {
+  color: black;
+  text-decoration: none;
+}
+.homeExpertiseCardContainer:hover .homeExpertiseCardTxt > h2 > a {
   color: white;
 }
 

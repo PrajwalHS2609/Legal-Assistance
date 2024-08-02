@@ -64,7 +64,7 @@ const HomeExpertiseMain = () => {
           iconService={service}
           txt="More Services"
           img="https://bylaw.wpengine.com/wp-content/uploads/2023/10/practices-area-hover-image-5.jpg"
-          link="/service"
+          link="/services"
        />
 
         <HomeExpertiseCard

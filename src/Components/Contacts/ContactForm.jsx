@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import "./Contact.css";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import emailjs from "@emailjs/browser";
+
 const ContactForm = () => {
   let [data, setData] = useState({
     firstName: "",
@@ -20,19 +22,29 @@ const ContactForm = () => {
   };
   let handleSubmit = (e) => {
     e.preventDefault();
-
-    let payLoad = {
-      firstName,
-      lastName,
-      email,
-      phone,
-      message,
-    };
-    toast.success("Successfully");
-    console.log(payLoad);
-    setTimeout(() => {
-      window.location.assign("/contact-us");
-    }, 5000);
+    emailjs 
+      .sendForm(
+        "service_kmd9nq9",
+        "template_ewctwor",
+        e.target,
+        "eqzf568BGJMMi5ZSG"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          toast.success("Email sent successfully");
+          setTimeout(() => {
+            window.location.assign("/contact-us");
+          }, 5000);
+        },
+        (error) => {
+          console.error(error.text);
+          toast.error("Failed to send mail");
+          // setTimeout(() => {
+          //   window.location.assign("/contact-us");
+          // }, 5000);
+        }
+      );
   };
 
   return (

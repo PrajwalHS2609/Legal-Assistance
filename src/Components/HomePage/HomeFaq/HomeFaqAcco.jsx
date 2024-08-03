@@ -20,7 +20,7 @@ const HomeFaqAcco = () => {
   return (
     <div className="homeFaqAcco">
       <Accordion className="faqMainContent" allowZeroExpanded>
-        <AccordionItem className="faqItem" data-aos="fade-right">
+        <AccordionItem className="faqItem" data-aos="fade-left">
           <AccordionItemHeading className="faqHead">
             <AccordionItemButton className="faqBut">
               <h3>What services does M & M Associates provide ? </h3>
@@ -40,7 +40,7 @@ const HomeFaqAcco = () => {
             </p>
           </AccordionItemPanel>
         </AccordionItem>
-        <AccordionItem className="faqItem" data-aos="fade-right">
+        <AccordionItem className="faqItem" data-aos="fade-left">
           <AccordionItemHeading className="faqHead">
             <AccordionItemButton className="faqBut">
               <h3>How can I schedule a consultation ?</h3>
@@ -58,7 +58,7 @@ const HomeFaqAcco = () => {
             </p>
           </AccordionItemPanel>
         </AccordionItem>
-        <AccordionItem className="faqItem" data-aos="fade-right">
+        <AccordionItem className="faqItem" data-aos="fade-left">
           <AccordionItemHeading className="faqHead">
             <AccordionItemButton className="faqBut">
               <h3>What should I bring to my first meeting ?</h3>{" "}
@@ -76,7 +76,7 @@ const HomeFaqAcco = () => {
             </p>
           </AccordionItemPanel>
         </AccordionItem>
-        <AccordionItem className="faqItem" data-aos="fade-right">
+        <AccordionItem className="faqItem" data-aos="fade-left">
           <AccordionItemHeading className="faqHead">
             <AccordionItemButton className="faqBut">
               <h3> How do you ensure client confidentiality ?</h3>
@@ -94,7 +94,7 @@ const HomeFaqAcco = () => {
             </p>
           </AccordionItemPanel>
         </AccordionItem>
-        <AccordionItem className="faqItem" data-aos="fade-right">
+        <AccordionItem className="faqItem" data-aos="fade-left">
           <AccordionItemHeading className="faqHead">
             <AccordionItemButton className="faqBut">
               <h3> What is the cost of your legal services ?</h3>
@@ -112,7 +112,7 @@ const HomeFaqAcco = () => {
             </p>
           </AccordionItemPanel>
         </AccordionItem>
-        <AccordionItem className="faqItem" data-aos="fade-right">
+        <AccordionItem className="faqItem" data-aos="fade-left">
           <AccordionItemHeading className="faqHead">
             <AccordionItemButton className="faqBut">
               <h3>How long will it take to resolve my legal issue ?</h3>
@@ -131,7 +131,7 @@ const HomeFaqAcco = () => {
             </p>
           </AccordionItemPanel>
         </AccordionItem>
-        <AccordionItem className="faqItem" data-aos="fade-right">
+        <AccordionItem className="faqItem" data-aos="fade-left">
           <AccordionItemHeading className="faqHead">
             <AccordionItemButton className="faqBut">
               <h3>Can you assist with legal matters outside of Karnataka ?</h3>
@@ -149,7 +149,7 @@ const HomeFaqAcco = () => {
             </p>
           </AccordionItemPanel>
         </AccordionItem>
-        <AccordionItem className="faqItem" data-aos="fade-right">
+        <AccordionItem className="faqItem" data-aos="fade-left">
           <AccordionItemHeading className="faqHead">
             <AccordionItemButton className="faqBut">
               <h3> What sets M & M Associates apart from other law firms ?</h3>
@@ -168,7 +168,7 @@ const HomeFaqAcco = () => {
             </p>
           </AccordionItemPanel>
         </AccordionItem>
-        <AccordionItem className="faqItem" data-aos="fade-right">
+        <AccordionItem className="faqItem" data-aos="fade-left">
           <AccordionItemHeading className="faqHead">
             <AccordionItemButton className="faqBut">
               <h3> How can I contact you for further inquiries ?</h3>
@@ -186,7 +186,7 @@ const HomeFaqAcco = () => {
             </p>
           </AccordionItemPanel>
         </AccordionItem>
-        <AccordionItem className="faqItem" data-aos="fade-right">
+        <AccordionItem className="faqItem" data-aos="fade-left">
           <AccordionItemHeading className="faqHead">
             <AccordionItemButton className="faqBut">
               <h3>Do you offer free initial consultations ?</h3>{" "}

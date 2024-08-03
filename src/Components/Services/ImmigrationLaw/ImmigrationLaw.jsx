@@ -7,7 +7,7 @@ import { Helmet } from "react-helmet";
 import immigrationLawImg from "./../../../Images/InnerServicesImgs/ImmigrationLaw.png"
 import ServiceLawImg from './../CivilLawPage/ServiceLawImg';
 import HomeWhy from "../../HomePage/HomeWhy/HomeWhy";
-import HomeTestimonial from "../../HomePage/HomeTestimonial/HomeTestimonial";
+import ServiceTestimonial from "../ServiceTestimonial/ServiceTestimonial";
 
 const ImmigrationLaw = () => {
   return (
@@ -35,7 +35,7 @@ const ImmigrationLaw = () => {
       <ImmigrationLawService />
       <ImmigrationLawWhy />
       <HomeWhy />
-      <HomeTestimonial />
+      <ServiceTestimonial />
     </div>
   );
 };

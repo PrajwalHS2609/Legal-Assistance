@@ -6,9 +6,9 @@ import PropertyDocWhy from "./PropertyDocWhy";
 import InnerBreadCrumb from "../../BreadCrumbs/InnerBreadCrumb";
 import ServiceLawImg from "../CivilLawPage/ServiceLawImg";
 import propertyDocImg from "./../../../Images/InnerServicesImgs/Property Document Verification.png";
-import HomeTestimonial from "../../HomePage/HomeTestimonial/HomeTestimonial";
 import HomeWhy from "../../HomePage/HomeWhy/HomeWhy";
 import PropertyDocMain from "./PropertyDocMain";
+import ServiceTestimonial from "../ServiceTestimonial/ServiceTestimonial";
 
 const PropertyDoc = () => {
   return (
@@ -41,7 +41,7 @@ const PropertyDoc = () => {
       <PropertyDocService />
       <PropertyDocWhy />
       <HomeWhy />
-      <HomeTestimonial />
+      <ServiceTestimonial />
     </div>
   );
 };

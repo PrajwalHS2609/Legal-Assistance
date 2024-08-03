@@ -4,8 +4,8 @@ import aboutUsImg from "./../../Images/AboutUs.png"
 import "./AboutUs.css"
 import AboutUsMain from "./AboutUsMain";
 import HomeWhy from "../HomePage/HomeWhy/HomeWhy";
-import HomeTestimonial from "../HomePage/HomeTestimonial/HomeTestimonial";
 import BreadCrumbs from "../BreadCrumbs/BreadCrumbs";
+import ServiceTestimonial from './../Services/ServiceTestimonial/ServiceTestimonial';
 
 const AboutUs = () => {
   return (
@@ -18,7 +18,7 @@ const AboutUs = () => {
       <BreadCrumbs service="About Us"/>
       <AboutUsMain/>
       <HomeWhy />
-      <HomeTestimonial/>
+      <ServiceTestimonial />
     </div>
   );
 };

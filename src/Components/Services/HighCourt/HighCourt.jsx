@@ -11,8 +11,8 @@ import { Helmet } from "react-helmet";
 import ServiceLawImg from "../CivilLawPage/ServiceLawImg";
 import highCourtImg from "./../../../Images/InnerServicesImgs/High Court Matters.png"
 import HomeWhy from "../../HomePage/HomeWhy/HomeWhy";
-import HomeTestimonial from "../../HomePage/HomeTestimonial/HomeTestimonial";
 import HighCourtMain from './HighCourtMain';
+import ServiceTestimonial from "../ServiceTestimonial/ServiceTestimonial";
 
 const HighCourt = () => {
   return (
@@ -46,7 +46,7 @@ const HighCourt = () => {
       <HighCourtService />
       <HighCourtCommitment />
       <HomeWhy />
-      <HomeTestimonial />
+      <ServiceTestimonial />
     </div>
   );
 };

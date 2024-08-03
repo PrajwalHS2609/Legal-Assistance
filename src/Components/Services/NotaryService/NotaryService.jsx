@@ -15,7 +15,7 @@ import { Helmet } from "react-helmet";
 import notaryServiceImg from "./../../../Images/InnerServicesImgs/Notary Services.png"
 import ServiceLawImg from './../CivilLawPage/ServiceLawImg';
 import HomeWhy from "../../HomePage/HomeWhy/HomeWhy";
-import HomeTestimonial from "../../HomePage/HomeTestimonial/HomeTestimonial";
+import ServiceTestimonial from "../ServiceTestimonial/ServiceTestimonial";
 
 const NotaryService = () => {
   return (
@@ -51,7 +51,7 @@ const NotaryService = () => {
       <NotaryServiceRole />
       <NotaryServiceEnsuring />
       <HomeWhy />
-      <HomeTestimonial />
+      <ServiceTestimonial />
     </div>
   );
 };

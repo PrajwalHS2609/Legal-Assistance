@@ -14,8 +14,8 @@ import InnerBreadCrumb from "../../BreadCrumbs/InnerBreadCrumb";
 import commercialLawImg from "./../../../Images/InnerServicesImgs/Commercial Law.png"
 import ServiceLawImg from "../CivilLawPage/ServiceLawImg";
 import HomeWhy from "../../HomePage/HomeWhy/HomeWhy";
-import HomeTestimonial from "../../HomePage/HomeTestimonial/HomeTestimonial";
 import CommercialLawMain from "./CommercialLawMain";
+import ServiceTestimonial from "../ServiceTestimonial/ServiceTestimonial";
 
 const CommercialLaw = () => {
   return (
@@ -52,7 +52,7 @@ const CommercialLaw = () => {
       <CommercialLawEmployment />
       <CommercialLawCommitment />
       <HomeWhy />
-      <HomeTestimonial />
+      <ServiceTestimonial />
     </div>
   );
 };

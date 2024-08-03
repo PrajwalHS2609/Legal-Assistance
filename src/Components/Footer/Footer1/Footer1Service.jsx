@@ -46,7 +46,7 @@ const Footer1Service = () => {
             className="footerIcon"
           ></FontAwesomeIcon>
           <Link to={"/lawyers-for-property-registration-in-bangalore"}>
-            Estate law
+            Real-Estate law
           </Link>
         </li>
         <li>

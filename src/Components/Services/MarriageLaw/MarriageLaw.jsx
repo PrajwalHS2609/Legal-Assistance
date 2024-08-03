@@ -7,8 +7,8 @@ import MarriageLawService from "./MarriageLawService";
 import marriageLawImg from "./../../../Images/InnerServicesImgs/Court Marriage.png";
 import ServiceLawImg from "../CivilLawPage/ServiceLawImg";
 import HomeWhy from "../../HomePage/HomeWhy/HomeWhy";
-import HomeTestimonial from "../../HomePage/HomeTestimonial/HomeTestimonial";
 import MarriageLawMain from "./MarriageLawMain";
+import ServiceTestimonial from "../ServiceTestimonial/ServiceTestimonial";
 
 const MarriageLaw = () => {
   return (
@@ -42,7 +42,7 @@ const MarriageLaw = () => {
       <MarriageLawService />
       <MarriageLawWhy />
       <HomeWhy />
-      <HomeTestimonial />
+      <ServiceTestimonial />
     </div>
   );
 };

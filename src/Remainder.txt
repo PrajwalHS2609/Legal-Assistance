@@ -1,3 +1,0 @@
-add arrow to faq
-create navbar for mobile resp
-resp of expertise in mobile

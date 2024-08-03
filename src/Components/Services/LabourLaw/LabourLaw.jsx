@@ -7,8 +7,8 @@ import { Helmet } from "react-helmet";
 import labourLaw from "./../../../Images/InnerServicesImgs/Labour Law.png"
 import ServiceLawImg from "../CivilLawPage/ServiceLawImg";
 import HomeWhy from "../../HomePage/HomeWhy/HomeWhy";
-import HomeTestimonial from "../../HomePage/HomeTestimonial/HomeTestimonial";
 import LabourLawMain from "./LabourLawMain";
+import ServiceTestimonial from "../ServiceTestimonial/ServiceTestimonial";
 
 const LabourLaw = () => {
   return (
@@ -38,7 +38,7 @@ const LabourLaw = () => {
       <LabourLawService />
       <LabourLawCommitment />
       <HomeWhy />
-      <HomeTestimonial />
+      <ServiceTestimonial />
     </div>
   );
 };

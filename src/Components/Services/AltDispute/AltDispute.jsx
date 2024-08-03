@@ -10,7 +10,7 @@ import InnerBreadCrumb from "../../BreadCrumbs/InnerBreadCrumb";
 import AltDisputeWhy from "./AltDisputeWhy/AltDisputeWhy";
 import AltDisputeMain from "./AltDisputeMain";
 import HomeWhy from "../../HomePage/HomeWhy/HomeWhy";
-import HomeTestimonial from "../../HomePage/HomeTestimonial/HomeTestimonial";
+import ServiceTestimonial from "../ServiceTestimonial/ServiceTestimonial";
 
 const AltDispute = () => {
   return (
@@ -43,7 +43,7 @@ const AltDispute = () => {
       <AltDisputeBenefits />
       <AltDisputeHow />
       <HomeWhy />
-      <HomeTestimonial />
+      <ServiceTestimonial />
     </div>
   );
 };

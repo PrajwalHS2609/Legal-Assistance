@@ -4,9 +4,9 @@ import MainService from "./MainServicePage/MainService";
 import serviceImg from "./../../Images/ServicesImg/services.png";
 import BreadCrumbs from "../BreadCrumbs/BreadCrumbs";
 import HomeWhy from "../HomePage/HomeWhy/HomeWhy";
-import HomeTestimonial from "../HomePage/HomeTestimonial/HomeTestimonial";
 import ServiceLawImg from "./CivilLawPage/ServiceLawImg";
 import { Helmet } from "react-helmet";
+import ServiceTestimonial from './ServiceTestimonial/ServiceTestimonial';
 
 const Services = () => {
   return (
@@ -27,7 +27,7 @@ const Services = () => {
       <BreadCrumbs service="Services" />
       <MainService />
       <HomeWhy />
-      <HomeTestimonial />
+      <ServiceTestimonial />
     </div>
   );
 };

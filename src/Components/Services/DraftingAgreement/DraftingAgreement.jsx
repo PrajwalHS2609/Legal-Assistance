@@ -7,8 +7,8 @@ import DraftingAgreementService from "./DraftingAgreementService";
 import DraftingAgreementWhy from "./DraftingAgreementWhy";
 import ServiceLawImg from "../CivilLawPage/ServiceLawImg";
 import HomeWhy from "../../HomePage/HomeWhy/HomeWhy";
-import HomeTestimonial from "../../HomePage/HomeTestimonial/HomeTestimonial";
 import DraftingAgreementMain from "./DraftingAgreementMain";
+import ServiceTestimonial from "../ServiceTestimonial/ServiceTestimonial";
 
 const DraftingAgreement = () => {
   return (
@@ -42,7 +42,7 @@ const DraftingAgreement = () => {
       <DraftingAgreementService />
       <DraftingAgreementWhy />
       <HomeWhy />
-      <HomeTestimonial />
+      <ServiceTestimonial />
     </div>
   );
 };

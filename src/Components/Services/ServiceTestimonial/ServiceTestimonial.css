@@ -76,6 +76,7 @@
 .serviceTestimonialMain > p {
   color: white;
   font-size: 20px;
+  text-align: justify;
 }
 .serviceTestimonialMain > p > a {
   text-decoration: none;
@@ -100,6 +101,9 @@
     /* border: solid green; */
     min-width: 300px;
     background-color: white;
+  }
+  .serviceTestimonialMain > p {
+    text-align: justify;
   }
 }
 @media screen and (min-width: 1200px) and (max-width: 1400px) {

@@ -16,7 +16,7 @@ import { Helmet } from "react-helmet";
 import civilLawImg from "./../../../Images/InnerServicesImgs/Civil Law.png";
 import ServiceLawImg from "./ServiceLawImg";
 import HomeWhy from "../../HomePage/HomeWhy/HomeWhy";
-import HomeTestimonial from "../../HomePage/HomeTestimonial/HomeTestimonial";
+import ServiceTestimonial from "../ServiceTestimonial/ServiceTestimonial";
 const CivilLawPage = () => {
   return (
     <div className="civilLawPage">
@@ -51,7 +51,7 @@ const CivilLawPage = () => {
       <CivilTortLaw />
       <CivilLawConclusion />
       <HomeWhy />
-      <HomeTestimonial />
+      <ServiceTestimonial />
     </div>
   );
 };

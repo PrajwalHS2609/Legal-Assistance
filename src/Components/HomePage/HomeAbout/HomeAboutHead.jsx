@@ -5,7 +5,7 @@ const HomeAboutHead = () => {
   return (
     <div className="homeAboutHead">
       <h2>
-        Experienced <span>Legal Experts </span>in Karnataka with Decades of
+        Experienced <span>Legal Experts </span>in Bangalore with Decades of
         Service
       </h2>
       <p>

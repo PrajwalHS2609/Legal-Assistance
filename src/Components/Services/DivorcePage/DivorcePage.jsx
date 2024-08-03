@@ -12,7 +12,7 @@ import InnerBreadCrumb from "../../BreadCrumbs/InnerBreadCrumb";
 import DivorceMain from "./DivorceMain";
 import ServiceLawImg from "../CivilLawPage/ServiceLawImg";
 import HomeWhy from "../../HomePage/HomeWhy/HomeWhy";
-import HomeTestimonial from "../../HomePage/HomeTestimonial/HomeTestimonial";
+import ServiceTestimonial from "../ServiceTestimonial/ServiceTestimonial";
 const DivorcePage = () => {
   return (
     <div className="divorcePageContainer">
@@ -43,7 +43,7 @@ const DivorcePage = () => {
       <DivorceImp />
       <DivorceAssist />
       <HomeWhy />
-      <HomeTestimonial />
+      <ServiceTestimonial />
     </div>
   );
 };

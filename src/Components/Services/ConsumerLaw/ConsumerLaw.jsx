@@ -7,7 +7,7 @@ import InnerBreadCrumb from "../../BreadCrumbs/InnerBreadCrumb";
 import consumerLawImg from "./../../../Images/InnerServicesImgs/Consumer Law.png"
 import ServiceLawImg from "../CivilLawPage/ServiceLawImg";
 import HomeWhy from "../../HomePage/HomeWhy/HomeWhy";
-import HomeTestimonial from "../../HomePage/HomeTestimonial/HomeTestimonial";
+import ServiceTestimonial from "../ServiceTestimonial/ServiceTestimonial";
 const ConsumerLaw = () => {
   return (
     <div className="civilLawPage">
@@ -35,7 +35,7 @@ const ConsumerLaw = () => {
       <ConsumerLawRole />
       <ConsumerLawWhy />
       <HomeWhy />
-      <HomeTestimonial />
+      <ServiceTestimonial />
     </div>
   );
 };

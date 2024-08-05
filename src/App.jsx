@@ -22,6 +22,7 @@ import MarriageLaw from "./Components/Services/MarriageLaw/MarriageLaw";
 import ConsumerLaw from "./Components/Services/ConsumerLaw/ConsumerLaw";
 import ImmigrationLaw from "./Components/Services/ImmigrationLaw/ImmigrationLaw";
 import AboutUs from "./Components/AboutUs/AboutUs";
+import OnlineAppoint from "./Components/OnlineAppoint/OnlineAppoint";
 const App = () => {
   return (
     <div>
@@ -85,6 +86,8 @@ const App = () => {
           />
           <Route path="/about-us" element={<AboutUs />} />
           <Route path="/contact-us" element={<Contacts />} />
+          <Route path="/online-appointment" element={<OnlineAppoint />} />
+
         </Routes>
         <Footer />
       </BrowserRouter>

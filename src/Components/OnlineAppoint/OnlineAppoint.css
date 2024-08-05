@@ -1,0 +1,98 @@
+.onlineForm {
+  /* border: solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+  box-shadow: 0 0 10px grey;
+  width: 100%;
+}
+.onlineForm > h3 {
+  font-size: 30px;
+  color: var(--customBlue);
+  font-weight: bold;
+}
+.onlineForm > h3 > span {
+  color: var(--customGold);
+}
+.onlineForm > form {
+  width: 50%;
+}
+.onlineForm > form > fieldset {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.onlineFormName {
+  /* border: solid green; */
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.onlineFormName > input {
+  border: none;
+  border-bottom: 1px solid grey;
+  width: 40%;
+  padding: 10px;
+  outline: none;
+}
+.onlineFormMail {
+  /* border: solid green; */
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.onlineFormMail > input {
+  border: none;
+  border-bottom: 1px solid grey;
+  width: 40%;
+  padding: 10px;
+  outline: none;
+}
+.onlineFormTextarea {
+  /* border: solid green; */
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.onlineFormTextarea > textarea {
+  border: none;
+  border-bottom: 1px solid grey;
+  padding: 10px;
+  outline: none;
+  width: 100%;
+}
+.onlineForm > form > fieldset > button {
+  border: 2px solid var(--customGold);
+  width: 100px;
+  height: 40px;
+  background-color: var(--customBlue);
+  color: white;
+  box-shadow: 10px 5px 0px var(--customGold);
+  transition: 300ms ease-in-out;
+}
+.onlineForm > form > fieldset > button:hover {
+  background-color: var(--customGold);
+  box-shadow: none;
+}
+.onlineFormMail > select {
+  border: none;
+  border-bottom: 1px solid grey;
+  width: 40%;
+  padding: 10px;
+  outline: none;
+  color: grey;
+}
+.onlineFormMail > select > option {
+  color: grey;
+  padding: 20px;
+  margin: 10px;
+}

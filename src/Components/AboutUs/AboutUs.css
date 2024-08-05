@@ -30,6 +30,7 @@
 }
 .aboutUsMainContent > img {
   width: 100%;
+  object-fit: cover;
 }
 .aboutUsMainContent > h3 {
   text-align: center;
@@ -42,4 +43,26 @@
   color: white;
   text-align: justify;
   font-size: 20px;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .aboutUsMainContainer {
+    /* border: solid red; */
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px;
+  }
+  .aboutUsMainContent {
+    /* border: solid green; */
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
 }

@@ -22,8 +22,15 @@ const Menu = () => {
       <li>
         <Link to={"/services"}>Services</Link>
       </li>
-      <li><Link to={"/about-us"}>About Us</Link></li>
-      <li><Link to="/contact-us">Contact Us</Link></li>{" "}
+      <li>
+        <Link to={"/about-us"}>About Us</Link>
+      </li>
+      <li>
+        <Link to="/contact-us">Contact Us</Link>
+      </li>{" "}
+      <li>
+        <Link to="/online-appointment">Online Appointment</Link>
+      </li>
       <FontAwesomeIcon
         icon={faBarsStaggered}
         className="menuBar"
@@ -45,8 +52,15 @@ const Menu = () => {
             Service
           </Link>
         </li>
-        <li><Link to={"/about-us"}>About Us</Link></li>
-        <li><Link to="/contact-us">Contact Us</Link></li>
+        <li>
+          <Link to={"/about-us"}>About Us</Link>
+        </li>
+        <li>
+          <Link to="/contact-us">Contact Us</Link>
+        </li>
+        <li>
+          <Link to="/contact-us">Online Appointment</Link>
+        </li>
       </div>
     </div>
   );

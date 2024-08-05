@@ -32,7 +32,7 @@ const ContactForm = () => {
       .then(
         (result) => {
           console.log(result.text);
-          toast.success("Email sent successfully");
+          toast.success("mail sent successfully");
           setTimeout(() => {
             window.location.assign("/contact-us");
           }, 5000);
@@ -98,7 +98,7 @@ const ContactForm = () => {
           <div className="formTextarea">
             <textarea
               name="message"
-              id=""
+              id="message"
               cols={90}
               rows={5}
               placeholder="Additional Message"

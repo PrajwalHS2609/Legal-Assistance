@@ -8,7 +8,6 @@ import ScrollTo from "./Components/ScrollTo/ScrollTo";
 import Footer from "./Components/Footer/Footer";
 import CivilLawPage from "./Components/Services/CivilLawPage/CivilLawPage";
 import DivorcePage from "./Components/Services/DivorcePage/DivorcePage";
-
 import AltDispute from "./Components/Services/AltDispute/AltDispute";
 import Contacts from "./Components/Contacts/Contacts";
 import CriminalLaw from "./Components/Services/CriminalLaw/CriminalLaw";
@@ -23,12 +22,18 @@ import ConsumerLaw from "./Components/Services/ConsumerLaw/ConsumerLaw";
 import ImmigrationLaw from "./Components/Services/ImmigrationLaw/ImmigrationLaw";
 import AboutUs from "./Components/AboutUs/AboutUs";
 import OnlineAppoint from "./Components/OnlineAppoint/OnlineAppoint";
+import AnnouncementPage from "./Components/AnnocementPage/AnnouncementPage";
+import CourtCase from "./Components/AnnocementPage/CourtCase/CourtCase";
+import Judgments from "./Components/AnnocementPage/Judgments/Judgments";
+import OnlineConsultation from "./Components/AnnocementPage/OnlineConsultation";
+import NestedScrollRestore from "./Components/ScrollTo/NestedScrollRestore";
 const App = () => {
   return (
     <div>
       <BrowserRouter>
         <Navbar />
         <ScrollTo />
+
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/services" element={<Services />} />
@@ -87,7 +92,23 @@ const App = () => {
           <Route path="/about-us" element={<AboutUs />} />
           <Route path="/contact-us" element={<Contacts />} />
           <Route path="/online-appointment" element={<OnlineAppoint />} />
-
+          <Route path="/announcement" element={<AnnouncementPage />}>
+            <Route
+              path="*"
+              element={
+                <NestedScrollRestore>
+                  <Routes>
+                    <Route path="/court-cases" element={<CourtCase />} />
+                    <Route path="/judgments" element={<Judgments />} />
+                    <Route
+                      path="/online-consultations"
+                      element={<OnlineConsultation />}
+                    />
+                  </Routes>
+                </NestedScrollRestore>
+              }
+            />
+          </Route>
         </Routes>
         <Footer />
       </BrowserRouter>

@@ -31,7 +31,7 @@ const OnlineAppointForm = () => {
     emailjs 
       .sendForm(
         "service_nut4cih",
-        "template_ylqr91nr",
+        "template_ylqr91n",
         e.target,
         "eqzf568BGJMMi5ZSG"
       )
@@ -56,7 +56,7 @@ const OnlineAppointForm = () => {
     <div className="onlineForm">
       <ToastContainer />
       <h3>
-        <span>Online</span> Appointment
+        <span>Book</span> Your Appointment
       </h3>
       <form action="" onSubmit={handleSubmit}>
         <fieldset>

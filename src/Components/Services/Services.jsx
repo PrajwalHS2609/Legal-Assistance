@@ -7,6 +7,7 @@ import HomeWhy from "../HomePage/HomeWhy/HomeWhy";
 import ServiceLawImg from "./CivilLawPage/ServiceLawImg";
 import { Helmet } from "react-helmet";
 import ServiceTestimonial from './ServiceTestimonial/ServiceTestimonial';
+import AnnouncementNestedRoute from "../AnnocementPage/AnnouncementNestedRoute";
 
 const Services = () => {
   return (
@@ -28,6 +29,7 @@ const Services = () => {
       <MainService />
       <HomeWhy />
       <ServiceTestimonial />
+      <AnnouncementNestedRoute/>
     </div>
   );
 };

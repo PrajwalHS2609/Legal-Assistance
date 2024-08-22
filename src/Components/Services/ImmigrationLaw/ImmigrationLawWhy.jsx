@@ -102,7 +102,7 @@ const ImmigrationLawWhy = () => {
           <img src={icon} alt="" />
         </div> */}
         <div className="altDisputeList">
-          <span>Proven Track Record</span>{" "}
+          <span>Proven Track Record :</span>{" "}
           <p>
             Our{" "}
             <a href="https://lawyersinbangalore.com/immigration-lawyers-in-bangalore">

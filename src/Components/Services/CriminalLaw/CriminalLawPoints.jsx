@@ -13,6 +13,15 @@ const CriminalLawPoints = () => {
         </li>
         <li>
           <img src={hammerLaw} alt="hammerLaw" />
+          Offenses under section 138 of negotiable instruments act (cheque
+          bounce cases)
+        </li>
+        <li>
+          <img src={hammerLaw} alt="hammerLaw" />
+          IPC trails All offences related to (BNS)
+        </li>
+        <li>
+          <img src={hammerLaw} alt="hammerLaw" />
           Anticipatory Bails (Before Sessions Court & High Court)
         </li>
         <li>
@@ -45,10 +54,6 @@ const CriminalLawPoints = () => {
         <li>
           <img src={hammerLaw} alt="hammerLaw" />
           SC & ST Act cases
-        </li>
-        <li>
-          <img src={hammerLaw} alt="hammerLaw" />
-          Foreigners Act, Passport & Customs related cases
         </li>
         <li>
           <img src={hammerLaw} alt="hammerLaw" />

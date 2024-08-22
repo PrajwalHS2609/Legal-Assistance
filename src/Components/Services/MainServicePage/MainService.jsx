@@ -13,7 +13,7 @@ import servCorporate from "./../../../Images/Law Service Icons/Corporate_IPR_and
 import servDrafting from "./../../../Images/Law Service Icons/Drafting_Agreement_Deed___Documentation_Registration_of_Property.png";
 import servPropertyVerif from "./../../../Images/Law Service Icons/Property_Document_Verification.png";
 import servMarriage from "./../../../Images/Law Service Icons/Court_Marriage__Marriage_Registration.png";
-import servImmigration from "./../../../Images/Law Service Icons/ImmigrationLaw___Family_Court_Matters.png";
+import servLokayukta from "./../../../Images/Law Service Icons/lokayukta.png";
 
 const MainService = () => {
   return (
@@ -109,10 +109,10 @@ const MainService = () => {
           link="/consumer-court-lawyers-in-bangalore"
         />
         <ServiceCard
-          icon={servImmigration}
-          head="Immigration Law"
+          icon={servLokayukta}
+          head="Lokayuktha Matters"
           para="Specialized legal services for businesses, addressing all aspects of immigration law."
-          link="/immigration-lawyers-in-bangalore"
+          link="/lokayukta-court-lawyers-in-bangalore"
         />
       </div>
     </div>

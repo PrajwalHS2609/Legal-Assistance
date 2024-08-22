@@ -15,10 +15,10 @@ import employmentBlack from "./../../../Images/ExpertiseImg/EmployementBlack.png
 import realEstateBlack from "./../../../Images/ExpertiseImg/Real_EstateBlack.png";
 import commercialWhite from "./../../../Images/ExpertiseImg/CommercialWhite.png";
 import consumerWhite from "./../../../Images/ExpertiseImg/ConsumerWhite.png";
-import immigrantWhite from "./../../../Images/ExpertiseImg/ImmigrationWhite.png";
+import lokayuktaWhite from "./../../../Images/ExpertiseImg/lokaWhite.png";
 import commercialBlack from "./../../../Images/ExpertiseImg/CommercialBlack.png";
 import consumerBlack from "./../../../Images/ExpertiseImg/ConsumerBlack.png";
-import immigrantBlack from "./../../../Images/ExpertiseImg/ImmigrationBlack.png";
+import lokayuktaBlack from "./../../../Images/ExpertiseImg/lokaBlack.png";
 import service from "./../../../Images/ExpertiseImg/OtherService.png"
 import HomeExpertiseService from "./HomeExpertiseServiceCard";
 const HomeExpertiseMain = () => {
@@ -56,7 +56,7 @@ const HomeExpertiseMain = () => {
         <HomeExpertiseCard
           imgIconBlack={employmentBlack}
           imgIconWhite={employmentWhite}
-          txt="Employment Law"
+          txt="Labour Law"
           img="https://bylaw.wpengine.com/wp-content/uploads/2023/10/practices-area-hover-image-4.jpg"
         link="/labour-court-lawyers-in-bangalore"
         />
@@ -84,11 +84,11 @@ const HomeExpertiseMain = () => {
        link="/consumer-court-lawyers-in-bangalore"
        />
         <HomeExpertiseCard
-          imgIconBlack={immigrantBlack}
-          imgIconWhite={immigrantWhite}
-          txt="Immigration Law"
+          imgIconBlack={lokayuktaBlack}
+          imgIconWhite={lokayuktaWhite}
+          txt="Lokayukta Matters"
           img="https://bylaw.wpengine.com/wp-content/uploads/2023/10/practices-area-hover-image-8.jpg"
-        link="/immigration-lawyers-in-bangalore"
+        link="/lokayukta-court-lawyers-in-bangalore"
         />
         <HomeExpertiseCard
           imgIconBlack={commercialBlack}

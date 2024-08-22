@@ -63,7 +63,7 @@ const Footer1Service = () => {
             icon={faChevronRight}
             className="footerIcon"
           ></FontAwesomeIcon>
-          <Link to={"/immigration-lawyers-in-bangalore"}>Immigration law</Link>
+          <Link to={"/lokayukta-court-lawyers-in-bangalore"}>Lokayukta Matters</Link>
         </li>
         <li>
           {" "}

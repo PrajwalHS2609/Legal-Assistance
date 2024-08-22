@@ -19,7 +19,6 @@ import DraftingAgreement from "./Components/Services/DraftingAgreement/DraftingA
 import PropertyDoc from "./Components/Services/PropertyDoc/PropertyDoc";
 import MarriageLaw from "./Components/Services/MarriageLaw/MarriageLaw";
 import ConsumerLaw from "./Components/Services/ConsumerLaw/ConsumerLaw";
-import ImmigrationLaw from "./Components/Services/ImmigrationLaw/ImmigrationLaw";
 import AboutUs from "./Components/AboutUs/AboutUs";
 import OnlineAppoint from "./Components/OnlineAppoint/OnlineAppoint";
 import AnnouncementPage from "./Components/AnnocementPage/AnnouncementPage";
@@ -27,6 +26,7 @@ import CourtCase from "./Components/AnnocementPage/CourtCase/CourtCase";
 import Judgments from "./Components/AnnocementPage/Judgments/Judgments";
 import OnlineConsultation from "./Components/AnnocementPage/OnlineConsultation";
 import NestedScrollRestore from "./Components/ScrollTo/NestedScrollRestore";
+import LokayuktaPage from "./Components/Services/LokayuktaPage/LokayuktaPage";
 const App = () => {
   return (
     <div>
@@ -86,8 +86,8 @@ const App = () => {
             element={<ConsumerLaw />}
           />
           <Route
-            path="/immigration-lawyers-in-bangalore"
-            element={<ImmigrationLaw />}
+            path="/lokayukta-court-lawyers-in-bangalore"
+            element={<LokayuktaPage />}
           />
           <Route path="/about-us" element={<AboutUs />} />
           <Route path="/contact-us" element={<Contacts />} />

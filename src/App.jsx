@@ -27,6 +27,7 @@ import Judgments from "./Components/AnnocementPage/Judgments/Judgments";
 import OnlineConsultation from "./Components/AnnocementPage/OnlineConsultation";
 import NestedScrollRestore from "./Components/ScrollTo/NestedScrollRestore";
 import LokayuktaPage from "./Components/Services/LokayuktaPage/LokayuktaPage";
+import CyberCrime from "./Components/Services/CyberCrime/CyberCrime";
 const App = () => {
   return (
     <div>
@@ -88,6 +89,10 @@ const App = () => {
           <Route
             path="/lokayukta-court-lawyers-in-bangalore"
             element={<LokayuktaPage />}
+          />
+          <Route
+            path="/online-legal-consultation"
+            element={<CyberCrime />}
           />
           <Route path="/about-us" element={<AboutUs />} />
           <Route path="/contact-us" element={<Contacts />} />

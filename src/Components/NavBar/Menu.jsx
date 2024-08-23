@@ -53,13 +53,13 @@ const Menu = () => {
           </Link>
         </li>
         <li>
-          <Link to={"/about-us"}>About Us</Link>
+          <Link to={"/about-us"} onClick={hideSideBar}>About Us</Link>
         </li>
         <li>
-          <Link to="/contact-us">Contact Us</Link>
+          <Link to={"/contact-us"} onClick={hideSideBar}>Contact Us</Link>
         </li>
         <li>
-          <Link to="/contact-us">Online Appointment</Link>
+          <Link to={"/online-appointment"} onClick={hideSideBar}>Online Appointment</Link>
         </li>
       </div>
     </div>

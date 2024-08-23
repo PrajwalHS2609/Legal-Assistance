@@ -114,6 +114,12 @@ const MainService = () => {
           para="Expert legal services, specializing in investigating corruption and misconduct among public officials, promoting transparency and accountability."
           link="/lokayukta-court-lawyers-in-bangalore"
         />
+        <ServiceCard
+          icon={servLokayukta}
+          head="Cyber Crime"
+          para="Expert legal services, specializing in investigating cybercrime and online misconduct, promoting digital security and accountability."
+          link="/online-legal-consultation"
+        />
       </div>
     </div>
   );

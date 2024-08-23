@@ -37,7 +37,7 @@ const Footer1Service = () => {
             icon={faChevronRight}
             className="footerIcon"
           ></FontAwesomeIcon>
-          <Link to={"/labour-court-lawyers-in-bangalore"}>Employment Law</Link>
+          <Link to={"/labour-court-lawyers-in-bangalore"}>Labour Law</Link>
         </li>
         <li>
           {" "}

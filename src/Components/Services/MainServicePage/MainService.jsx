@@ -111,7 +111,7 @@ const MainService = () => {
         <ServiceCard
           icon={servLokayukta}
           head="Lokayuktha Matters"
-          para="Specialized legal services for businesses, addressing all aspects of immigration law."
+          para="Expert legal services, specializing in investigating corruption and misconduct among public officials, promoting transparency and accountability."
           link="/lokayukta-court-lawyers-in-bangalore"
         />
       </div>

@@ -58,17 +58,6 @@ const HomePractice = () => {
         assist with property purchases, sales, leases, and disputes. We conduct
         thorough due diligence to ensure smooth and legally sound transactions.
       </p>
-      <h3>Immigration Law</h3>{" "}
-      <p>
-        Immigration processes can be intricate and time-consuming. Our{" "}
-        <a href="https://lawyersinbangalore.com/">lawyers in Bangalore</a>{" "}
-        provide expert guidance on visa applications, permanent residency,
-        citizenship, and other{" "}
-        <a href="https://lawyersinbangalore.com/immigration-lawyers-in-bangalore">
-          immigration matters
-        </a>
-        , helping clients navigate the legal requirements seamlessly.
-      </p>
       <h3>Employment and Labor Law</h3>{" "}
       <p>
         Workplace disputes and compliance issues require specialized legal

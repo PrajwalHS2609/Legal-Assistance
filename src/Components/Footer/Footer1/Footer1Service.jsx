@@ -75,6 +75,16 @@ const Footer1Service = () => {
             Commercial law
           </Link>
         </li>
+        <li>
+          {" "}
+          <FontAwesomeIcon
+            icon={faChevronRight}
+            className="footerIcon"
+          ></FontAwesomeIcon>
+          <Link to={"/cyber-crime-lawyers-in-bangalore"}>
+            Cyber Crimes
+          </Link>
+        </li>
       </ul>
     </div>
   );

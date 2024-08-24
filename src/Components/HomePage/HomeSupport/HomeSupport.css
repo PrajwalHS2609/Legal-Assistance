@@ -202,8 +202,8 @@
     width: 100%;
     height: 100%;
     object-fit: contain;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
   .accPanel > p {
     display: flex;

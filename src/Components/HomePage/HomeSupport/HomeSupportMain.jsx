@@ -15,6 +15,8 @@ import property from "./../../../Images/SupportImg/Property Buying & Selling.png
 import divorce from "./../../../Images/SupportImg/Divorce & Companseation.png";
 import business from "./../../../Images/SupportImg/Business Legal Advisor.png";
 import dispute from "./../../../Images/SupportImg/Intellectual Property Rights.png";
+import cyberCrime from "./../../../Images/SupportImg/Cyber Crime.png";
+
 import "aos/dist/aos.css";
 import AOS from "aos";
 import { Link } from "react-router-dom";
@@ -46,7 +48,9 @@ const HomeSupportMain = () => {
               real estate transactions. Our knowledgeable team ensures smooth
               and secure dealings, guiding you through the legal complexities of
               purchasing or selling property to achieve the best results.
-              <button><Link to={"/"}>Know More</Link></button>
+              <button>
+                <Link to={"/property-document-verification-lawyers-in-bangalore"}>Know More</Link>
+              </button>
             </p>
           </AccordionItemPanel>
         </AccordionItem>
@@ -69,7 +73,11 @@ const HomeSupportMain = () => {
               provides expert legal advice and representation to ensure fair
               settlements and protect your rights throughout the divorce
               process.
-              <button><Link to={"/divorce-and-family-court-lawyers-in-bangalore"}>Know More</Link></button>
+              <button>
+                <Link to={"/divorce-and-family-court-lawyers-in-bangalore"}>
+                  Know More
+                </Link>
+              </button>
             </p>
           </AccordionItemPanel>
         </AccordionItem>
@@ -91,7 +99,9 @@ const HomeSupportMain = () => {
               seasoned professionals offer strategic advice to ensure
               compliance, mitigate risks, and support your business growth and
               success.
-              <button><Link>Know More</Link></button>
+              <button>
+                <Link to={"/commercial-court-lawyers-in-bangalore"}>Know More</Link>
+              </button>
             </p>
           </AccordionItemPanel>
         </AccordionItem>
@@ -114,7 +124,37 @@ const HomeSupportMain = () => {
               securing and enforcing patents, trademarks, copyrights, and trade
               secrets, ensuring your intellectual property is safeguarded and
               leveraged effectively.
-              <button><Link>Know More</Link></button>
+              <button>
+                <Link to={"/alternative-dispute-resolution-in-bangalore"}>Know More</Link>
+              </button>
+            </p>
+          </AccordionItemPanel>
+        </AccordionItem>
+        <AccordionItem className="accItem" data-aos="fade-right">
+          <AccordionItemHeading className="accHead">
+            <AccordionItemButton className="accBut">
+              <h3>05 Cyber Crimes</h3>
+              <FontAwesomeIcon
+                icon={faChevronDown}
+                className="dropIcon"
+              ></FontAwesomeIcon>
+            </AccordionItemButton>
+          </AccordionItemHeading>
+          <AccordionItemPanel className="accPanel">
+            <img src={cyberCrime} alt="cyberCrimeImg" />
+            <p>
+              <h4>Cyber Crimes</h4>
+              In today’s interconnected world, the rise of technology has
+              brought many conveniences, but it has also opened the door to a
+              new wave of criminal activities—cyber crimes. These crimes, which
+              occur in the digital space, range from hacking, identity theft,
+              and cyberstalking to more complex offenses. The rapid evolution of
+              technology means that cyber crimes are becoming increasingly
+              sophisticated, making it crucial for victims to seek legal
+              assistance from specialized cyber crime lawyers in Bangalore.
+              <button>
+                <Link to={"/cyber-crime-lawyers-in-bangalore"}>Know More</Link>
+              </button>
             </p>
           </AccordionItemPanel>
         </AccordionItem>

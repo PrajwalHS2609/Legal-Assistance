@@ -1,7 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import InnerBreadCrumb from "../../BreadCrumbs/InnerBreadCrumb";
-import draftingImg from "./../../../Images/InnerServicesImgs/Property Registeration.png";
+import draftingImg from "./../../../Images/InnerServicesImgs/Property Document Verification.png";
 import DraftingAgreementHead from "./DraftingAgreementHead";
 import DraftingAgreementService from "./DraftingAgreementService";
 import DraftingAgreementWhy from "./DraftingAgreementWhy";

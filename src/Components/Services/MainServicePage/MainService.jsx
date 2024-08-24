@@ -14,6 +14,7 @@ import servDrafting from "./../../../Images/Law Service Icons/Drafting_Agreement
 import servPropertyVerif from "./../../../Images/Law Service Icons/Property_Document_Verification.png";
 import servMarriage from "./../../../Images/Law Service Icons/Court_Marriage__Marriage_Registration.png";
 import servLokayukta from "./../../../Images/Law Service Icons/lokayukta.png";
+import servCyberCrime from "./../../../Images/Law Service Icons/cyberCrime.png";
 
 const MainService = () => {
   return (
@@ -115,7 +116,7 @@ const MainService = () => {
           link="/lokayukta-court-lawyers-in-bangalore"
         />
         <ServiceCard
-          icon={servLokayukta}
+          icon={servCyberCrime}
           head="Cyber Crime"
           para="Expert legal services, specializing in investigating cybercrime and online misconduct, promoting digital security and accountability."
           link="/online-legal-consultation"

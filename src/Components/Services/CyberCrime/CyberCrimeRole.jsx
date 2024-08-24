@@ -33,9 +33,12 @@ const CyberCrimeRole = () => {
         <span> 4. Digital Forensics:</span>{" "}
         <p>
           Cyber crime cases often require technical expertise to analyze digital
-          evidence. Cyber crime lawyers in Bangalore collaborate with digital
-          forensic experts to gather, preserve, and present digital evidence
-          effectively.
+          evidence.{" "}
+          <a href="https://lawyersinbangalore.com/">
+            Cyber crime lawyers in Bangalore
+          </a>{" "}
+          collaborate with digital forensic experts to gather, preserve, and
+          present digital evidence effectively.
         </p>
       </li>
       <li>

@@ -78,19 +78,6 @@ const CyberCrimeChoosing = () => {
             transparent billing process. While it’s important to find a lawyer
             within your budget, don’t compromise on quality for cost.
           </p>
-          <p>
-            As the digital landscape continues to evolve, the threat of cyber
-            crimes is ever-present. Whether you are a victim seeking justice or
-            someone facing accusations, the expertise of{" "}
-            <a href="https://lawyersinbangalore.com/cyber-crime-lawyers-in-bangalore">
-              cyber crime lawyers in Bangalore
-            </a>{" "}
-            is indispensable. With their knowledge of the law and technical
-            know-how, they provide the necessary legal support to navigate the
-            complex world of cyber crimes. By choosing the right lawyer, you can
-            protect your rights, seek justice, and prevent future incidents,
-            ensuring peace of mind in an increasingly digital world.
-          </p>
         </div>
       </li>
       <li>

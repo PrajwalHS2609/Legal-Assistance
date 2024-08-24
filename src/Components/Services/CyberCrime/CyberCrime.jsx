@@ -4,25 +4,28 @@ import ServiceLawImg from "./../CivilLawPage/ServiceLawImg";
 import HomeWhy from "../../HomePage/HomeWhy/HomeWhy";
 import ServiceTestimonial from "../ServiceTestimonial/ServiceTestimonial";
 import CyberCrimeHead from "./CyberCrimeHead";
-import CyberCrimeWhy from "./CyberCrimeWhy";
 import CyberCrimeHow from "./CyberCrimeHow";
-import CyberCrimeOnline from "./CyberCrimeOnline";
-import CyberCrimeStarted from "./CyberCrimeStarted";
 import cyberCrimeImg from "./../../../Images/InnerServicesImgs/CyberCrime.png";
 import InnerBreadCrumb from "../../BreadCrumbs/InnerBreadCrumb";
+import CyberCrimeLegal from "./CyberCrimeLegal";
+import CyberCrimeCommon from "./CyberCrimeCommon";
+import CyberCrimeChoosing from "./CyberCrimeChoosing";
+import CyberCrimeRole from "./CyberCrimeRole";
 
 const CyberCrime = () => {
   return (
     <div className="">
       <Helmet>
-        <title>Online Legal Consultation | Online Legal Services</title>
+        <title>
+          Cyber Crime Lawyers in Bangalore | Cyber Crime Advocates in Bangalore
+        </title>
         <meta
           name="description"
-          content="Online Legal Consultation. At MM Associates, we understand that legal challenges can arise unexpectedly, requiring prompt and expert advice."
+          content="Cyber Crime Lawyers in Bangalore. These crimes, which occur in the digital space, range from hacking, identity theft, and cyberstalking to more complex offenses like phishing scams, online fraud, and cyber terrorism. "
         />
         <link
           rel="canonical"
-          href="https://lawyersinbangalore.com/online-legal-consultation"
+          href="https://lawyersinbangalore.com/cyber-crime-lawyers-in-bangalore"
         />
       </Helmet>
       <ServiceLawImg
@@ -36,10 +39,11 @@ const CyberCrime = () => {
         currService="Cyber Crimes"
       />
       <CyberCrimeHead />
-      <CyberCrimeWhy />
+      <CyberCrimeRole/>
+      <CyberCrimeCommon />
+      <CyberCrimeLegal />
       <CyberCrimeHow />
-      <CyberCrimeOnline />
-      <CyberCrimeStarted />
+      <CyberCrimeChoosing />
       <HomeWhy />
       <ServiceTestimonial />
     </div>

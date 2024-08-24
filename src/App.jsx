@@ -91,7 +91,7 @@ const App = () => {
             element={<LokayuktaPage />}
           />
           <Route
-            path="/online-legal-consultation"
+            path="/cyber-crime-lawyers-in-bangalore"
             element={<CyberCrime />}
           />
           <Route path="/about-us" element={<AboutUs />} />

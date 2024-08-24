@@ -119,7 +119,7 @@ const MainService = () => {
           icon={servCyberCrime}
           head="Cyber Crime"
           para="Expert legal services, specializing in investigating cybercrime and online misconduct, promoting digital security and accountability."
-          link="/online-legal-consultation"
+          link="/cyber-crime-lawyers-in-bangalore"
         />
       </div>
     </div>

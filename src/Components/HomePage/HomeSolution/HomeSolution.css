@@ -24,11 +24,14 @@
   align-items: center;
   flex-direction: column;
 }
-.homeSolutionHeaderContainer > h2 > span {
-  color: #c9925d;
-  transition: 500ms ease-in-out;
+.homeSolutionHeaderContainer > h2 > a{
+  text-decoration: none;
 }
-.homeSolutionHeaderContainer > h2 > span:hover {
+.homeSolutionHeaderContainer > h2 > a > span {
+  color: #c9925d;
+  transition: 100ms ease-in-out;
+}
+.homeSolutionHeaderContainer > h2 > a>span:hover {
   color: #131d29;
 }
 .homeSolutionCardContainer {
@@ -93,7 +96,7 @@
 }
 .homeSolutionCardContainer:hover .solutionCard {
   transform: scale(0.9);
-  background-color:var(--customGold);
+  background-color: var(--customGold);
 }
 .homeSolutionCardContainer:hover .homeSolutionCard {
   border: solid var(--customGold);

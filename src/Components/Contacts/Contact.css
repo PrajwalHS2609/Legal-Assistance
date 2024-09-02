@@ -153,6 +153,10 @@
   align-items: center;
   gap: 20px;
 }
+.address > li > a {
+  color: white;
+  text-decoration: none;
+}
 .socialMedia {
   /* border: solid red; */
 

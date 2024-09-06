@@ -11,6 +11,7 @@ import CyberCrimeLegal from "./CyberCrimeLegal";
 import CyberCrimeCommon from "./CyberCrimeCommon";
 import CyberCrimeChoosing from "./CyberCrimeChoosing";
 import CyberCrimeRole from "./CyberCrimeRole";
+import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 
 const CyberCrime = () => {
   return (
@@ -45,6 +46,7 @@ const CyberCrime = () => {
       <CyberCrimeHow />
       <CyberCrimeChoosing />
       <HomeWhy />
+      <WhatsApp/>
       <ServiceTestimonial />
     </div>
   );

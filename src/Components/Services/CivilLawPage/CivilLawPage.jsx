@@ -17,6 +17,7 @@ import civilLawImg from "./../../../Images/InnerServicesImgs/Civil Law.png";
 import ServiceLawImg from "./ServiceLawImg";
 import HomeWhy from "../../HomePage/HomeWhy/HomeWhy";
 import ServiceTestimonial from "../ServiceTestimonial/ServiceTestimonial";
+import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 const CivilLawPage = () => {
   return (
     <div className="civilLawPage">
@@ -51,6 +52,7 @@ const CivilLawPage = () => {
       <CivilTortLaw />
       <CivilLawConclusion />
       <HomeWhy />
+      <WhatsApp/>
       <ServiceTestimonial />
     </div>
   );

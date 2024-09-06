@@ -8,6 +8,7 @@ import immigrationLawImg from "./../../../Images/InnerServicesImgs/ImmigrationLa
 import ServiceLawImg from './../CivilLawPage/ServiceLawImg';
 import HomeWhy from "../../HomePage/HomeWhy/HomeWhy";
 import ServiceTestimonial from "../ServiceTestimonial/ServiceTestimonial";
+import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 
 const ImmigrationLaw = () => {
   return (
@@ -35,6 +36,7 @@ const ImmigrationLaw = () => {
       <ImmigrationLawService />
       <ImmigrationLawWhy />
       <HomeWhy />
+      <WhatsApp/>
       <ServiceTestimonial />
     </div>
   );

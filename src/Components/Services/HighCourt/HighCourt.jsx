@@ -13,6 +13,7 @@ import highCourtImg from "./../../../Images/InnerServicesImgs/High Court Matters
 import HomeWhy from "../../HomePage/HomeWhy/HomeWhy";
 import HighCourtMain from './HighCourtMain';
 import ServiceTestimonial from "../ServiceTestimonial/ServiceTestimonial";
+import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 
 const HighCourt = () => {
   return (
@@ -46,6 +47,7 @@ const HighCourt = () => {
       <HighCourtService />
       <HighCourtCommitment />
       <HomeWhy />
+      <WhatsApp/>
       <ServiceTestimonial />
     </div>
   );

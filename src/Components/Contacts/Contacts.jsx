@@ -3,6 +3,7 @@ import ContactImg from "./ContactImg";
 import ContactForm from "./ContactForm";
 import ContactAdd from "./ContactAdd";
 import BreadCrumbs from "../BreadCrumbs/BreadCrumbs";
+import WhatsApp from "../HomePage/WhatsApp/WhatsApp";
 
 const Contacts = () => {
   return (
@@ -18,6 +19,7 @@ const Contacts = () => {
           <ContactAdd />
         </div>
       </div>
+      <WhatsApp/>
     </div>
   );
 };

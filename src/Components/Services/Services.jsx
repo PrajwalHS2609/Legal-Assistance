@@ -7,6 +7,7 @@ import HomeWhy from "../HomePage/HomeWhy/HomeWhy";
 import ServiceLawImg from "./CivilLawPage/ServiceLawImg";
 import { Helmet } from "react-helmet";
 import ServiceTestimonial from './ServiceTestimonial/ServiceTestimonial';
+import WhatsApp from './../HomePage/WhatsApp/WhatsApp';
 
 const Services = () => {
   return (
@@ -27,6 +28,7 @@ const Services = () => {
       <BreadCrumbs service="Services" />
       <MainService />
       <HomeWhy />
+      <WhatsApp/>
       <ServiceTestimonial />
     </div>
   );

@@ -16,6 +16,7 @@ import notaryServiceImg from "./../../../Images/InnerServicesImgs/Notary Service
 import ServiceLawImg from './../CivilLawPage/ServiceLawImg';
 import HomeWhy from "../../HomePage/HomeWhy/HomeWhy";
 import ServiceTestimonial from "../ServiceTestimonial/ServiceTestimonial";
+import WhatsApp from './../../HomePage/WhatsApp/WhatsApp';
 
 const NotaryService = () => {
   return (
@@ -51,6 +52,7 @@ const NotaryService = () => {
       <NotaryServiceRole />
       <NotaryServiceEnsuring />
       <HomeWhy />
+      <WhatsApp/>
       <ServiceTestimonial />
     </div>
   );

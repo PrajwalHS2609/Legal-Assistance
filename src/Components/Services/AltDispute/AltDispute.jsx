@@ -11,6 +11,7 @@ import AltDisputeWhy from "./AltDisputeWhy/AltDisputeWhy";
 import AltDisputeMain from "./AltDisputeMain";
 import HomeWhy from "../../HomePage/HomeWhy/HomeWhy";
 import ServiceTestimonial from "../ServiceTestimonial/ServiceTestimonial";
+import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 
 const AltDispute = () => {
   return (
@@ -43,6 +44,7 @@ const AltDispute = () => {
       <AltDisputeBenefits />
       <AltDisputeHow />
       <HomeWhy />
+      <WhatsApp/>
       <ServiceTestimonial />
     </div>
   );

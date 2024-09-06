@@ -6,6 +6,7 @@ import AboutUsMain from "./AboutUsMain";
 import HomeWhy from "../HomePage/HomeWhy/HomeWhy";
 import BreadCrumbs from "../BreadCrumbs/BreadCrumbs";
 import ServiceTestimonial from './../Services/ServiceTestimonial/ServiceTestimonial';
+import WhatsApp from "../HomePage/WhatsApp/WhatsApp";
 
 const AboutUs = () => {
   return (
@@ -18,6 +19,7 @@ const AboutUs = () => {
       <BreadCrumbs service="About Us"/>
       <AboutUsMain/>
       <HomeWhy />
+      <WhatsApp/>
       <ServiceTestimonial />
     </div>
   );

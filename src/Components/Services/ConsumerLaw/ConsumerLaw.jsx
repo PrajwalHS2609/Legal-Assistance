@@ -8,6 +8,7 @@ import consumerLawImg from "./../../../Images/InnerServicesImgs/Consumer Law.png
 import ServiceLawImg from "../CivilLawPage/ServiceLawImg";
 import HomeWhy from "../../HomePage/HomeWhy/HomeWhy";
 import ServiceTestimonial from "../ServiceTestimonial/ServiceTestimonial";
+import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 const ConsumerLaw = () => {
   return (
     <div className="civilLawPage">
@@ -35,6 +36,7 @@ const ConsumerLaw = () => {
       <ConsumerLawRole />
       <ConsumerLawWhy />
       <HomeWhy />
+      <WhatsApp/>
       <ServiceTestimonial />
     </div>
   );

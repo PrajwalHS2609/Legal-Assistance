@@ -2,6 +2,7 @@ import React from "react";
 import OnlineAppointForm from "./OnlineAppointForm";
 import onlineAppoint from "./../../Images/onlineAppointment.png";
 import ServiceLawImg from "../Services/CivilLawPage/ServiceLawImg";
+import WhatsApp from "../HomePage/WhatsApp/WhatsApp";
 
 const OnlineAppoint = () => {
   return (
@@ -12,6 +13,7 @@ const OnlineAppoint = () => {
         head="Online Appointment"
       />
       <OnlineAppointForm />
+      <WhatsApp/>
     </div>
   );
 };

@@ -13,6 +13,7 @@ import DivorceMain from "./DivorceMain";
 import ServiceLawImg from "../CivilLawPage/ServiceLawImg";
 import HomeWhy from "../../HomePage/HomeWhy/HomeWhy";
 import ServiceTestimonial from "../ServiceTestimonial/ServiceTestimonial";
+import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 const DivorcePage = () => {
   return (
     <div className="divorcePageContainer">
@@ -43,6 +44,7 @@ const DivorcePage = () => {
       <DivorceImp />
       <DivorceAssist />
       <HomeWhy />
+      <WhatsApp/>
       <ServiceTestimonial />
     </div>
   );

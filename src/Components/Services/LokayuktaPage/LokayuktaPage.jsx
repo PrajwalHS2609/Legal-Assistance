@@ -10,6 +10,7 @@ import LokayuktaWhy from "./LokayuktaWhy";
 import LokayuktaService from "./LokayuktaService";
 import LokayuktaContact from "./LokayuktaContact";
 import lokayuktaImg from "./../../../Images/InnerServicesImgs/lokayukta court.png";
+import WhatsApp from './../../HomePage/WhatsApp/WhatsApp';
 
 const LokayuktaPage = () => {
   return (
@@ -44,6 +45,7 @@ const LokayuktaPage = () => {
       <LokayuktaContact />
       <LokayuktaHow />
       <HomeWhy />
+      <WhatsApp/>
       <ServiceTestimonial />
     </div>
   );

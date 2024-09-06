@@ -9,6 +9,7 @@ import propertyDocImg from "./../../../Images/InnerServicesImgs/Property Documen
 import HomeWhy from "../../HomePage/HomeWhy/HomeWhy";
 import PropertyDocMain from "./PropertyDocMain";
 import ServiceTestimonial from "../ServiceTestimonial/ServiceTestimonial";
+import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 
 const PropertyDoc = () => {
   return (
@@ -20,7 +21,8 @@ const PropertyDoc = () => {
         <meta
           name="description"
           content="Property Document Verification Lawyers in Bangalore. This detailed guide will help you understand the importance of property document verification and how our expert team can assist you."
-        />
+        />import WhatsApp from './../../HomePage/WhatsApp/WhatsApp';
+
         <link
           rel="canonical"
           href="https://lawyersinbangalore.com/property-document-verification-lawyers-in-bangalore"
@@ -41,6 +43,7 @@ const PropertyDoc = () => {
       <PropertyDocService />
       <PropertyDocWhy />
       <HomeWhy />
+      <WhatsApp/>
       <ServiceTestimonial />
     </div>
   );

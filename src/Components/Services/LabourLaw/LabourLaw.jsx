@@ -9,6 +9,7 @@ import ServiceLawImg from "../CivilLawPage/ServiceLawImg";
 import HomeWhy from "../../HomePage/HomeWhy/HomeWhy";
 import LabourLawMain from "./LabourLawMain";
 import ServiceTestimonial from "../ServiceTestimonial/ServiceTestimonial";
+import WhatsApp from './../../HomePage/WhatsApp/WhatsApp';
 
 const LabourLaw = () => {
   return (
@@ -38,6 +39,7 @@ const LabourLaw = () => {
       <LabourLawService />
       <LabourLawCommitment />
       <HomeWhy />
+      <WhatsApp/>
       <ServiceTestimonial />
     </div>
   );

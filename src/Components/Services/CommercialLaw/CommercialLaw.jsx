@@ -16,6 +16,7 @@ import ServiceLawImg from "../CivilLawPage/ServiceLawImg";
 import HomeWhy from "../../HomePage/HomeWhy/HomeWhy";
 import CommercialLawMain from "./CommercialLawMain";
 import ServiceTestimonial from "../ServiceTestimonial/ServiceTestimonial";
+import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 
 const CommercialLaw = () => {
   return (
@@ -52,6 +53,7 @@ const CommercialLaw = () => {
       <CommercialLawEmployment />
       <CommercialLawCommitment />
       <HomeWhy />
+      <WhatsApp/>
       <ServiceTestimonial />
     </div>
   );

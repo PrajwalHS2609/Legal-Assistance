@@ -9,6 +9,7 @@ import ServiceLawImg from "../CivilLawPage/ServiceLawImg";
 import HomeWhy from "../../HomePage/HomeWhy/HomeWhy";
 import MarriageLawMain from "./MarriageLawMain";
 import ServiceTestimonial from "../ServiceTestimonial/ServiceTestimonial";
+import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 
 const MarriageLaw = () => {
   return (
@@ -21,7 +22,8 @@ const MarriageLaw = () => {
         <meta
           name="description"
           content="Property Document Verification Lawyers in Bangalore. This detailed guide will help you understand the importance of property document verification and how our expert team can assist you."
-        />
+        />import WhatsApp from './../../HomePage/WhatsApp/WhatsApp';
+
         <link
           rel="canonical"
           href="https://lawyersinbangalore.com/marriage-registration-lawyers-in-bangalore"
@@ -42,6 +44,7 @@ const MarriageLaw = () => {
       <MarriageLawService />
       <MarriageLawWhy />
       <HomeWhy />
+      <WhatsApp/>
       <ServiceTestimonial />
     </div>
   );

@@ -12,7 +12,8 @@ import AltDisputeMain from "./AltDisputeMain";
 import HomeWhy from "../../HomePage/HomeWhy/HomeWhy";
 import ServiceTestimonial from "../ServiceTestimonial/ServiceTestimonial";
 import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
-
+import altDisputesImg from "./../../../Images/InnerServicesImgs/Alternative Dispute Resolution.png";
+import ServiceLawImg from "../CivilLawPage/ServiceLawImg";
 const AltDispute = () => {
   return (
     <div>
@@ -29,6 +30,11 @@ const AltDispute = () => {
           href="https://lawyersinbangalore.com/alternative-dispute-resolution-in-bangalore"
         />
       </Helmet>
+      <ServiceLawImg
+        img={altDisputesImg}
+        alt="altDisputesImg"
+        head="Alternative Dispute Resolution"
+      />
       <InnerBreadCrumb
         link="/services"
         service="Services"
@@ -44,7 +50,7 @@ const AltDispute = () => {
       <AltDisputeBenefits />
       <AltDisputeHow />
       <HomeWhy />
-      <WhatsApp/>
+      <WhatsApp />
       <ServiceTestimonial />
     </div>
   );

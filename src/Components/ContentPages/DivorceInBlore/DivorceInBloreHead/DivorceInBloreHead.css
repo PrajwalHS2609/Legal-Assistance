@@ -1,0 +1,117 @@
+.divorceInBloreHeadContainer {
+  /* border: solid red; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px;
+}
+.divorceInBloreHeadContainer > h1 {
+  color: var(--customBlue);
+  width: 100%;
+  text-align: center;
+}
+.divorceInBloreHeadContainer > h2 {
+  color: var(--customBlue);
+  text-align: center;
+  width: 100%;
+  font-size: 25px;
+}
+.divorceInBloreHeadContainer > h2 > span {
+  color: var(--customGold);
+}
+
+.divorceInBloreHeadContainer > h3 {
+  color: var(--customBlue);
+  text-align: start;
+  width: 100%;
+  font-size: 25px;
+}
+.divorceInBloreHeadContainer > h4 {
+  color: var(--customBlue);
+  text-align: start;
+  width: 100%;
+  font-size: 25px;
+}
+.divorceInBloreHeadContainer > h5 {
+  color: var(--customBlue);
+  text-align: start;
+  width: 100%;
+  font-size: 25px;
+}
+
+.divorceInBloreHeadContainer > li {
+  list-style: none;
+  margin: 10px;
+  font-size: 20px;
+  text-align: justify;
+  background-color: var(--customWhite);
+  padding: 20px;
+  border-radius: 20px;
+  width: 100%;
+}
+.divorceInBloreHeadContainer > li > h6 {
+  font-size: 20px;
+  text-align: justify;
+  color: var(--customGold);
+}
+.divorceInBloreHeadContainer > li > a {
+  text-decoration: none;
+  color: var(--customGold);
+}
+
+.divorceInBloreHeadContainer > li > span {
+  color: var(--customGold);
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+.divorceInBloreHeadContainer > li > p > a {
+  color: var(--customGold);
+  text-decoration: none;
+}
+.divorceInBloreHeadContainer > p {
+  text-align: justify;
+  font-size: 20px;
+}
+.divorceInBloreHeadContainer > p > a {
+  color: var(--customGold);
+  text-decoration: none;
+}
+.divorceInBloreHeadContainer > li > span > img {
+  width: 40px;
+  height: 40px;
+  font-weight: bold;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .divorceInBloreHeadContainer {
+    /* border: solid; */
+    /* height: 70vh; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px;
+  }
+  .divorceInBloreHeadContainer > h2 {
+    text-align: center;
+    font-size: 20px;
+  }
+  .divorceInBloreHeadContainer > h3 {
+    text-align: center;
+    font-size: 20px;
+  }
+  .divorceInBloreHeadContainer > h4 {
+    text-align: center;
+    font-size: 20px;
+  }
+  .divorceInBloreHeadContainer > h5 {
+    text-align: center;
+    font-size: 20px;
+  }
+}

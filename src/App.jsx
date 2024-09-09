@@ -21,13 +21,20 @@ import MarriageLaw from "./Components/Services/MarriageLaw/MarriageLaw";
 import ConsumerLaw from "./Components/Services/ConsumerLaw/ConsumerLaw";
 import AboutUs from "./Components/AboutUs/AboutUs";
 import OnlineAppoint from "./Components/OnlineAppoint/OnlineAppoint";
-import AnnouncementPage from "./Components/AnnocementPage/AnnouncementPage";
-import CourtCase from "./Components/AnnocementPage/CourtCase/CourtCase";
-import Judgments from "./Components/AnnocementPage/Judgments/Judgments";
-import OnlineConsultation from "./Components/AnnocementPage/OnlineConsultation";
-import NestedScrollRestore from "./Components/ScrollTo/NestedScrollRestore";
+// import AnnouncementPage from "./Components/AnnocementPage/AnnouncementPage";
+// import CourtCase from "./Components/AnnocementPage/CourtCase/CourtCase";
+// import Judgments from "./Components/AnnocementPage/Judgments/Judgments";
+// import OnlineConsultation from "./Components/AnnocementPage/OnlineConsultation";
+// import NestedScrollRestore from "./Components/ScrollTo/NestedScrollRestore";
 import LokayuktaPage from "./Components/Services/LokayuktaPage/LokayuktaPage";
 import CyberCrime from "./Components/Services/CyberCrime/CyberCrime";
+import DivorceInBlore from "./Components/ContentPages/DivorceInBlore/DivorceInBlore.jsx";
+import PropertyAttorney from "./Components/ContentPages/PropertyAttorney/PropertyAttorney.jsx";
+import LawFirms from "./Components/ContentPages/LawFirms/LawFirms.jsx";
+import FamilyCourt from "./Components/ContentPages/FamilyCourt/FamilyCourt.jsx";
+import CriminalLawyers from "./Components/ContentPages/CriminalLawyers/CriminalLawyers.jsx";
+import LabourLawyer from "./Components/ContentPages/LabourLawyer/LabourLawyer.jsx";
+import RealEstate from "./Components/ContentPages/RealEstate/RealEstate.jsx";
 const App = () => {
   return (
     <div>
@@ -97,7 +104,7 @@ const App = () => {
           <Route path="/about-us" element={<AboutUs />} />
           <Route path="/contact-us" element={<Contacts />} />
           <Route path="/online-appointment" element={<OnlineAppoint />} />
-          <Route path="/announcement" element={<AnnouncementPage />}>
+          {/* <Route path="/announcement" element={<AnnouncementPage />}>
             <Route
               path="*"
               element={
@@ -113,7 +120,29 @@ const App = () => {
                 </NestedScrollRestore>
               }
             />
-          </Route>
+          </Route> */}
+          <Route
+            path="/divorce-lawyers-in-bangalore"
+            element={<DivorceInBlore />}
+          />
+          <Route
+            path="/property-attorney-near-me"
+            element={<PropertyAttorney />}
+          />{" "}
+          <Route path="/law-firms-near-me" element={<LawFirms />} />
+          <Route
+            path="/family-course-lawyers-near-me"
+            element={<FamilyCourt />}
+          />
+          <Route
+            path="/criminal-lawyers-near-me"
+            element={<CriminalLawyers />}
+          />
+          <Route path="/labour-lawyers-near-me" element={<LabourLawyer />} />
+          <Route
+            path="/real-estate-lawyers-near-me"
+            element={<RealEstate />}
+          />
         </Routes>
         <Footer />
       </BrowserRouter>

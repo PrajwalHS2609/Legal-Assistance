@@ -4,7 +4,7 @@ import "./CivilLawPage.css";
 const ServiceLawImg = (props) => {
   return (
     <div className="civilLawHeadContainer">
-      <img className="imgComp" src={props.img} alt={props.alt} />
+      <img className="imgComp" src={props.img} alt={props.alt} loading="lazy" />
       <div className="civilLawHeadCover"></div>
       <h2>{props.head}</h2>
     </div>

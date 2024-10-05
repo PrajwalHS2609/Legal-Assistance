@@ -111,6 +111,22 @@
     font-size: 15px;
   }
 }
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  .homeFaqMain {
+    /* border: solid green; */
+    width: 100%;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0px;
+  }
+  .homeFaqMainContent {
+    width: 100%;
+  }
+  .faqBut > h3 {
+    margin-left: 20px;
+    font-size: 15px;
+  }
+}
 @media screen and (min-width: 1200px) and (max-width: 1400px) {
   #homeFaqMainImgContent {
     /* border: solid; */

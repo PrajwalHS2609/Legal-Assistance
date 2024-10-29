@@ -22,8 +22,8 @@ const Footer1Add = () => {
             icon={faLocationDot}
             className="footerIcon"
           ></FontAwesomeIcon>{" "}
-          #119, 2nd Floor, 4th Cross, Behind Mavalli Biryani, Lalbagh Road,
-          Bangalore - 560027
+          #119, 2nd Floor, 4th Cross, Above Mavalli Biryani, Double Road near
+          HDFC Bank, Shanti Nagar, Bangalore - 560027, Karnataka, India
         </li>
         <li>
           {" "}

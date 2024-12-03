@@ -35,13 +35,14 @@ import FamilyCourt from "./Components/ContentPages/FamilyCourt/FamilyCourt.jsx";
 import CriminalLawyers from "./Components/ContentPages/CriminalLawyers/CriminalLawyers.jsx";
 import LabourLawyer from "./Components/ContentPages/LabourLawyer/LabourLawyer.jsx";
 import RealEstate from "./Components/ContentPages/RealEstate/RealEstate.jsx";
+import Snowfall from "./Components/Christmas/Snowfall/Snowfall";
 const App = () => {
   return (
     <div>
       <BrowserRouter>
         <Navbar />
         <ScrollTo />
-
+        <Snowfall />
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/services" element={<Services />} />
@@ -139,10 +140,7 @@ const App = () => {
             element={<CriminalLawyers />}
           />
           <Route path="/labour-lawyers-near-me" element={<LabourLawyer />} />
-          <Route
-            path="/real-estate-lawyers-near-me"
-            element={<RealEstate />}
-          />
+          <Route path="/real-estate-lawyers-near-me" element={<RealEstate />} />
         </Routes>
         <Footer />
       </BrowserRouter>

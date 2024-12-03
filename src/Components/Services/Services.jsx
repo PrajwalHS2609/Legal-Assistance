@@ -6,8 +6,8 @@ import BreadCrumbs from "../BreadCrumbs/BreadCrumbs";
 import HomeWhy from "../HomePage/HomeWhy/HomeWhy";
 import ServiceLawImg from "./CivilLawPage/ServiceLawImg";
 import { Helmet } from "react-helmet";
-import ServiceTestimonial from './ServiceTestimonial/ServiceTestimonial';
-import WhatsApp from './../HomePage/WhatsApp/WhatsApp';
+import ServiceTestimonial from "./ServiceTestimonial/ServiceTestimonial";
+import WhatsApp from "./../HomePage/WhatsApp/WhatsApp";
 
 const Services = () => {
   return (
@@ -18,17 +18,19 @@ const Services = () => {
         </title>
         <meta
           name="description"
-          content="Lawyers Services in Bangalore. We offer comprehensive legal services, including consultation, representation, and guidance. Call Now!"/>
-        <link
-          rel="canonical"
-          href="https://lawyersinbangalore.com/services"
+          content="Lawyers Services in Bangalore. We offer comprehensive legal services, including consultation, representation, and guidance. Call Now!"
         />
+        <link rel="canonical" href="https://lawyersinbangalore.com/services" />
       </Helmet>
-      <ServiceLawImg img={serviceImg} alt="serviceImg" head="Our Services" />
+      <ServiceLawImg
+        img={serviceImg}
+        alt="serviceImg"
+        head="Our Legal Services"
+      />
       <BreadCrumbs service="Services" />
       <MainService />
       <HomeWhy />
-      <WhatsApp/>
+      <WhatsApp />
       <ServiceTestimonial />
     </div>
   );

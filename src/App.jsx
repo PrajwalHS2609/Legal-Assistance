@@ -35,14 +35,14 @@ import FamilyCourt from "./Components/ContentPages/FamilyCourt/FamilyCourt.jsx";
 import CriminalLawyers from "./Components/ContentPages/CriminalLawyers/CriminalLawyers.jsx";
 import LabourLawyer from "./Components/ContentPages/LabourLawyer/LabourLawyer.jsx";
 import RealEstate from "./Components/ContentPages/RealEstate/RealEstate.jsx";
-import Snowfall from "./Components/Christmas/Snowfall/Snowfall";
+// import Snowfall from "./Components/Christmas/Snowfall/Snowfall";
 const App = () => {
   return (
     <div>
       <BrowserRouter>
         <Navbar />
         <ScrollTo />
-        <Snowfall />
+        {/* <Snowfall /> */}
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/services" element={<Services />} />
